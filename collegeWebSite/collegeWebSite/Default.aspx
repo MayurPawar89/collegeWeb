@@ -12,7 +12,7 @@
     <%--<form id="form1" runat="server">--%>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 bg-info">
+                <div class="col-md-4 bg-danger">
                     <div class="panel panel-default"></div>
                 </div>
                 <div class="col-md-4 bg-primary">
