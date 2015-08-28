@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
-    <link href="../Content/CustomCSS.css" rel="stylesheet" />
+    <link href="/Content/CustomCSS.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="Contenthead" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -23,67 +23,69 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="../Home.aspx" class="navbar-brand">
+                        <a href="/Home.aspx" class="navbar-brand">
                             <img src="Images/Book/logo1.png" /></a>
                     </div>
                     <!-- Collection of nav links, forms, and other content for toggling -->
                     <div id="navbarCollapse" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="../Home.aspx">Home</a></li>
-                            <li><a href="../Main/Glimpses.aspx">Glimpses</a></li>
+                            <li><a href="/Home.aspx">Home</a></li>
+                            <li><a href="/Glimpses.aspx">Glimpses</a></li>
                             <%--<li><a href="Alumni.html">Alumni</a></li>--%>
                             <li class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="../Main/Alumni.aspx">Alumni<b class="caret"></b></a>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Alumni<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="../Alumni/AlumniRegistration.aspx">Alumni Registration</a></li>
-                                    <li><a href="../Alumni/StudentLogin.aspx">Student Login</a></li>
-                                    <li><a href="../Alumni/AlumniSearch.aspx">Alumni Search</a></li>
-                                    <li><a href="../Alumni/ViewAllAlumni.aspx">View All Alumni</a></li>
-                                    <li><a href="../Alumni/PhotoGallary.aspx">Photo Gallary</a></li>
+                                    <li><a href="/Alumni.aspx">Alumni Information</a></li>
+                                    <li><a href="/AlumniRegistration.aspx">Alumni Registration</a></li>
+                                    <li><a href="/StudentLogin.aspx">Student Login</a></li>
+                                    <li><a href="/AlumniSearch.aspx">Alumni Search</a></li>
+                                    <li><a href="/ViewAllAlumni.aspx">View All Alumni</a></li>
+                                    <li><a href="/PhotoGallary.aspx">Photo Gallary</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="../Main/TPCSection.aspx">TPC Section<b class="caret"></b></a>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">TPO Section<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="../TCPSection/RegistrationForm.aspx">Registration Form</a></li>
-                                    <li><a href="../TCPSection/CurrentStudents.aspx">Current Students</a></li>
-                                    <li><a href="../TCPSection/PlacementHighlights.aspx">Placement Highlights</a></li>
-                                    <li><a href="../TCPSection/ListOfCompanies.aspx">List Of Companies</a></li>
+                                    <li><a href="/TPOSection.aspx">TPO Information</a></li>
+                                    <li><a href="/RegistrationForm.aspx">Registration Form</a></li>
+                                    <li><a href="/CurrentStudents.aspx">Current Students</a></li>
+                                    <li><a href="/PlacementHighlights.aspx">Placement Highlights</a></li>
+                                    <li><a href="/ListOfCompanies.aspx">List Of Companies</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="../Main/Departments.aspx">Departments<b class="caret"></b></a>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="/Departments.aspx">Departments<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="../Deprtments/ComputerDepartment.aspx">Computer Department</a></li>
-                                    <li><a href="../Deprtments/ChemicalDepartment.aspx">Chemical Department</a></li>
-                                    <li><a href="../Deprtments/E&TCDepartment.aspx">Electronic and Telecommunication Department</a></li>
-                                    <li><a href="../Deprtments/ElectricalDepartment.aspx">Electrical Department</a></li>
-                                    <li><a href="../Deprtments/MechanicalDepartment.aspx">Mechanical Department</a></li>
-                                    <li><a href="../Deprtments/ITDepartment.aspx">Information Technology Department</a></li>
-                                    <li><a href="../Deprtments/Workshop.aspx">Workshop</a></li>
-                                    <li><a href="../Deprtments/Library.aspx">Library</a></li>
-                                    <li><a href="../Deprtments/AppliedScience.aspx">Applied Science</a></li>
-                                    <li><a href="../Deprtments/MBADepartment.aspx">M.B.A.</a></li>
+                                    <li><a href="/ComputerDepartment.aspx">Computer Department</a></li>
+                                    <li><a href="/ChemicalDepartment.aspx">Chemical Department</a></li>
+                                    <li><a href="/E&TCDepartment.aspx">Electronic and Telecommunication Department</a></li>
+                                    <li><a href="/ElectricalDepartment.aspx">Electrical Department</a></li>
+                                    <li><a href="/MechanicalDepartment.aspx">Mechanical Department</a></li>
+                                    <li><a href="/ITDepartment.aspx">Information Technology Department</a></li>
+                                    <li><a href="/Workshop.aspx">Workshop</a></li>
+                                    <li><a href="/Library.aspx">Library</a></li>
+                                    <li><a href="/AppliedScience.aspx">Applied Science</a></li>
+                                    <li><a href="/MBADepartment.aspx">M.B.A.</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="../Main/CoursesOffered.aspx">Courses Offered<b class="caret"></b></a>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="/CoursesOffered.aspx">Courses Offered<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="../CoursesOffered/ComputerEngineering.aspx">Computer Engineering</a></li>
-                                    <li><a href="../CoursesOffered/ChemicalEngineering.aspx">Chemical Engineering</a></li>
-                                    <li><a href="../CoursesOffered/E&TCEngineering.aspx">Electronic and Telecommunication Engineering</a></li>
-                                    <li><a href="../CoursesOffered/ElectricalEngineering.aspx">Electrical Engineering</a></li>
-                                    <li><a href="../CoursesOffered/MechanicalEngineering.aspx">Mechanical Engineering</a></li>
-                                    <li><a href="../CoursesOffered/ITEngineering.aspx">Information Technology Engineering</a></li>
-                                    <li><a href="../CoursesOffered/MBACourse.aspx">M.B.A.</a></li>
+                                    <li><a href="/ComputerEngineering.aspx">Computer Engineering</a></li>
+                                    <li><a href="/ChemicalEngineering.aspx">Chemical Engineering</a></li>
+                                    <li><a href="/E&TCEngineering.aspx">Electronic and Telecommunication Engineering</a></li>
+                                    <li><a href="/ElectricalEngineering.aspx">Electrical Engineering</a></li>
+                                    <li><a href="/MechanicalEngineering.aspx">Mechanical Engineering</a></li>
+                                    <li><a href="/ITEngineering.aspx">Information Technology Engineering</a></li>
+                                    <li><a href="/MBACourse.aspx">M.B.A.</a></li>
                                 </ul>
                             </li>
                             <%--<li><a href="TPCSection.html">TPC Section</a></li>--%>
                             <%--<li><a href="Departments.html">Departments</a></li>
                             <li><a href="CoursesOffered.html">Courses Offered</a></li>--%>
-                            <li><a href="../Main/ContactUs.aspx">Contact us</a></li>
-                            <li><a href="../Main/AboutUs.aspx">About us</a></li>
-                            <li><a href="../Main/SiteMap.aspx">Site Map</a></li>
+                            <li><a href="/ContactUs.aspx">Contact us</a></li>
+                            <li><a href="/AboutUs.aspx">About us</a></li>
+                            <li><a href="/SiteMap.aspx">Site Map</a></li>
 
                             <!--<li class="dropdown">
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
@@ -145,24 +147,8 @@
     <div class="row">
         <div class="container">
             <div class="col-md-3">
-                <div class="well">
-                    <ul class="nav">
-                        <li><a href="#">About the Society</a></li>
-                        <li><a href="#">Mission & Vision</a></li>
-                        <li><a href="#">Principle's Desk</a></li>
-                        <li><a href="#">Admission</a></li>
-                        <li><a href="#">Inception</a></li>
-                        <li><a href="#">Curriculum & Syllabus</a></li>
-                        <li><a href="#">Infrastructure</a></li>
-                        <li><a href="#">Success Stories</a></li>
-                        <li><a href="#">News & Events</a></li>
-                        <li><a href="#">MBA</a></li>
-                        <li><a href="#">Academic Calender</a></li>
-                        <li><a href="#">Placement Brochure</a></li>
-                        <li><a href="#">E-Brochure</a></li>
-                        <li><a href="#">Group Linkages</a></li>
-                    </ul>
-                </div>
+                <asp:ContentPlaceHolder ID="ContentLeftNav" runat="server">
+                </asp:ContentPlaceHolder>
             </div>
             <div class="col-md-9">
                 <asp:ContentPlaceHolder ID="ContentMain" runat="server">

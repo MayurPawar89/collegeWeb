@@ -57,45 +57,44 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Alumni\AlumniRegistration.aspx" />
-    <Content Include="Alumni\AlumniSearch.aspx" />
-    <Content Include="Alumni\PhotoGallary.aspx" />
-    <Content Include="Alumni\StudentLogin.aspx" />
-    <Content Include="Alumni\ViewAllAlumni.aspx" />
+    <Content Include="AlumniRegistration.aspx" />
+    <Content Include="AlumniSearch.aspx" />
+    <Content Include="PhotoGallary.aspx" />
+    <Content Include="StudentLogin.aspx" />
+    <Content Include="ViewAllAlumni.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="CoursesOffered\ChemicalEngineering.aspx" />
-    <Content Include="CoursesOffered\ComputerEngineering.aspx" />
-    <Content Include="CoursesOffered\E&amp;TCEngineering.aspx" />
-    <Content Include="CoursesOffered\ElectricalEngineering.aspx" />
-    <Content Include="CoursesOffered\ITEngineering.aspx" />
-    <Content Include="CoursesOffered\MBACourse.aspx" />
-    <Content Include="CoursesOffered\MechanicalEngineering.aspx" />
+    <Content Include="ChemicalEngineering.aspx" />
+    <Content Include="ComputerEngineering.aspx" />
+    <Content Include="E&amp;TCEngineering.aspx" />
+    <Content Include="ElectricalEngineering.aspx" />
+    <Content Include="ITEngineering.aspx" />
+    <Content Include="MBACourse.aspx" />
+    <Content Include="MechanicalEngineering.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="Deprtments\AppliedScience.aspx" />
-    <Content Include="Deprtments\ChemicalDepartment.aspx" />
-    <Content Include="Deprtments\ComputerDepartment.aspx" />
-    <Content Include="Deprtments\E&amp;TCDepartment.aspx" />
-    <Content Include="Deprtments\ElectricalDepartment.aspx" />
-    <Content Include="Deprtments\ITDepartment.aspx" />
-    <Content Include="Deprtments\Library.aspx" />
-    <Content Include="Deprtments\MBADepartment.aspx" />
-    <Content Include="Deprtments\MechanicalDepartment.aspx" />
-    <Content Include="Deprtments\Workshop.aspx" />
+    <Content Include="AppliedScience.aspx" />
+    <Content Include="ChemicalDepartment.aspx" />
+    <Content Include="ComputerDepartment.aspx" />
+    <Content Include="E&amp;TCDepartment.aspx" />
+    <Content Include="ElectricalDepartment.aspx" />
+    <Content Include="ITDepartment.aspx" />
+    <Content Include="Library.aspx" />
+    <Content Include="MBADepartment.aspx" />
+    <Content Include="MechanicalDepartment.aspx" />
+    <Content Include="Workshop.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.aspx" />
-    <Content Include="Main\AboutUs.aspx" />
-    <Content Include="Main\Alumni.aspx" />
-    <Content Include="Main\ContactUs.aspx" />
-    <Content Include="Main\CoursesOffered.aspx" />
-    <Content Include="Main\Default.aspx" />
-    <Content Include="Main\Departments.aspx" />
-    <Content Include="Main\Glimpses.aspx" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Alumni.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="CoursesOffered.aspx" />
+    <Content Include="Departments.aspx" />
+    <Content Include="Glimpses.aspx" />
     <Content Include="Icon.png" />
-    <Content Include="Main\SiteMap.aspx" />
-    <Content Include="Main\TPCSection.aspx" />
+    <Content Include="SiteMap.aspx" />
+    <Content Include="TPOSection.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -109,96 +108,96 @@
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\npm.js" />
-    <Content Include="TCPSection\CurrentStudents.aspx" />
-    <Content Include="TCPSection\ListOfCompanies.aspx" />
-    <Content Include="TCPSection\PlacementHighlights.aspx" />
-    <Content Include="TCPSection\RegistrationForm.aspx" />
+    <Content Include="CurrentStudents.aspx" />
+    <Content Include="ListOfCompanies.aspx" />
+    <Content Include="PlacementHighlights.aspx" />
+    <Content Include="RegistrationForm.aspx" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumni\AlumniRegistration.aspx.cs">
+    <Compile Include="AlumniRegistration.aspx.cs">
       <DependentUpon>AlumniRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Alumni\AlumniRegistration.aspx.designer.cs">
+    <Compile Include="AlumniRegistration.aspx.designer.cs">
       <DependentUpon>AlumniRegistration.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumni\AlumniSearch.aspx.cs">
+    <Compile Include="AlumniSearch.aspx.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
+    <Compile Include="AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumni\PhotoGallary.aspx.cs">
+    <Compile Include="PhotoGallary.aspx.cs">
       <DependentUpon>PhotoGallary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Alumni\PhotoGallary.aspx.designer.cs">
+    <Compile Include="PhotoGallary.aspx.designer.cs">
       <DependentUpon>PhotoGallary.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumni\StudentLogin.aspx.cs">
+    <Compile Include="StudentLogin.aspx.cs">
       <DependentUpon>StudentLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Alumni\StudentLogin.aspx.designer.cs">
+    <Compile Include="StudentLogin.aspx.designer.cs">
       <DependentUpon>StudentLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumni\ViewAllAlumni.aspx.cs">
+    <Compile Include="ViewAllAlumni.aspx.cs">
       <DependentUpon>ViewAllAlumni.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Alumni\ViewAllAlumni.aspx.designer.cs">
+    <Compile Include="ViewAllAlumni.aspx.designer.cs">
       <DependentUpon>ViewAllAlumni.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursesOffered\ChemicalEngineering.aspx.cs">
+    <Compile Include="ChemicalEngineering.aspx.cs">
       <DependentUpon>ChemicalEngineering.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursesOffered\ChemicalEngineering.aspx.designer.cs">
+    <Compile Include="ChemicalEngineering.aspx.designer.cs">
       <DependentUpon>ChemicalEngineering.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursesOffered\ComputerEngineering.aspx.cs">
+    <Compile Include="ComputerEngineering.aspx.cs">
       <DependentUpon>ComputerEngineering.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursesOffered\ComputerEngineering.aspx.designer.cs">
+    <Compile Include="ComputerEngineering.aspx.designer.cs">
       <DependentUpon>ComputerEngineering.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursesOffered\E&amp;TCEngineering.aspx.cs">
+    <Compile Include="E&amp;TCEngineering.aspx.cs">
       <DependentUpon>E&amp;TCEngineering.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursesOffered\E&amp;TCEngineering.aspx.designer.cs">
+    <Compile Include="E&amp;TCEngineering.aspx.designer.cs">
       <DependentUpon>E&amp;TCEngineering.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursesOffered\ElectricalEngineering.aspx.cs">
+    <Compile Include="ElectricalEngineering.aspx.cs">
       <DependentUpon>ElectricalEngineering.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursesOffered\ElectricalEngineering.aspx.designer.cs">
+    <Compile Include="ElectricalEngineering.aspx.designer.cs">
       <DependentUpon>ElectricalEngineering.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursesOffered\ITEngineering.aspx.cs">
+    <Compile Include="ITEngineering.aspx.cs">
       <DependentUpon>ITEngineering.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursesOffered\ITEngineering.aspx.designer.cs">
+    <Compile Include="ITEngineering.aspx.designer.cs">
       <DependentUpon>ITEngineering.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursesOffered\MBACourse.aspx.cs">
+    <Compile Include="MBACourse.aspx.cs">
       <DependentUpon>MBACourse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursesOffered\MBACourse.aspx.designer.cs">
+    <Compile Include="MBACourse.aspx.designer.cs">
       <DependentUpon>MBACourse.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursesOffered\MechanicalEngineering.aspx.cs">
+    <Compile Include="MechanicalEngineering.aspx.cs">
       <DependentUpon>MechanicalEngineering.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursesOffered\MechanicalEngineering.aspx.designer.cs">
+    <Compile Include="MechanicalEngineering.aspx.designer.cs">
       <DependentUpon>MechanicalEngineering.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
@@ -208,74 +207,74 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\AppliedScience.aspx.cs">
+    <Compile Include="AppliedScience.aspx.cs">
       <DependentUpon>AppliedScience.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\AppliedScience.aspx.designer.cs">
+    <Compile Include="AppliedScience.aspx.designer.cs">
       <DependentUpon>AppliedScience.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\ChemicalDepartment.aspx.cs">
+    <Compile Include="ChemicalDepartment.aspx.cs">
       <DependentUpon>ChemicalDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\ChemicalDepartment.aspx.designer.cs">
+    <Compile Include="ChemicalDepartment.aspx.designer.cs">
       <DependentUpon>ChemicalDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\ComputerDepartment.aspx.cs">
+    <Compile Include="ComputerDepartment.aspx.cs">
       <DependentUpon>ComputerDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\ComputerDepartment.aspx.designer.cs">
+    <Compile Include="ComputerDepartment.aspx.designer.cs">
       <DependentUpon>ComputerDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\E&amp;TCDepartment.aspx.cs">
+    <Compile Include="E&amp;TCDepartment.aspx.cs">
       <DependentUpon>E&amp;TCDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\E&amp;TCDepartment.aspx.designer.cs">
+    <Compile Include="E&amp;TCDepartment.aspx.designer.cs">
       <DependentUpon>E&amp;TCDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\ElectricalDepartment.aspx.cs">
+    <Compile Include="ElectricalDepartment.aspx.cs">
       <DependentUpon>ElectricalDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\ElectricalDepartment.aspx.designer.cs">
+    <Compile Include="ElectricalDepartment.aspx.designer.cs">
       <DependentUpon>ElectricalDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\ITDepartment.aspx.cs">
+    <Compile Include="ITDepartment.aspx.cs">
       <DependentUpon>ITDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\ITDepartment.aspx.designer.cs">
+    <Compile Include="ITDepartment.aspx.designer.cs">
       <DependentUpon>ITDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\Library.aspx.cs">
+    <Compile Include="Library.aspx.cs">
       <DependentUpon>Library.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\Library.aspx.designer.cs">
+    <Compile Include="Library.aspx.designer.cs">
       <DependentUpon>Library.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\MBADepartment.aspx.cs">
+    <Compile Include="MBADepartment.aspx.cs">
       <DependentUpon>MBADepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\MBADepartment.aspx.designer.cs">
+    <Compile Include="MBADepartment.aspx.designer.cs">
       <DependentUpon>MBADepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\MechanicalDepartment.aspx.cs">
+    <Compile Include="MechanicalDepartment.aspx.cs">
       <DependentUpon>MechanicalDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\MechanicalDepartment.aspx.designer.cs">
+    <Compile Include="MechanicalDepartment.aspx.designer.cs">
       <DependentUpon>MechanicalDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Deprtments\Workshop.aspx.cs">
+    <Compile Include="Workshop.aspx.cs">
       <DependentUpon>Workshop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Deprtments\Workshop.aspx.designer.cs">
+    <Compile Include="Workshop.aspx.designer.cs">
       <DependentUpon>Workshop.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
@@ -285,68 +284,61 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\AboutUs.aspx.cs">
+    <Compile Include="AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\AboutUs.aspx.designer.cs">
+    <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\Alumni.aspx.cs">
+    <Compile Include="Alumni.aspx.cs">
       <DependentUpon>Alumni.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\Alumni.aspx.designer.cs">
+    <Compile Include="Alumni.aspx.designer.cs">
       <DependentUpon>Alumni.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\ContactUs.aspx.cs">
+    <Compile Include="ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\ContactUs.aspx.designer.cs">
+    <Compile Include="ContactUs.aspx.designer.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\CoursesOffered.aspx.cs">
+    <Compile Include="CoursesOffered.aspx.cs">
       <DependentUpon>CoursesOffered.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\CoursesOffered.aspx.designer.cs">
+    <Compile Include="CoursesOffered.aspx.designer.cs">
       <DependentUpon>CoursesOffered.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Main\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Main\Departments.aspx.cs">
+    <Compile Include="Departments.aspx.cs">
       <DependentUpon>Departments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\Departments.aspx.designer.cs">
+    <Compile Include="Departments.aspx.designer.cs">
       <DependentUpon>Departments.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\Glimpses.aspx.cs">
+    <Compile Include="Glimpses.aspx.cs">
       <DependentUpon>Glimpses.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\Glimpses.aspx.designer.cs">
+    <Compile Include="Glimpses.aspx.designer.cs">
       <DependentUpon>Glimpses.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\SiteMap.aspx.cs">
+    <Compile Include="SiteMap.aspx.cs">
       <DependentUpon>SiteMap.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\SiteMap.aspx.designer.cs">
+    <Compile Include="SiteMap.aspx.designer.cs">
       <DependentUpon>SiteMap.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main\TPCSection.aspx.cs">
-      <DependentUpon>TPCSection.aspx</DependentUpon>
+    <Compile Include="TPOSection.aspx.cs">
+      <DependentUpon>TPOSection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main\TPCSection.aspx.designer.cs">
-      <DependentUpon>TPCSection.aspx</DependentUpon>
+    <Compile Include="TPOSection.aspx.designer.cs">
+      <DependentUpon>TPOSection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
@@ -356,32 +348,32 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="TCPSection\CurrentStudents.aspx.cs">
+    <Compile Include="CurrentStudents.aspx.cs">
       <DependentUpon>CurrentStudents.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TCPSection\CurrentStudents.aspx.designer.cs">
+    <Compile Include="CurrentStudents.aspx.designer.cs">
       <DependentUpon>CurrentStudents.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TCPSection\ListOfCompanies.aspx.cs">
+    <Compile Include="ListOfCompanies.aspx.cs">
       <DependentUpon>ListOfCompanies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TCPSection\ListOfCompanies.aspx.designer.cs">
+    <Compile Include="ListOfCompanies.aspx.designer.cs">
       <DependentUpon>ListOfCompanies.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TCPSection\PlacementHighlights.aspx.cs">
+    <Compile Include="PlacementHighlights.aspx.cs">
       <DependentUpon>PlacementHighlights.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TCPSection\PlacementHighlights.aspx.designer.cs">
+    <Compile Include="PlacementHighlights.aspx.designer.cs">
       <DependentUpon>PlacementHighlights.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TCPSection\RegistrationForm.aspx.cs">
+    <Compile Include="RegistrationForm.aspx.cs">
       <DependentUpon>RegistrationForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TCPSection\RegistrationForm.aspx.designer.cs">
+    <Compile Include="RegistrationForm.aspx.designer.cs">
       <DependentUpon>RegistrationForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
