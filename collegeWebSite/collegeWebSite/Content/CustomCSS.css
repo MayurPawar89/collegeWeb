@@ -1,0 +1,146 @@
+﻿body {
+    background: #121210 url('../../Images/WhiteWallBackground.jpg') repeat scroll 0 0;
+    /*font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;*/
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#myCarousel1 .item {
+    height: 300px;
+    background: #121210;
+}
+
+.carousel-border {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.Books-Div {
+    background-color: #E8DED6;
+}
+
+.vertical-line {
+    border-right: 1px solid #ccc;
+}
+
+#myCarousel {
+    margin-top: 5px;
+}
+
+    #myCarousel .item {
+        height: 400px;
+    }
+
+#slide1 {
+    background-position: center top;
+    background-image: url('../../Images/Carousel/carousel2_medium.jpg');
+    background-repeat: no-repeat;
+}
+
+#slide2 {
+    background-position: center top;
+    background-image: url('../../Images/Carousel/carousel3_medium.jpg');
+    background-repeat: no-repeat;
+}
+
+#slide3 {
+    background-position: center top;
+    background-image: url('../../Images/Carousel/carousel4_medium.jpg');
+    background-repeat: no-repeat;
+}
+
+#slide4 {
+    background-position: center top;
+    background-image: url('../../Images/Carousel/carousel5_medium.jpg');
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+
+    #myCarousel .item {
+        height: 310px;
+    }
+
+    #slide1 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel2_small.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #slide2 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel3_small.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #slide3 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel4_small.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #slide4 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel5_small.jpg');
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    #myCarousel .item {
+        height: 500px;
+    }
+
+    #slide1 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel2_large.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #slide2 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel3_large.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #slide3 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel4_large.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #slide4 {
+        background-position: center top;
+        background-image: url('../../Images/Carousel/carousel5_large.jpg');
+        background-repeat: no-repeat;
+    }
+}
+
+/*.well {
+    margin: 20px 0;
+}
+
+    .well .page-header {
+        margin-top: 0;
+    }
+
+        .well .page-header h1 {
+            margin-top: 0;
+        }*/
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    margin: 15px;
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}

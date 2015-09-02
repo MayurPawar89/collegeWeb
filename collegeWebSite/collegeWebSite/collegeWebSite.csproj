@@ -59,8 +59,28 @@
   <ItemGroup>
     <Content Include="AlumniRegistration.aspx" />
     <Content Include="AlumniSearch.aspx" />
+    <Content Include="ChemicalFaculty.aspx" />
+    <Content Include="Content\CustomCSS.css" />
+    <Content Include="Images\Carousel\carousel2_large.jpg" />
+    <Content Include="Images\Carousel\carousel2_medium.jpg" />
+    <Content Include="Images\Carousel\carousel2_small.jpg" />
+    <Content Include="Images\Carousel\carousel3_large.jpg" />
+    <Content Include="Images\Carousel\carousel3_medium.jpg" />
+    <Content Include="Images\Carousel\carousel3_small.jpg" />
+    <Content Include="Images\Carousel\carousel4_large.jpg" />
+    <Content Include="Images\Carousel\carousel4_medium.jpg" />
+    <Content Include="Images\Carousel\carousel4_small.jpg" />
+    <Content Include="Images\Carousel\carousel5_large.jpg" />
+    <Content Include="Images\Carousel\carousel5_medium.jpg" />
+    <Content Include="Images\Carousel\carousel5_small.jpg" />
+    <Content Include="Images\HeaderName&amp;Logo.jpg" />
+    <Content Include="Images\HeaderName&amp;Logo.png" />
+    <Content Include="Images\WhiteWallBackground.jpg" />
     <Content Include="PhotoGallary.aspx" />
+    <Content Include="PlacementProcess.aspx" />
+    <Content Include="RecruiterCompanies.aspx" />
     <Content Include="StudentLogin.aspx" />
+    <Content Include="TPCMemberLogin.aspx" />
     <Content Include="ViewAllAlumni.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -73,7 +93,7 @@
     <Content Include="ITEngineering.aspx" />
     <Content Include="MBACourse.aspx" />
     <Content Include="MechanicalEngineering.aspx" />
-    <Content Include="Default.aspx" />
+    <Content Include="DefaultTest.aspx" />
     <Content Include="AppliedScience.aspx" />
     <Content Include="ChemicalDepartment.aspx" />
     <Content Include="ComputerDepartment.aspx" />
@@ -85,7 +105,7 @@
     <Content Include="MechanicalDepartment.aspx" />
     <Content Include="Workshop.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Home.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="AboutUs.aspx" />
     <Content Include="Alumni.aspx" />
     <Content Include="ContactUs.aspx" />
@@ -94,7 +114,7 @@
     <Content Include="Glimpses.aspx" />
     <Content Include="Icon.png" />
     <Content Include="SiteMap.aspx" />
-    <Content Include="TPOSection.aspx" />
+    <Content Include="TPCSection.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -130,6 +150,13 @@
     <Compile Include="AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ChemicalFaculty.aspx.cs">
+      <DependentUpon>ChemicalFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChemicalFaculty.aspx.designer.cs">
+      <DependentUpon>ChemicalFaculty.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PhotoGallary.aspx.cs">
       <DependentUpon>PhotoGallary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -137,12 +164,33 @@
     <Compile Include="PhotoGallary.aspx.designer.cs">
       <DependentUpon>PhotoGallary.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PlacementProcess.aspx.cs">
+      <DependentUpon>PlacementProcess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlacementProcess.aspx.designer.cs">
+      <DependentUpon>PlacementProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecruiterCompanies.aspx.cs">
+      <DependentUpon>RecruiterCompanies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecruiterCompanies.aspx.designer.cs">
+      <DependentUpon>RecruiterCompanies.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentLogin.aspx.cs">
       <DependentUpon>StudentLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentLogin.aspx.designer.cs">
       <DependentUpon>StudentLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TPCMemberLogin.aspx.cs">
+      <DependentUpon>TPCMemberLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TPCMemberLogin.aspx.designer.cs">
+      <DependentUpon>TPCMemberLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewAllAlumni.aspx.cs">
       <DependentUpon>ViewAllAlumni.aspx</DependentUpon>
@@ -200,12 +248,12 @@
     <Compile Include="MechanicalEngineering.aspx.designer.cs">
       <DependentUpon>MechanicalEngineering.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="DefaultTest.aspx.cs">
+      <DependentUpon>DefaultTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="DefaultTest.aspx.designer.cs">
+      <DependentUpon>DefaultTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="AppliedScience.aspx.cs">
       <DependentUpon>AppliedScience.aspx</DependentUpon>
@@ -277,12 +325,12 @@
     <Compile Include="Workshop.aspx.designer.cs">
       <DependentUpon>Workshop.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
@@ -333,12 +381,12 @@
     <Compile Include="SiteMap.aspx.designer.cs">
       <DependentUpon>SiteMap.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TPOSection.aspx.cs">
-      <DependentUpon>TPOSection.aspx</DependentUpon>
+    <Compile Include="TPCSection.aspx.cs">
+      <DependentUpon>TPCSection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TPOSection.aspx.designer.cs">
-      <DependentUpon>TPOSection.aspx</DependentUpon>
+    <Compile Include="TPCSection.aspx.designer.cs">
+      <DependentUpon>TPCSection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
