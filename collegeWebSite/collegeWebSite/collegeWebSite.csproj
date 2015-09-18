@@ -80,6 +80,7 @@
     <Content Include="PlacementProcess.aspx" />
     <Content Include="RecruiterCompanies.aspx" />
     <Content Include="StudentLogin.aspx" />
+    <Content Include="TestDefault.aspx" />
     <Content Include="TPCMemberLogin.aspx" />
     <Content Include="ViewAllAlumni.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -184,6 +185,13 @@
     </Compile>
     <Compile Include="StudentLogin.aspx.designer.cs">
       <DependentUpon>StudentLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestDefault.aspx.cs">
+      <DependentUpon>TestDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestDefault.aspx.designer.cs">
+      <DependentUpon>TestDefault.aspx</DependentUpon>
     </Compile>
     <Compile Include="TPCMemberLogin.aspx.cs">
       <DependentUpon>TPCMemberLogin.aspx</DependentUpon>
