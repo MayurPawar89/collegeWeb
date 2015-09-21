@@ -10,7 +10,7 @@
 <body>
     <div class="row">
         <div class="container">
-            <img class="img-responsive" src="Images/HeaderName&Logo.jpg" alt="Header" style="height: 150px" />
+            <img class="img-responsive" src="Images/Header/HeaderName&LogoBlue.png" alt="Header" style="height: 150px; width: 951px;" />
         </div>
     </div>
     <div class="row">
@@ -87,40 +87,40 @@
                 </div>
             </nav>
             <div class="row">
-                <div class="carousel-border">
-                    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-                        <!-- Carousel indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
-                        </ol>
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="active item" id="slide1">
+                <div class="container">
+                    <div class="carousel-border">
+                        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item" id="slide1">
+                                </div>
+                                <div class="item" id="slide2">
+                                </div>
+                                <div class="item" id="slide3">
+                                </div>
+                                <div class="item" id="slide4">
+                                </div>
                             </div>
-                            <div class="item" id="slide2">
-                            </div>
-                            <div class="item" id="slide3">
-                            </div>
-                            <div class="item" id="slide4">
-                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
                         </div>
-                        <!-- Carousel nav -->
-                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                        </a>
-                        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <br />
-    <br />
     <br />
     <div class="row">
         <div class="container">
@@ -143,36 +143,24 @@
                 </ul>
             </div>
             <div class="col-md-9">
-                <div class="row">
-                    <div class="jumbotron">
-                        <h3>Welcome to <strong>Sir Visvesvaraya Institute Of Technology</strong>, Nashik</h3>
-                        <p>
-                            The establishment of the  Sir Visvesvaraya Institute of Technology in 1998-99, symbolizes the ascendance of plateau of achievement of academic excellence, in dissemination of quality education from preprimary to collegiate level by Pravara Rural Education Society, ensconced at Loni, by Late Padmashri Dr. Vitthalrao Vikhe Patil in 1964.
-                        </p>
+                <div class="row panel-body">
+                    <div class="page-header">
+                        <h3>Welcome to <strong>Sir Visvesvaraya Institute Of Technology, Nashik</strong></h3>
                     </div>
+                    <p class="lead">
+                        The establishment of the  Sir Visvesvaraya Institute of Technology in 1998-99, symbolizes the ascendance of plateau of achievement of academic excellence, in dissemination of quality education from preprimary to collegiate level by Pravara Rural Education Society, ensconced at Loni, by Late Padmashri Dr. Vitthalrao Vikhe Patil in 1964.
+                    </p>
                 </div>
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="thumbnail">
-                                <div class="col-md-3">
-                                    <img alt="300x200" src="" />
-                                </div>
-                                <div class="col-md-5 caption">
-                                    <h3>Dr.G.B.Shinde <br />Principal 
-                                    </h3>
-                                    <p>
-                                        Publisher: Rupa Publication India<br />
-                                        Author: Chetan Bhagat<br />
-                                        Released: 2014<br />
-                                        Once upon a time, there was a Bihari boy called Madhav. He fell in love with girl called Riya.Madhav didn't speak English well. Riya did.Madhav wanted a relationship."
-                                    </p>
-                                </div>
-                            </div>
+                <div class="row panel-body">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="Images/Profile Images/propGBShinde.JPG" />
+                            <h3>Dr.G.B.Shinde, Principal </h3>
+                            <p>He is a principle of SVIT college since 2010.</p>
                         </div>
-
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
+                        <h5>Latest News</h5>
                         <ul class="nav">
                             <li><a href="Link_Document/RESULT.zip">RESULTS 2015</a></li>
                             <li><a href="http://www.suhaslondhe.in/orgregistration.php">REGISTRATION OF COMPANIES FOR RECRUITMENTS</a></li>
