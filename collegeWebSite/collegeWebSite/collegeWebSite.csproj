@@ -76,6 +76,7 @@
     <Content Include="Images\Header\HeaderName&amp;Logo.jpg" />
     <Content Include="Images\Header\HeaderName&amp;Logo.png" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.png" />
+    <Content Include="Images\Profile Images\dircAKGarg.JPG" />
     <Content Include="Images\Profile Images\propGBShinde.JPG" />
     <Content Include="Images\WhiteWallBackground.jpg" />
     <Content Include="PhotoGallary.aspx" />

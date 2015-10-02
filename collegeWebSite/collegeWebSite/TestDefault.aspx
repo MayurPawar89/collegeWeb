@@ -10,7 +10,7 @@
 <body>
     <div class="row">
         <div class="container">
-            <img class="img-responsive" src="Images/Header/HeaderName&LogoBlue.png" alt="Header" style="height: 150px; width: 951px;" />
+            <img class="img-responsive" src="Images/Header/HeaderName&LogoBlue.png" alt="Header" style="height: 150px; width: 1300px;" />
         </div>
     </div>
     <div class="row">
@@ -144,23 +144,16 @@
             </div>
             <div class="col-md-9">
                 <div class="row panel-body">
-                    <div class="page-header">
-                        <h3>Welcome to <strong>Sir Visvesvaraya Institute Of Technology, Nashik</strong></h3>
-                    </div>
-                    <p class="lead">
-                        The establishment of the  Sir Visvesvaraya Institute of Technology in 1998-99, symbolizes the ascendance of plateau of achievement of academic excellence, in dissemination of quality education from preprimary to collegiate level by Pravara Rural Education Society, ensconced at Loni, by Late Padmashri Dr. Vitthalrao Vikhe Patil in 1964.
-                    </p>
-                </div>
-                <div class="row panel-body">
-                    <div class="col-md-6">
-                        <div class="thumbnail">
-                            <img alt="300x200" src="Images/Profile Images/propGBShinde.JPG" />
-                            <h3>Dr.G.B.Shinde, Principal </h3>
-                            <p>He is a principle of SVIT college since 2010.</p>
+                    <div class="col-md-8">
+                        <div class="page-header-new">
+                            <h3>Welcome to <strong>Sir Visvesvaraya Institute Of Technology, Nashik</strong></h3>
                         </div>
+                        <p class="lead">
+                            The establishment of the  Sir Visvesvaraya Institute of Technology in 1998-99, symbolizes the ascendance of plateau of achievement of academic excellence, in dissemination of quality education from preprimary to collegiate level by Pravara Rural Education Society, ensconced at Loni, by Late Padmashri Dr. Vitthalrao Vikhe Patil in 1964.
+                        </p>
                     </div>
-                    <div class="col-md-6">
-                        <h5>Latest News</h5>
+                    <div class="col-md-4">
+                        <h5 class="page-header-new">Latest News</h5>
                         <ul class="nav">
                             <li><a href="Link_Document/RESULT.zip">RESULTS 2015</a></li>
                             <li><a href="http://www.suhaslondhe.in/orgregistration.php">REGISTRATION OF COMPANIES FOR RECRUITMENTS</a></li>
@@ -169,6 +162,24 @@
                             <li><a href="Link_Document/Grievance Redressal Committee.pdf">Grievance Redressal Committee</a></li>
                             <li><a href="Link_Document/disciplinary.pdf">Disciplinary Committee</a></li>
                         </ul>
+                    </div>
+
+                </div>
+                <div class="row panel-body">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="Images/Profile Images/propGBShinde.JPG" />
+                            <h3>Dr. G. B. Shinde, Principal </h3>
+                            <p>M.E. (Chemical), M.B.A. (HR), Ph.D. (Chemical)<br />
+                                Member of ISTE, IE.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="Images/Profile Images/dircAKGarg.JPG" />
+                            <h3>Mr A. K. Garg, Campus Director </h3>
+                            <p>Brig. (Retd.)</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,57 +190,6 @@
         <div class="container">
             <div class="row">
                 <h6>&copy; All Rights Reserved Pravara Rural Education Society, Loni.</h6>
-                <%--<div class="col-sm-2">
-                    <h6>&copy; All Rights Reserved Pravara Rural Education Society, Loni.</h6>
-                </div>
-                <!-- end col-sm-2 -->
-
-                <div class="col-sm-4">
-                    <h6>About Us</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <!-- end col-sm-4 -->
-
-                <div class="col-sm-2">
-                    <h6>Navigation</h6>
-                    <ul class="unstyled">
-                        <li><a href="Index.html">Home</a></li>
-                            <li><a href="Books.html">Books</a></li>
-                            <li><a href="Sellar.html">Top Seller</a></li>
-                            <li><a href="Authers.html">Auther</a></li>
-                            <li><a href="Aboutus.html">About us</a></li>
-                            <li><a href="Contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- end col-sm-2 -->
-
-                <div class="col-sm-2">
-                    <!--<h6>Follow Us</h6>
-                    <ul class="unstyled">
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Google Plus</a></li>
-                    </ul>-->
-                    <h6><b>Address</b></h6>
-                    <h6>Read Book Shop</h6>
-                    <address>
-                        213, ABC Apartment,
-                    <br />
-                        Grant road,<br />
-                        Mumbai-411011<br />
-                        Maharashtra, India<br />
-                        <br />
-                        <span class="glyphicon glyphicon-phone-alt">&nbsp;</span>022-2987654, 022-2123456<br />
-                        <span class="glyphicon glyphicon-phone">&nbsp;</span>+91 1234567891<br />
-                        <span class="glyphicon glyphicon-envelope">&nbsp;</span>alex@demo.com
-                    </address>
-                </div>
-                <!-- end col-sm-2 -->
-
-                <div class="col-sm-2">
-                    <h6><span class="glyphicon glyphicon glyphicon-pencil"></span>Coded by web developer</h6>
-                </div>
-                <!-- end col-sm-2 -->--%>
             </div>
             <!-- end row -->
         </div>

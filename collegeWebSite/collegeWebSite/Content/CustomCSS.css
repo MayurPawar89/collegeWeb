@@ -5,8 +5,14 @@
     margin: 0;
     padding: 0;
 }
+/*Start Edited Bootstrap CSS*/
+.page-header-new {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 2px solid #3ec2cf;
+}
 
-
+/*End Edited Bootstrap CSS*/
 
 #myCarousel1 .item {
     height: 300px;
@@ -27,7 +33,7 @@
 }
 
     #myCarousel .item {
-        height: 250px;
+        height: 400px;
     }
 
 #slide1 {
@@ -57,7 +63,7 @@
 @media (max-width: 768px) {
 
     #myCarousel .item {
-        height: 170px;
+        height: 320px;
     }
 
     #slide1 {
@@ -88,7 +94,7 @@
 @media (max-width: 1200px) {
 
     #myCarousel .item {
-        height: 400px;
+        height: 500px;
     }
 
     #slide1 {
