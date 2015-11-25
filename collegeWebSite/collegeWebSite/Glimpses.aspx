@@ -5,3 +5,5 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
 </asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
+</asp:Content>

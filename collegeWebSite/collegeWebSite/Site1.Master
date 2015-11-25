@@ -5,15 +5,65 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
     <link href="/Content/CustomCSS.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="Contenthead" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <script type="text/javascript">
+        function toggleExuburance() {
+            var ele = document.getElementById("dvExuburance2013");
+            var text = document.getElementById("lkExuburance");
+            if (ele.style.display == "block") {
+                ele.style.display = "none";
+                //text.innerHTML = "show";
+            }
+            else {
+                ele.style.display = "block";
+                //text.innerHTML = "hide";
+            }
+        }
+        function toggleCharity() {
+            var ele = document.getElementById("dvCharityEvent");
+            var text = document.getElementById("lkCharity");
+            if (ele.style.display == "block") {
+                ele.style.display = "none";
+                //text.innerHTML = "show";
+            }
+            else {
+                ele.style.display = "block";
+                //text.innerHTML = "hide";
+            }
+        }
+        function toggleAnkur2014() {
+            var ele = document.getElementById("dvAnkur2014");
+            var text = document.getElementById("lkAnkur2014");
+            if (ele.style.display == "block") {
+                ele.style.display = "none";
+                //text.innerHTML = "show";
+            }
+            else {
+                ele.style.display = "block";
+                //text.innerHTML = "hide";
+            }
+        }
+        function toggleAnkur2015() {
+            var ele = document.getElementById("dvAnkur2015");
+            var text = document.getElementById("lkAnkur2015");
+            if (ele.style.display == "block") {
+                ele.style.display = "none";
+                //text.innerHTML = "show";
+            }
+            else {
+                ele.style.display = "block";
+                //text.innerHTML = "hide";
+            }
+        }
+    </script>
     <div class="row">
         <div class="container">
-            <img class="img-responsive" src="Images/HeaderName&Logo.jpg" alt="Header" style="height: 150px" />
+            <img class="img-responsive" src="/Images/Header/HeaderName&LogoWhite.png" alt="Header" style="height: 150px; width: 1300px;" />
         </div>
     </div>
     <div class="row">
@@ -40,49 +90,50 @@
                             <li class="dropdown">
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Alumni<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="/Alumni.aspx">Alumni Information</a></li>
-                                    <li><a href="/AlumniRegistration.aspx">Alumni Registration</a></li>
-                                    <li><a href="/StudentLogin.aspx">Student Login</a></li>
-                                    <li><a href="/AlumniSearch.aspx">Alumni Search</a></li>
-                                    <li><a href="/ViewAllAlumni.aspx">View All Alumni</a></li>
-                                    <li><a href="/PhotoGallary.aspx">Photo Gallary</a></li>
+                                    <li><a href="/Alumni/Alumni.aspx">Alumni Information</a></li>
+                                    <li><a href="/Alumni/AlumniRegistration.aspx">Alumni Registration</a></li>
+                                    <li><a href="/Alumni/StudentLogin.aspx">Student Login</a></li>
+                                    <li><a href="/Alumni/AlumniSearch.aspx">Alumni Search</a></li>
+                                    <li><a href="/Alumni/ViewAllAlumni.aspx">View All Alumni</a></li>
+                                    <li><a href="/Alumni/PhotoGallary.aspx">Photo Gallary</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">TPC Section<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="/TPCSection.aspx">TPC Information</a></li>
-                                    <li><a href="/RegistrationForm.aspx">Registration Form</a></li>
-                                    <li><a href="/CurrentStudents.aspx">Current Students</a></li>
-                                    <li><a href="/PlacementHighlights.aspx">Placement Highlights</a></li>
-                                    <li><a href="/ListOfCompanies.aspx">List Of Companies</a></li>
+                                    <li><a href="/TCP/TPCSection.aspx">TPC Information</a></li>
+                                    <li><a href="/TCP/RegistrationForm.aspx">Registration Form</a></li>
+                                    <li><a href="/TCP/CurrentStudents.aspx">Current Students</a></li>
+                                    <li><a href="/TCP/PlacementHighlights.aspx">Placement Highlights</a></li>
+                                    <li><a href="/TCP/ListOfCompanies.aspx">List Of Companies</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="/Departments.aspx">Departments<b class="caret"></b></a>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Departments<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="/ComputerDepartment.aspx">Computer Department</a></li>
-                                    <li><a href="/ChemicalDepartment.aspx">Chemical Department</a></li>
-                                    <li><a href="/E&TCDepartment.aspx">Electronic and Telecommunication Department</a></li>
-                                    <li><a href="/ElectricalDepartment.aspx">Electrical Department</a></li>
-                                    <li><a href="/MechanicalDepartment.aspx">Mechanical Department</a></li>
-                                    <li><a href="/ITDepartment.aspx">Information Technology Department</a></li>
-                                    <li><a href="/Workshop.aspx">Workshop</a></li>
-                                    <li><a href="/Library.aspx">Library</a></li>
-                                    <li><a href="/AppliedScience.aspx">Applied Science</a></li>
-                                    <li><a href="/MBADepartment.aspx">M.B.A.</a></li>
+                                    <%--<li><a href="/ComputerDepartment.aspx">Computer Department</a></li>--%>
+                                    <li><a href="/Departments/Computer/Profile.aspx">Computer Department</a></li>
+                                    <li><a href="/Departments/Chemical/ChemicalDepartmentProfile.aspx">Chemical Department</a></li>
+                                    <li><a href="/Departments/ElectronicAndTeleComm/EAndTCDepartment.aspx">Electronic and Telecommunication Department</a></li>
+                                    <li><a href="/Departments/Electrical/ElectricalDepartment.aspx">Electrical Department</a></li>
+                                    <li><a href="/Departments/Mechanical/MechanicalDepartment.aspx">Mechanical Department</a></li>
+                                    <li><a href="/Departments/IT/ITDepartment.aspx">Information Technology Department</a></li>
+                                    <li><a href="/Departments/Workshop/Workshop.aspx">Workshop</a></li>
+                                    <li><a href="/Departments/Library/Library.aspx">Library</a></li>
+                                    <li><a href="/Departments/Applied Science/AppliedScience.aspx">Applied Science</a></li>
+                                    <li><a href="/Departments/MBA/MBADepartment.aspx">M.B.A.</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="/CoursesOffered.aspx">Courses Offered<b class="caret"></b></a>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Courses Offered<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
-                                    <li><a href="/ComputerEngineering.aspx">Computer Engineering</a></li>
-                                    <li><a href="/ChemicalEngineering.aspx">Chemical Engineering</a></li>
-                                    <li><a href="/E&TCEngineering.aspx">Electronic and Telecommunication Engineering</a></li>
-                                    <li><a href="/ElectricalEngineering.aspx">Electrical Engineering</a></li>
-                                    <li><a href="/MechanicalEngineering.aspx">Mechanical Engineering</a></li>
-                                    <li><a href="/ITEngineering.aspx">Information Technology Engineering</a></li>
-                                    <li><a href="/MBACourse.aspx">M.B.A.</a></li>
+                                    <li><a href="/CoursesOffered/Computer/ComputerEngineering.aspx">Computer Engineering</a></li>
+                                    <li><a href="/CoursesOffered/Chemical/ChemicalEngineering.aspx">Chemical Engineering</a></li>
+                                    <li><a href="/CoursesOffered/ElectronicAndTeleComm/EAndTCEngineering.aspx">Electronic and Telecommunication Engineering</a></li>
+                                    <li><a href="/CoursesOffered/Electrical/ElectricalEngineering.aspx">Electrical Engineering</a></li>
+                                    <li><a href="/CoursesOffered/Mechanical/MechanicalEngineering.aspx">Mechanical Engineering</a></li>
+                                    <li><a href="/CoursesOffered/IT/ITEngineering.aspx">Information Technology Engineering</a></li>
+                                    <li><a href="/CoursesOffered/MBA/MBACourse.aspx">M.B.A.</a></li>
                                 </ul>
                             </li>
                             <%--<li><a href="TPCSection.html">TPC Section</a></li>--%>
@@ -111,7 +162,11 @@
                     </div>
                 </div>
             </nav>
-            <div class="row">
+
+            <asp:ContentPlaceHolder ID="ContentCarousel" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <%--<div class="row">
                 <div class="carousel-border">
                     <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
                         <!-- Carousel indicators -->
@@ -141,10 +196,9 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div>--%>
         </div>
     </div>
-    <br />
     <br />
     <br />
     <div class="row">
@@ -220,7 +274,7 @@
         </div>
         <!-- end container -->
     </footer>
-    <script src="Scripts/jquery-1.9.1.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+    <script src="/Scripts/jquery-1.9.1.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
 </body>
 </html>
