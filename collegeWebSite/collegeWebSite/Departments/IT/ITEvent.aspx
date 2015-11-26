@@ -26,196 +26,547 @@
     <div class="page-header-new">
         Events organized by IT department
     </div>
-    <div class="row">
+    <%--<div class="row">
         <div class="col-md-3">
             <div class="row thumbnail">
-                <a href="javascript:toggleAnkur2014();" id="lkAnkur2014"><img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
-                <strong>Ankur 2014 Event
-                </strong></a>
+                <a href="javascript:toggleAnkur2014();" id="lkAnkur2014">
+                    <img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
+                    <strong>Ankur 2014 Event
+                    </strong></a>
             </div>
         </div>
         <div class="col-md-3">
             <div class="row thumbnail">
-                <a href="javascript:toggleAnkur2015();" id="lkAnkur2015"><img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
-                <strong>Ankur 2015 Event
-                </strong></a>
+                <a href="javascript:toggleAnkur2015();" id="lkAnkur2015">
+                    <img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
+                    <strong>Ankur 2015 Event
+                    </strong></a>
             </div>
         </div>
         <div class="col-md-3">
             <div class="row thumbnail">
-                <a href="javascript:toggleCharity();" id="lkCharity"><img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
-                <strong>Charity Event
-                </strong></a>
+                <a href="javascript:toggleCharity();" id="lkCharity">
+                    <img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
+                    <strong>Charity Event
+                    </strong></a>
             </div>
         </div>
         <div class="col-md-3">
             <div class="row thumbnail">
-                <a href="javascript:toggleExuburance();" id="lkExuburance"><img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
-                <strong>Exuburance 2013 Event
-                </strong></a>
+                <a href="javascript:toggleExuburance();" id="lkExuburance">
+                    <img alt="300x200" src="../../Images/Icons/thumbnail_default.jpg" />
+                    <strong>Exuburance 2013 Event
+                    </strong></a>
             </div>
         </div>
     </div>
     <div class="row">
-        <div id="dvAnkur2014" style="display:none;">
+        <div id="dvAnkur2014" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/1.jpg" data-toggle="modal" data-target="#myModal"/></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/1.jpg" data-toggle="modal" data-target="#myModal" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/2.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/2.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/3.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/3.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/4.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/4.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/5.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/5.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/6.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/6.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/7.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/7.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/8.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/8.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/9.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/9.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/10.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/10.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/11.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/11.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/12.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/12.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/13.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/13.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/14.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/14.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/15.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/15.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/16.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/16.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/17.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/17.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/18.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/18.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/19.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/19.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/20.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/20.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/21.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/21.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/22.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/22.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2014/23.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2014/23.jpg" />
+            </div>
         </div>
-        <div id="dvAnkur2015" style="display:none;">
+        <div id="dvAnkur2015" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/1.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/1.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/2.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/2.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/3.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/3.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/4.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/4.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/5.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/5.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/6.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/6.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/7.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/7.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/8.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/8.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/9.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/9.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/10.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/10.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/11.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/11.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/12.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/12.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/13.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/13.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/14.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/14.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/15.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/15.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/16.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/16.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/17.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/17.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/18.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/18.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/19.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/19.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/20.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/20.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/21.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/21.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/22.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/22.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Ankur 2015/23.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Ankur 2015/23.jpg" />
+            </div>
         </div>
-        <div id="dvCharityEvent" style="display:none;">
+        <div id="dvCharityEvent" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/1.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/1.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/2.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/2.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/3.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/3.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/4.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/4.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/5.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/5.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/6.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/6.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/7.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/7.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/8.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/8.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/9.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/9.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Charity Event/10.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Charity Event/10.jpg" />
+            </div>
         </div>
-        <div id="dvExuburance2013" style="display:none;">
+        <div id="dvExuburance2013" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/1.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/1.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/2.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/2.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/3.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/3.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/4.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/4.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/5.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/5.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/6.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/6.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/7.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/7.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/8.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/8.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/9.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/9.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/10.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/10.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/11.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/11.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/12.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/12.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/13.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/13.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/14.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/14.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/15.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/15.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/16.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/16.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/17.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/17.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/18.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/18.jpg" />
+            </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/Exuburance 2013/19.jpg" /></div>
+                <img alt="300x200" src="../../Images/Events/Exuburance 2013/19.jpg" />
+            </div>
         </div>
 
+    </div>--%>
+
+    <div class="row">
+        <div id="accordion" class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="#collapseAnkur2014" data-toggle="collapse" data-parent="#accordion">
+                        <h4 class="panel-title">Ankur 2014 Event</h4>
+                    </a>
+                </div>
+                <div id="collapseAnkur2014" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/1.jpg" data-toggle="modal" data-target="#myModal" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/2.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/3.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/4.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/5.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/6.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/7.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/8.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/9.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/10.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/11.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/12.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/13.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/14.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/15.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/16.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/17.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/18.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/19.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/20.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/21.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/22.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2014/23.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="#collapseAnkur2015" data-toggle="collapse" data-parent="#accordion">
+                        <h4 class="panel-title">Ankur 2015 Event</h4>
+                    </a>
+                </div>
+                <div id="collapseAnkur2015" class="panel-collapse collapse">
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/1.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/2.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/3.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/4.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/5.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/6.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/7.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/8.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/9.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/10.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/11.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/12.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/13.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/14.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/15.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/16.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/17.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/18.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/19.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/20.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/21.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/22.jpg" />
+                    </div>
+                    <div class="col-md-3 thumbnail">
+                        <img alt="300x200" src="../../Images/Events/Ankur 2015/23.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="#collapseCharity" data-toggle="collapse" data-parent="#accordion">
+                        <h4 class="panel-title">Charity Event</h4>
+                    </a>
+                </div>
+                <div id="collapseCharity" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/1.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/2.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/3.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/4.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/5.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/6.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/7.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/8.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/9.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Charity Event/10.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="#collapseExuburance" data-toggle="collapse" data-parent="#accordion">
+                        <h4 class="panel-title">Exuburance Event</h4>
+                    </a>
+                </div>
+                <div id="collapseExuburance" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/1.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/2.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/3.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/4.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/5.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/6.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/7.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/8.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/9.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/10.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/11.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/12.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/13.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/14.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/15.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/16.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/17.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/18.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Exuburance 2013/19.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="modal fade" id="myModal">
         <div class="modal-dialog">
