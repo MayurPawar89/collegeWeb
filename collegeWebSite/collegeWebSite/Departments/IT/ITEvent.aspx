@@ -386,74 +386,76 @@
                     </a>
                 </div>
                 <div id="collapseAnkur2015" class="panel-collapse collapse">
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/1.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/2.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/3.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/4.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/5.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/6.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/7.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/8.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/9.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/10.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/11.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/12.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/13.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/14.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/15.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/16.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/17.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/18.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/19.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/20.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/21.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/22.jpg" />
-                    </div>
-                    <div class="col-md-3 thumbnail">
-                        <img alt="300x200" src="../../Images/Events/Ankur 2015/23.jpg" />
+                    <div class="panel-body">
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/1.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/2.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/3.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/4.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/5.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/6.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/7.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/8.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/9.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/10.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/11.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/12.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/13.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/14.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/15.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/16.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/17.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/18.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/19.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/20.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/21.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/22.jpg" />
+                        </div>
+                        <div class="col-md-3 thumbnail">
+                            <img alt="300x200" src="../../Images/Events/Ankur 2015/23.jpg" />
+                        </div>
                     </div>
                 </div>
             </div>
