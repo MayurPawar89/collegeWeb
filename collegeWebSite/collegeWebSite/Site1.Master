@@ -13,50 +13,85 @@
 <body>
     <script type="text/javascript">
         function toggleExuburance() {
-            var ele = document.getElementById("dvExuburance2013");
-            var text = document.getElementById("lkExuburance");
-            if (ele.style.display == "block") {
-                ele.style.display = "none";
+            var dvExub = document.getElementById("dvExuburance2013");
+            var dvChar = document.getElementById("dvCharityEvent");
+            var dvAnk14 = document.getElementById("dvAnkur2014");
+            var dvAnk15 = document.getElementById("dvAnkur2015");
+            if (dvExub.style.display == "block") {
+                dvExub.style.display = "none";
+                dvChar.style.display = "none";
+                dvAnk14.style.display = "none";
+                dvAnk15.style.display = "none";
                 //text.innerHTML = "show";
             }
             else {
-                ele.style.display = "block";
+                dvExub.style.display = "block";
+                dvChar.style.display = "none";
+                dvAnk14.style.display = "none";
+                dvAnk15.style.display = "none";
                 //text.innerHTML = "hide";
             }
         }
         function toggleCharity() {
-            var ele = document.getElementById("dvCharityEvent");
-            var text = document.getElementById("lkCharity");
-            if (ele.style.display == "block") {
-                ele.style.display = "none";
+            var dvExub = document.getElementById("dvExuburance2013");
+            var dvChar = document.getElementById("dvCharityEvent");
+            var dvAnk14 = document.getElementById("dvAnkur2014");
+            var dvAnk15 = document.getElementById("dvAnkur2015");
+           
+            if (dvChar.style.display == "block") {
+                dvExub.style.display = "none";
+                dvChar.style.display = "none";
+                dvAnk14.style.display = "none";
+                dvAnk15.style.display = "none";
                 //text.innerHTML = "show";
             }
             else {
-                ele.style.display = "block";
+                dvExub.style.display = "none";
+                dvChar.style.display = "block";
+                dvAnk14.style.display = "none";
+                dvAnk15.style.display = "none";
                 //text.innerHTML = "hide";
             }
         }
         function toggleAnkur2014() {
-            var ele = document.getElementById("dvAnkur2014");
-            var text = document.getElementById("lkAnkur2014");
-            if (ele.style.display == "block") {
-                ele.style.display = "none";
+            var dvExub = document.getElementById("dvExuburance2013");
+            var dvChar = document.getElementById("dvCharityEvent");
+            var dvAnk14 = document.getElementById("dvAnkur2014");
+            var dvAnk15 = document.getElementById("dvAnkur2015");
+            
+            if (dvAnk14.style.display == "block") {
+                dvExub.style.display = "none";
+                dvChar.style.display = "none";
+                dvAnk14.style.display = "none";
+                dvAnk15.style.display = "none";
                 //text.innerHTML = "show";
             }
             else {
-                ele.style.display = "block";
+                dvExub.style.display = "none";
+                dvChar.style.display = "none";
+                dvAnk14.style.display = "block";
+                dvAnk15.style.display = "none";
                 //text.innerHTML = "hide";
             }
         }
         function toggleAnkur2015() {
-            var ele = document.getElementById("dvAnkur2015");
-            var text = document.getElementById("lkAnkur2015");
-            if (ele.style.display == "block") {
-                ele.style.display = "none";
+            var dvExub = document.getElementById("dvExuburance2013");
+            var dvChar = document.getElementById("dvCharityEvent");
+            var dvAnk14 = document.getElementById("dvAnkur2014");
+            var dvAnk15 = document.getElementById("dvAnkur2015");
+           
+            if (dvAnk15.style.display == "block") {
+                dvExub.style.display = "none";
+                dvChar.style.display = "none";
+                dvAnk14.style.display = "none";
+                dvAnk15.style.display = "none";
                 //text.innerHTML = "show";
             }
             else {
-                ele.style.display = "block";
+                dvExub.style.display = "none";
+                dvChar.style.display = "none";
+                dvAnk14.style.display = "none";
+                dvAnk15.style.display = "block";
                 //text.innerHTML = "hide";
             }
         }
