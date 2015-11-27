@@ -5,19 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <%--<link href="/Content/bootstrap.css" rel="stylesheet" />--%>
-    <link href="/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/Content/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" />
-    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
-    <script src="/Scripts/jquery-2.1.4.min.js"></script>
-    <%--<script src="/Scripts/bootstrap.js"></script>--%>
-    <script src="/Content/bootstrap/js/bootstrap.min.js"></script>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'/>
     
+    <link href="/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" />
     <link href="/Content/blueimpgallary/css/blueimp-gallery.min.css" rel="stylesheet" />
     <link href="/Content/blueimpgallary/css/bootstrap-image-gallery.min.css" rel="stylesheet" />
-    <script src="/Content/blueimpgallary/js/jquery.blueimp-gallery.js"></script>
-    <script src="/Content/blueimpgallary/js/bootstrap-image-gallery.min.js"></script>
 
     <link href="/Content/CustomCSS.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="Contenthead" runat="server">
@@ -322,6 +315,9 @@
         </div>
         <!-- end container -->
     </footer>
-    
+    <script src="/Content/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="/Content/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/Content/blueimpgallary/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="/Content/blueimpgallary/js/bootstrap-image-gallery.min.js"></script>
 </body>
 </html>
