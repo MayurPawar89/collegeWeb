@@ -8,7 +8,7 @@
     <div class="well">
         <ul class="nav">
             <li><a href="/Departments/IT/ITDepartment.aspx">Department Profile</a></li>
-            <li><a href="/Departments/IT/ITFaculty">Faculty</a></li>
+            <li><a href="/Departments/IT/ITFaculty.aspx">Faculty</a></li>
             <li><a href="/Departments/IT/ITLabs.aspx">Labs</a></li>
             <li><a href="/Departments/IT/ITSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/IT/ITEvent.aspx">Events</a></li>
