@@ -63,40 +63,40 @@
     <div class="row">
         <div id="dvAnkur2014" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Parent Meet 2014-15/1.jpg" data-toggle="modal" data-target="#myModal" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Parent Meet 2014-15/1.jpg" data-toggle="modal" data-target="#myModal" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Parent Meet 2014-15/2.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Parent Meet 2014-15/2.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Parent Meet 2014-15/3.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Parent Meet 2014-15/3.jpg" />
             </div>
             
         </div>
         <div id="dvAnkur2015" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Teacher's Day/1.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Teacher's Day/1.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Teacher's Day/2.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Teacher's Day/2.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Teacher's Day/3.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Teacher's Day/3.jpg" />
             </div>
             
         </div>
         <div id="dvCharityEvent" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Personality Development/1.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Personality Development/1.jpg" />
             </div>
             
         </div>
         <div id="dvExuburance2013" style="display: none;">
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Farewell/1.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Farewell/1.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Farewell/2.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Farewell/2.jpg" />
             </div>
             
         </div>
@@ -124,19 +124,19 @@
                     <div id="collapseAnkur2014" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Parent Meet 2014-15/1.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Parent Meet 2014-15/1.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/Department/FE/Parent Meet 2014-15/1.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Parent Meet 2014-15/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Parent Meet 2014-15/2.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Parent Meet 2014-15/2.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Parent Meet 2014-15/2.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Parent Meet 2014-15/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Parent Meet 2014-15/3.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Parent Meet 2014-15/3.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Parent Meet 2014-15/3.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Parent Meet 2014-15/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                         </div>
@@ -151,18 +151,18 @@
                     <div id="collapseAnkur2015" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Teacher's Day/1.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Teacher's Day/1.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Teacher's Day/1.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Teacher's Day/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Teacher's Day/2.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Teacher's Day/2.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Teacher's Day/2.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Teacher's Day/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Teacher's Day/3.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Teacher's Day/3.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Teacher's Day/3.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Teacher's Day/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             
@@ -178,8 +178,8 @@
                     <div id="collapseCharity" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Personality Development/1.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Personality Development/1.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Personality Development/1.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Personality Development/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             
@@ -195,13 +195,13 @@
                     <div id="collapseExuburance" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Farewell/1.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Farewell/1.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Farewell/1.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Farewell/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Farewell/2.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Farewell/2.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Farewell/2.jpg" data-gallery class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Farewell/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                         </div>
@@ -222,13 +222,13 @@
                 <div id="collapseAnkur2014" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Parent Meet 2014-15/1.jpg" data-toggle="modal" data-target="#myModal" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Parent Meet 2014-15/1.jpg" data-toggle="modal" data-target="#myModal" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Parent Meet 2014-15/2.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Parent Meet 2014-15/2.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Parent Meet 2014-15/3.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Parent Meet 2014-15/3.jpg" />
             </div>
                         
                     </div>
@@ -243,13 +243,13 @@
                 <div id="collapseAnkur2015" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Teacher's Day/1.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Teacher's Day/1.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Teacher's Day/2.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Teacher's Day/2.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Teacher's Day/3.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Teacher's Day/3.jpg" />
             </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                 </div>
                 <div id="collapseCharity" class="panel-collapse collapse">
                     <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Personality Development/1.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Personality Development/1.jpg" />
             </div>
                     </div>
                 </div>
@@ -276,10 +276,10 @@
                 <div id="collapseExuburance" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Farewell/1.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Farewell/1.jpg" />
             </div>
             <div class="col-md-3 thumbnail">
-                <img alt="300x200" src="../../Images/Events/FE/Farewell/2.jpg" />
+                <img alt="300x200" src="../../Images/Events/Department/FE/Farewell/2.jpg" />
             </div>
                     </div>
                 </div>

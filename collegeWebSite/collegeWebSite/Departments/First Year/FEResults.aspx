@@ -1,4 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEResults.aspx.cs" Inherits="collegeWebSite.Departments.FE.FEResults" %>
+
+<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
@@ -15,10 +17,11 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
+    <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="table-responsive">
-        <table class="table">
+        <table class="table table-bordered">
             <tr>
                 <th>Year</th>
                 <th>Class</th>
@@ -42,7 +45,7 @@
 
 
         </table>
-        <table class="table">
+        <table class="table table-bordered">
             <tr>
                 <th>Year</th>
                 <th>Class</th>

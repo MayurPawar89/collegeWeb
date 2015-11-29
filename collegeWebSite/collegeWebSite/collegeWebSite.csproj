@@ -99,6 +99,12 @@
     <Content Include="Content\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
+    <Content Include="Departments\Computer\ComputerEvent.aspx" />
+    <Content Include="Departments\Computer\ComputerFaculty.aspx" />
+    <Content Include="Departments\Computer\ComputerResults.aspx" />
+    <Content Include="Departments\Computer\ComputerLabs.aspx" />
+    <Content Include="Departments\Computer\ComputerSyllbus.aspx" />
+    <Content Include="Departments\Computer\ComputerPhotoGallery.aspx" />
     <Content Include="Departments\First Year\FEDepartment.aspx" />
     <Content Include="Departments\First Year\FEEvent.aspx" />
     <Content Include="Departments\First Year\FEFaculty.aspx" />
@@ -107,6 +113,9 @@
     <Content Include="Departments\First Year\FEResults.aspx" />
     <Content Include="Departments\First Year\FESyllbus.aspx" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="Images\Carousel\Computer\Comp_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\Computer\Comp_Dept_Large_3.jpg" />
     <Content Include="Images\Carousel\Default\carousel1_large.JPG" />
     <Content Include="Images\Carousel\Default\carousel1_medium.JPG" />
     <Content Include="Images\Carousel\Default\carousel1_small.JPG" />
@@ -119,94 +128,137 @@
     <Content Include="Images\Carousel\Default\carousel4_large.JPG" />
     <Content Include="Images\Carousel\Default\carousel4_medium.JPG" />
     <Content Include="Images\Carousel\Default\carousel4_small.JPG" />
+    <Content Include="Images\Carousel\FE\FE_Dprt_Large_1.JPG" />
+    <Content Include="Images\Carousel\FE\FE_Dprt_Large_2.JPG" />
+    <Content Include="Images\Carousel\FE\FE_Dprt_Large_3.JPG" />
+    <Content Include="Images\Carousel\FE\FE_Dprt_Large_4.jpg" />
     <Content Include="Images\Carousel\IT\IT_Dprt_Large_1.jpg" />
     <Content Include="Images\Carousel\IT\IT_Dprt_Large_2.jpg" />
     <Content Include="Images\Carousel\IT\IT_Dprt_Large_3.JPG" />
     <Content Include="Images\Carousel\IT\IT_Dprt_Large_4.JPG" />
-    <Content Include="Images\Events\Ankur 2014\1.jpg" />
-    <Content Include="Images\Events\Ankur 2014\10.jpg" />
-    <Content Include="Images\Events\Ankur 2014\11.jpg" />
-    <Content Include="Images\Events\Ankur 2014\12.jpg" />
-    <Content Include="Images\Events\Ankur 2014\13.jpg" />
-    <Content Include="Images\Events\Ankur 2014\14.jpg" />
-    <Content Include="Images\Events\Ankur 2014\15.jpg" />
-    <Content Include="Images\Events\Ankur 2014\16.jpg" />
-    <Content Include="Images\Events\Ankur 2014\17.jpg" />
-    <Content Include="Images\Events\Ankur 2014\18.jpg" />
-    <Content Include="Images\Events\Ankur 2014\19.jpg" />
-    <Content Include="Images\Events\Ankur 2014\2.jpg" />
-    <Content Include="Images\Events\Ankur 2014\20.jpg" />
-    <Content Include="Images\Events\Ankur 2014\21.jpg" />
-    <Content Include="Images\Events\Ankur 2014\22.jpg" />
-    <Content Include="Images\Events\Ankur 2014\23.jpg" />
-    <Content Include="Images\Events\Ankur 2014\3.jpg" />
-    <Content Include="Images\Events\Ankur 2014\4.jpg" />
-    <Content Include="Images\Events\Ankur 2014\5.jpg" />
-    <Content Include="Images\Events\Ankur 2014\6.jpg" />
-    <Content Include="Images\Events\Ankur 2014\7.jpg" />
-    <Content Include="Images\Events\Ankur 2014\8.jpg" />
-    <Content Include="Images\Events\Ankur 2014\9.jpg" />
-    <Content Include="Images\Events\Ankur 2015\1.jpg" />
-    <Content Include="Images\Events\Ankur 2015\10.jpg" />
-    <Content Include="Images\Events\Ankur 2015\11.jpg" />
-    <Content Include="Images\Events\Ankur 2015\12.jpg" />
-    <Content Include="Images\Events\Ankur 2015\13.jpg" />
-    <Content Include="Images\Events\Ankur 2015\14.jpg" />
-    <Content Include="Images\Events\Ankur 2015\15.jpg" />
-    <Content Include="Images\Events\Ankur 2015\16.jpg" />
-    <Content Include="Images\Events\Ankur 2015\17.jpg" />
-    <Content Include="Images\Events\Ankur 2015\18.jpg" />
-    <Content Include="Images\Events\Ankur 2015\19.jpg" />
-    <Content Include="Images\Events\Ankur 2015\2.jpg" />
-    <Content Include="Images\Events\Ankur 2015\20.jpg" />
-    <Content Include="Images\Events\Ankur 2015\21.jpg" />
-    <Content Include="Images\Events\Ankur 2015\22.jpg" />
-    <Content Include="Images\Events\Ankur 2015\23.jpg" />
-    <Content Include="Images\Events\Ankur 2015\3.jpg" />
-    <Content Include="Images\Events\Ankur 2015\4.jpg" />
-    <Content Include="Images\Events\Ankur 2015\5.jpg" />
-    <Content Include="Images\Events\Ankur 2015\6.jpg" />
-    <Content Include="Images\Events\Ankur 2015\7.jpg" />
-    <Content Include="Images\Events\Ankur 2015\8.jpg" />
-    <Content Include="Images\Events\Ankur 2015\9.jpg" />
-    <Content Include="Images\Events\Charity Event\1.jpg" />
-    <Content Include="Images\Events\Charity Event\10.jpg" />
-    <Content Include="Images\Events\Charity Event\2.jpg" />
-    <Content Include="Images\Events\Charity Event\3.jpg" />
-    <Content Include="Images\Events\Charity Event\4.jpg" />
-    <Content Include="Images\Events\Charity Event\5.jpg" />
-    <Content Include="Images\Events\Charity Event\6.jpg" />
-    <Content Include="Images\Events\Charity Event\7.jpg" />
-    <Content Include="Images\Events\Charity Event\8.jpg" />
-    <Content Include="Images\Events\Charity Event\9.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\1.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\10.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\11.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\12.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\13.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\14.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\15.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\16.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\17.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\18.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\19.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\2.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\3.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\4.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\5.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\6.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\7.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\8.jpg" />
-    <Content Include="Images\Events\Exuburance 2013\9.jpg" />
+    <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\1.jpg" />
+    <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\2.jpg" />
+    <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\3.jpg" />
+    <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\4.jpg" />
+    <Content Include="Images\Events\Department\Computer\MATLAB\1.jpg" />
+    <Content Include="Images\Events\Department\Computer\MATLAB\2.jpg" />
+    <Content Include="Images\Events\Department\Computer\MATLAB\3.jpg" />
+    <Content Include="Images\Events\Department\Computer\MATLAB\4.jpg" />
+    <Content Include="Images\Events\Department\Computer\MATLAB\5.jpg" />
+    <Content Include="Images\Events\Department\Computer\MATLAB\6.jpg" />
+    <Content Include="Images\Events\Department\Computer\Stress Management\1.jpg" />
+    <Content Include="Images\Events\Department\Computer\Stress Management\2.jpg" />
+    <Content Include="Images\Events\Department\Computer\Stress Management\3.jpg" />
+    <Content Include="Images\Events\Department\Computer\Stress Management\4.jpg" />
+    <Content Include="Images\Events\Department\Computer\Stress Management\5.jpg" />
+    <Content Include="Images\Events\Department\FE\Farewell\1.jpg" />
+    <Content Include="Images\Events\Department\FE\Farewell\2.jpg" />
+    <Content Include="Images\Events\Department\FE\Parent Meet 2014-15\1.jpg" />
+    <Content Include="Images\Events\Department\FE\Parent Meet 2014-15\2.jpg" />
+    <Content Include="Images\Events\Department\FE\Parent Meet 2014-15\3.jpg" />
+    <Content Include="Images\Events\Department\FE\Personality Development\1.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Cultural Activites\1.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Cultural Activites\2.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Expert Lecture\1.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Expert Lecture\2.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Expert Lecture\3.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Expert Lecture\4.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Expert Lecture\5.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Social\1.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Social\2.jpg" />
+    <Content Include="Images\Events\Department\FE\Photo Gallery\Social\3.jpg" />
+    <Content Include="Images\Events\Department\FE\Teacher%27s Day\1.jpg" />
+    <Content Include="Images\Events\Department\FE\Teacher%27s Day\2.jpg" />
+    <Content Include="Images\Events\Department\FE\Teacher%27s Day\3.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\1.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\10.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\11.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\12.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\13.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\14.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\15.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\16.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\17.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\18.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\19.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\2.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\20.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\21.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\22.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\23.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\3.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\4.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\5.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\6.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\7.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\8.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2014\9.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\1.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\10.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\11.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\12.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\13.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\14.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\15.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\16.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\17.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\18.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\19.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\2.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\20.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\21.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\22.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\23.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\3.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\4.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\5.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\6.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\7.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\8.jpg" />
+    <Content Include="Images\Events\Department\IT\Ankur 2015\9.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\1.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\10.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\2.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\3.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\4.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\5.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\6.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\7.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\8.jpg" />
+    <Content Include="Images\Events\Department\IT\Charity Event\9.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\1.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\10.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\11.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\12.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\13.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\14.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\15.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\16.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\17.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\18.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\19.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\2.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\3.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\4.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\5.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\6.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\7.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\8.jpg" />
+    <Content Include="Images\Events\Department\IT\Exuburance 2013\9.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
     <Content Include="Images\Icons\Female.jpg" />
     <Content Include="Images\Icons\Male.jpg" />
     <Content Include="Images\Icons\thumbnail_default.jpg" />
+    <Content Include="Images\Labs\Computer\lp lab\LaboratoryPracticeLab.jpg" />
+    <Content Include="Images\Labs\Computer\nw lab\NetworkLab.jpg" />
+    <Content Include="Images\Labs\Computer\sw lab\SoftwareLab.jpg" />
+    <Content Include="Images\Labs\Computer\unix lab\UnixLab.jpg" />
     <Content Include="Images\Labs\IT\Hardware\HardwareLab.JPG" />
     <Content Include="Images\Labs\IT\Programming\ProgrammingLab.JPG" />
     <Content Include="Images\Labs\IT\Software\SoftwareLab.JPG" />
+    <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
@@ -322,6 +374,48 @@
     </Compile>
     <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerEvent.aspx.cs">
+      <DependentUpon>ComputerEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerEvent.aspx.designer.cs">
+      <DependentUpon>ComputerEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerFaculty.aspx.cs">
+      <DependentUpon>ComputerFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerFaculty.aspx.designer.cs">
+      <DependentUpon>ComputerFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerResults.aspx.cs">
+      <DependentUpon>ComputerResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerResults.aspx.designer.cs">
+      <DependentUpon>ComputerResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerLabs.aspx.cs">
+      <DependentUpon>ComputerLabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerLabs.aspx.designer.cs">
+      <DependentUpon>ComputerLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerSyllbus.aspx.cs">
+      <DependentUpon>ComputerSyllbus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerSyllbus.aspx.designer.cs">
+      <DependentUpon>ComputerSyllbus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerPhotoGallery.aspx.cs">
+      <DependentUpon>ComputerPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerPhotoGallery.aspx.designer.cs">
+      <DependentUpon>ComputerPhotoGallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\First Year\FEDepartment.aspx.cs">
       <DependentUpon>FEDepartment.aspx</DependentUpon>
@@ -736,11 +830,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\Carousel\Chemical\" />
-    <Folder Include="Images\Carousel\Computer\" />
     <Folder Include="Images\Carousel\EandTC\" />
     <Folder Include="Images\Carousel\Electrical\" />
     <Folder Include="Images\Carousel\Mechanical\" />
-    <Folder Include="Images\Events\Exuburance 2013\opy\" />
+    <Folder Include="Images\Events\Department\Chemical\" />
+    <Folder Include="Images\Events\Department\EandTC\" />
+    <Folder Include="Images\Events\Department\Electrical\" />
+    <Folder Include="Images\Events\Department\Mechanical\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

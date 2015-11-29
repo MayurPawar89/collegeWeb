@@ -1,4 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEPhotoGallery.aspx.cs" Inherits="collegeWebSite.Departments.FE.FEPhotoGallery" %>
+
+<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
@@ -15,6 +17,7 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
+    <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="text-center">
@@ -124,13 +127,13 @@
                                     <img src="../../Images/Events/FE/Parent Meet 2014-15/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
-                            
+
                             <div class="col-sm-2 col-md-2">
                                 <a href="../../Images/Events/FE/Photo Gallery/Cultural Activites/2.jpg" data-gallery class="thumbnail">
                                     <img src="../../Images/Events/FE/Parent Meet 2014-15/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -193,11 +196,11 @@
                                     <img src="../../Images/Events/FE/Photo Gallery/Social/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -294,5 +297,5 @@
         <!-- /.modal-dialog -->
     </div>--%>
     <!-- /.modal -->
-   
+
 </asp:Content>
