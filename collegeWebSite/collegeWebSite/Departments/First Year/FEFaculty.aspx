@@ -31,236 +31,75 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Prof. Waje Pratibha V.</td>
+                <td>Prof K.P Tambe</td>
                 <td>Asst. Professor</td>
-                <td>ME(IT)</td>
-                <td>8.5</td>
+                <td>Msc(Chemistry)</td>
+                <td>20</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Prof. Aher S. A.</td>
+                <td>Prof S.B. Chavanke</td>
                 <td>Asst. Professor</td>
-                <td>BE(Comp) ME(Appearing)</td>
-                <td>6</td>
+                <td>ME Civil (Appeared)</td>
+                <td>7</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Prof. Jachak S. G.</td>
+                <td>Prof V.C. Bhusal</td>
                 <td>Asst. Professor</td>
-                <td>BE(Comp) M.Tech(Appearing)</td>
-                <td>6</td>
+                <td>Msc (Chemistry)</td>
+                <td>7</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Prof. Rathi A. O.</td>
+                <td>Prof V.K. Vikhe</td>
                 <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
+                <td>Msc(Chemistry)</td>
                 <td>5</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Prof. Potdar A. R.</td>
+                <td>Prof R.B. Bhusare</td>
                 <td>Asst. Professor</td>
-                <td>M.Tech(IT)</td>
-                <td>5</td>
+                <td>Msc(Physics)</td>
+                <td>3</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Prof. Shejwal S. K.</td>
+                <td>Prof S.V. Sonawane</td>
                 <td>Asst. Professor</td>
-                <td>ME(IT)</td>
-                <td>5</td>
+                <td>Msc(Physics)</td>
+                <td>3</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Prof. Bhalerao R. S.</td>
+                <td>Prof.A.G. Tambe</td>
                 <td>Asst. Professor</td>
-                <td>ME(IT)</td>
-                <td>4</td>
+                <td>ME Civil(appeared)</td>
+                <td>1</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>Prof. Pardeshi S. D.</td>
-                <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
-                <td>4</td>
+                <td>Mrs V.S. Bahlerao</td>
+                <td>Technical Asst.</td>
+                <td>ME Civil(appeared</td>
+                <td>1</td>
             </tr>
             <tr>
                 <td>9</td>
-                <td>Prof. Cholke S.C.</td>
-                <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
-                <td>4</td>
+                <td>Mr.R.P  Bhopale</td>
+                <td>Instructor</td>
+                <td>ITI</td>
+                <td>15</td>
             </tr>
             <tr>
                 <td>10</td>
-                <td>Prof.Vikhe N.B.</td>
-                <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
-                <td>3</td>
+                <td>Mr. V.V.Borade</td>
+                <td>Peon</td>
+                <td>10th</td>
+                <td>15</td>
             </tr>
         </table>
     </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Waje P.V.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: ME(IT)<br />
-                        Total Experience: 8.5 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Aher S. A.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: BE(Comp) ME(Appearing)<br />
-                        Total Experience: 6 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Jachak S. G.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: BE(Comp) M.Tech(Appearing)<br />
-                        Total Experience: 6 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Rathi A. O.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: BE(IT) ME(Appearing)<br />
-                        Total Experience: 5 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Potdar A. R.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: M.Tech(IT)<br />
-                        Total Experience: 5 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Shejwal S. K.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: ME(IT)<br />
-                        Total Experience: 5 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Bhalerao R. S.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: ME(IT)<br />
-                        Total Experience: 4 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Pardeshi S. D.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: BE(IT) ME(Appearing)<br />
-                        Total Experience: 4 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof. Cholke S.C
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: BE(IT) ME(Appearing)<br />
-                        Total Experience: 4 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row thumbnail">
-                <div class="col-md-3 img-rounded">
-                    <img alt="300x200" src="../../Images/Icons/Male.jpg" style="height: 80px; width: 80px" />
-                </div>
-                <div class="col-md-9">
-                    <strong>Prof.Vikhe N.B.
-                    </strong>
-                    <p>
-                        Designation: Asst. Professor<br />
-                        Qualification: BE(IT) ME(Appearing)<br />
-                        Total Experience: 3 Years<br />
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </asp:Content>

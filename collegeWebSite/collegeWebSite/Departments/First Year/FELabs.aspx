@@ -27,48 +27,66 @@
     <div class="row">
         <div class="col-md-4">
             <div class="row thumbnail">
-                <img alt="300x200" src="../../Images/Labs/IT/Programming/ProgrammingLab.JPG"  />
-                <h3>Programming Lab
+                <h3>Applied Chemistry
                 </h3>
                 <div>
                     <strong>Lab Information</strong><br />
                     <ol>
-                        <li>Dual boot operating system.<br />
-                            Windows 8.1 legal operating systems. (64 bit)& fedora 19(64 bit).</li>
-                        <li>Softwares<br />
-                            Turbo c,xampp,mongo db,mysql,eclipse ,etc.
+                        <li>Equipments<br />
+                            1) Oven<br />
+				            2) Muffle Furnace<br />
+                            3) PH Meter<br />
+                            4) Calorimeter<br />
+                            5) Spectrophotometer<br />
+                            6) Conductometer
                         </li>
+                                            </ol>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row thumbnail">
+                
+                <h3>Applied Physics Lab
+                </h3>
+                <div>
+                    <strong>Lab Information</strong><br />
+                    <ol>
+                        <li>Equipments<br />
+                            1) Newton”s Ring Appratus <br />
+				            2) Ultrasonic interferometer <br />
+				            3) He- Ne Laser<br />
+				            4) Diffraction Grating with spectrophotometer<br />
+				            5) Polarid<br />
+				            6) Solar cell Kit<br />
+				            7) Semi conductor Kit<br />
+</li>
+                        
                     </ol>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="row thumbnail">
-                <img alt="300x200" src="../../Images/Labs/IT/Software/SoftwareLab.JPG"  />
-                <h3>Software Lab
+                
+                <h3>Civil Engineering Section
                 </h3>
                 <div>
                     <strong>Lab Information</strong><br />
                     <ol>
-                        <li>Dual boot operating system.<br />
-                            Windows 8.1 legal operating systems. (64 bit)& fedora 19(64 bit).</li>
-                        <li>Softwares<br />
-                            Turbo c,xampp,mongo db,mysql,eclipse ,etc.
-                        </li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="row thumbnail">
-                <img alt="300x200" src="../../Images/Labs/IT/Hardware/HardwareLab.JPG"  />
-                <h3>Hardware Lab
-                </h3>
-                <div>
-                    <strong>Lab Information</strong><br />
-                    <ol>
-                        <li>Digital trainer kit.</li>
-                        <li>Digital IC tester.</li>
+                        <li>Basic civil engineering and Engineering Mechanics lab</li>
+                        <li>
+                            1)Dumpy level<br />
+	                        2) Global Positioning System (GPS)<br />
+	                        3)Digital Planimeter<br />
+	                        4) Laser Level<br />
+	                        5) Surveyers Compass<br />
+	                        6) Prismatic Compass<br />
+	                        7) Metric Chain<br />
+	                        8) Measuring tape<br />
+	                        9) Reaction of Beam<br />
+	                        10) Belt friction Apparatus<br />
+</li>
                     </ol>
                 </div>
             </div>
