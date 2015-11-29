@@ -39,7 +39,7 @@
                                     <li><a href="/Login.aspx">Student Login</a></li>
                                     <li><a href="/SearchAlumni.aspx">Alumni Search</a></li>
                                     <li><a href="/ViewAllAlumni.aspx">View All Alumni</a></li>
-                                    <li><a href="/AlumniGalary.aspx">Photo Gallary</a></li>
+                                    <li><a href="/AlumniGalary.aspx">Photo Gallery</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">

@@ -1,19 +1,19 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ITLabs.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITLabs" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FELabs.aspx.cs" Inherits="collegeWebSite.Departments.FE.FELabs" %>
 
-<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ITDeptCarouselUC.ascx" %>
+<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
-            <li><a href="/Departments/IT/ITDepartment.aspx">Department Profile</a></li>
-            <li><a href="/Departments/IT/ITFaculty.aspx">Faculty</a></li>
-            <li><a href="/Departments/IT/ITLabs.aspx">Labs</a></li>
-            <li><a href="/Departments/IT/ITSyllbus.aspx">Syllabus</a></li>
-            <li><a href="/Departments/IT/ITEvent.aspx">Events</a></li>
-            <li><a href="/Departments/IT/ITResults.aspx">Results</a></li>
-            <li><a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><a href="/Departments/First Year/FEDepartment.aspx">Department Profile</a></li>
+            <li><a href="/Departments/First Year/FEFaculty.aspx">Faculty</a></li>
+            <li><a href="/Departments/First Year/FELabs.aspx">Labs</a></li>
+            <li><a href="/Departments/First Year/FESyllbus.aspx">Syllabus</a></li>
+            <li><a href="/Departments/First Year/FEEvent.aspx">Events</a></li>
+            <li><a href="/Departments/First Year/FEResults.aspx">Results</a></li>
+            <li><a href="/Departments/First Year/FEPhotoGallery.aspx">Photo Gallery</a></li>
         </ul>
     </div>
 </asp:Content>

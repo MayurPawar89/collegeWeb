@@ -12,7 +12,7 @@
             <li><a href="/ViewAllAlumni.aspx">View All Alumni</a></li>
             <li><a href="#">Local Chapters</a></li>
             <li><a href="#">Class/Notes</a></li>
-            <li><a href="/PhotoGallary.aspx">Photo Gallary</a></li>
+            <li><a href="/PhotoGallery.aspx">Photo Gallery</a></li>
         </ul>
     </div>
 </asp:Content>

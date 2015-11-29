@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Alumni
+namespace collegeWebSite.Departments.IT
 {
 
 
-    public partial class PhotoGallery
+    public partial class ITPhotoGallery
     {
     }
 }

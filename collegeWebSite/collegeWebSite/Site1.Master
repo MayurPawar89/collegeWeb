@@ -136,7 +136,7 @@
                                     <li><a href="/Alumni/StudentLogin.aspx">Student Login</a></li>
                                     <li><a href="/Alumni/AlumniSearch.aspx">Alumni Search</a></li>
                                     <li><a href="/Alumni/ViewAllAlumni.aspx">View All Alumni</a></li>
-                                    <li><a href="/Alumni/PhotoGallary.aspx">Photo Gallary</a></li>
+                                    <li><a href="/Alumni/PhotoGallery.aspx">Photo Gallery</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -153,6 +153,7 @@
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Departments<b class="caret"></b></a>
                                 <ul role="menu" class="dropdown-menu">
                                     <%--<li><a href="/ComputerDepartment.aspx">Computer Department</a></li>--%>
+                                     <li><a href="/Departments/First Year/FEDepartment.aspx">FE Department</a></li>
                                     <li><a href="/Departments/Computer/Profile.aspx">Computer Department</a></li>
                                     <li><a href="/Departments/Chemical/ChemicalDepartmentProfile.aspx">Chemical Department</a></li>
                                     <li><a href="/Departments/ElectronicAndTeleComm/EAndTCDepartment.aspx">Electronic and Telecommunication Department</a></li>

@@ -10,7 +10,7 @@
             <li><a href="/Departments/IT/ITSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/IT/ITEvent.aspx">Events</a></li>
             <li><a href="/Departments/IT/ITResults.aspx">Results</a></li>
-            <li><a href="/Departments/IT/ITPhotoGallary.aspx">Photo Gallary</a></li>
+            <li><a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a></li>
         </ul>
     </div>
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="PhotoGallary.aspx.cs" Inherits="collegeWebSite.Alumni.PhotoGallary" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="PhotoGallery.aspx.cs" Inherits="collegeWebSite.Alumni.PhotoGallery" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
@@ -12,7 +12,7 @@
             <li><a href="/ViewAllAlumni.aspx">View All Alumni</a></li>
             <li><a href="#">Local Chapters</a></li>
             <li><a href="#">Class/Notes</a></li>
-            <li><a href="/PhotoGallary.aspx">Photo Gallary</a></li>
+            <li><a href="/PhotoGallery.aspx">Photo Gallery</a></li>
         </ul>
     </div>
 </asp:Content>

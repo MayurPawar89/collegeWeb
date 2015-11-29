@@ -99,6 +99,13 @@
     <Content Include="Content\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
+    <Content Include="Departments\First Year\FEDepartment.aspx" />
+    <Content Include="Departments\First Year\FEEvent.aspx" />
+    <Content Include="Departments\First Year\FEFaculty.aspx" />
+    <Content Include="Departments\First Year\FELabs.aspx" />
+    <Content Include="Departments\First Year\FEPhotoGallery.aspx" />
+    <Content Include="Departments\First Year\FEResults.aspx" />
+    <Content Include="Departments\First Year\FESyllbus.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Carousel\Default\carousel1_large.JPG" />
     <Content Include="Images\Carousel\Default\carousel1_medium.JPG" />
@@ -203,6 +210,7 @@
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
+    <Content Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ITDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\DefaultCarouselUC.ascx" />
     <Content Include="Departments\Chemical\ChemicalFaculty.aspx" />
@@ -210,7 +218,7 @@
     <Content Include="Departments\IT\ITEvent.aspx" />
     <Content Include="Departments\IT\ITFaculty.aspx" />
     <Content Include="Departments\IT\ITLabs.aspx" />
-    <Content Include="Departments\IT\ITPhotoGallary.aspx" />
+    <Content Include="Departments\IT\ITPhotoGallery.aspx" />
     <Content Include="Departments\IT\ITResults.aspx" />
     <Content Include="Departments\IT\ITSyllbus.aspx" />
     <Content Include="Departments\MBA\MBADepartment.aspx" />
@@ -315,12 +323,68 @@
     <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\First Year\FEDepartment.aspx.cs">
+      <DependentUpon>FEDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FEDepartment.aspx.designer.cs">
+      <DependentUpon>FEDepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\First Year\FEEvent.aspx.cs">
+      <DependentUpon>FEEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FEEvent.aspx.designer.cs">
+      <DependentUpon>FEEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\First Year\FEFaculty.aspx.cs">
+      <DependentUpon>FEFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FEFaculty.aspx.designer.cs">
+      <DependentUpon>FEFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\First Year\FELabs.aspx.cs">
+      <DependentUpon>FELabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FELabs.aspx.designer.cs">
+      <DependentUpon>FELabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\First Year\FEPhotoGallery.aspx.cs">
+      <DependentUpon>FEPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FEPhotoGallery.aspx.designer.cs">
+      <DependentUpon>FEPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\First Year\FEResults.aspx.cs">
+      <DependentUpon>FEResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FEResults.aspx.designer.cs">
+      <DependentUpon>FEResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\First Year\FESyllbus.aspx.cs">
+      <DependentUpon>FESyllbus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FESyllbus.aspx.designer.cs">
+      <DependentUpon>FESyllbus.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx.cs">
       <DependentUpon>CompDeptCarouselUC.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx.designer.cs">
       <DependentUpon>CompDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx.cs">
+      <DependentUpon>FEDeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>FEDeptCarouselUC.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\ITDeptCarouselUC.ascx.cs">
       <DependentUpon>ITDeptCarouselUC.ascx</DependentUpon>
@@ -364,12 +428,12 @@
     <Compile Include="Departments\IT\ITLabs.aspx.designer.cs">
       <DependentUpon>ITLabs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments\IT\ITPhotoGallary.aspx.cs">
-      <DependentUpon>ITPhotoGallary.aspx</DependentUpon>
+    <Compile Include="Departments\IT\ITPhotoGallery.aspx.cs">
+      <DependentUpon>ITPhotoGallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Departments\IT\ITPhotoGallary.aspx.designer.cs">
-      <DependentUpon>ITPhotoGallary.aspx</DependentUpon>
+    <Compile Include="Departments\IT\ITPhotoGallery.aspx.designer.cs">
+      <DependentUpon>ITPhotoGallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\IT\ITResults.aspx.cs">
       <DependentUpon>ITResults.aspx</DependentUpon>

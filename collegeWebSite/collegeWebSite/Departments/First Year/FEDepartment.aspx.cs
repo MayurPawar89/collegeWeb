@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Alumni
+namespace collegeWebSite.Deprtments
 {
-    public partial class PhotoGallery : System.Web.UI.Page
+    public partial class FEDepartment : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

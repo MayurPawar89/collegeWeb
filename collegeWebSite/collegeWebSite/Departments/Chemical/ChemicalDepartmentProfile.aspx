@@ -10,7 +10,7 @@
             <li><a href="/ChemicalDepartmentSyllbus.aspx">Syllabus</a></li>
             <li><a href="/ChemicalDepartmentEvent.aspx">Events</a></li>
             <li><a href="/ChemicalDepartmentResults.aspx">Results</a></li>
-            <li><a href="/ChemicalDepartmentPhotoGallary.aspx">Photo Gallary</a></li>
+            <li><a href="/ChemicalDepartmentPhotoGallery.aspx">Photo Gallery</a></li>
         </ul>
     </div>
 </asp:Content>
