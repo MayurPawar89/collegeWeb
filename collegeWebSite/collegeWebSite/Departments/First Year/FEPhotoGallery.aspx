@@ -114,86 +114,86 @@
     <div class="row">
         <div id="links">
             <div id="accordion" class="panel-group">
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryCulturalActivites">
                     <div class="panel-heading">
-                        <a href="#collapseAnkur2014" data-toggle="collapse" data-parent="#accordion">
+                        <a href="#collapseCulturalActivites" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Cultural Activites</h4>
                         </a>
                     </div>
-                    <div id="collapseAnkur2014" class="panel-collapse collapse">
+                    <div id="collapseCulturalActivites" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Cultural Activites/1.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Parent Meet 2014-15/1.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Cultural Activites/1.jpg" data-gallery="#blueimp-gallery-gallaryCulturalActivites" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Cultural Activites/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
 
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Cultural Activites/2.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Parent Meet 2014-15/2.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Cultural Activites/2.jpg" data-gallery="#blueimp-gallery-gallaryCulturalActivites" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Cultural Activites/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryExpertLecture">
                     <div class="panel-heading">
-                        <a href="#collapseAnkur2015" data-toggle="collapse" data-parent="#accordion">
+                        <a href="#collapseExpertLecture" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Expert Lecture</h4>
                         </a>
                     </div>
-                    <div id="collapseAnkur2015" class="panel-collapse collapse">
+                    <div id="collapseExpertLecture" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Expert Lecture/1.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Expert Lecture/1.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/1.jpg" data-gallery="#blueimp-gallery-gallaryExpertLecture" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Expert Lecture/2.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Expert Lecture/2.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/2.jpg" data-gallery="#blueimp-gallery-gallaryExpertLecture" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Expert Lecture/3.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Expert Lecture/3.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/3.jpg" data-gallery="#blueimp-gallery-gallaryExpertLecture" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Expert Lecture/4.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Expert Lecture/4.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/4.jpg" data-gallery="#blueimp-gallery-gallaryExpertLecture" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/4.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Expert Lecture/5.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Expert Lecture/5.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/5.jpg" data-gallery="#blueimp-gallery-gallaryExpertLecture" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Expert Lecture/5.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallarySocial">
                     <div class="panel-heading">
-                        <a href="#collapseCharity" data-toggle="collapse" data-parent="#accordion">
+                        <a href="#collapseSocial" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Social</h4>
                         </a>
                     </div>
-                    <div id="collapseCharity" class="panel-collapse collapse">
+                    <div id="collapseSocial" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Social/1.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Social/1.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Social/1.jpg" data-gallery="#blueimp-gallery-gallarySocial" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Social/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Social/2.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Social/3.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Social/2.jpg" data-gallery="#blueimp-gallery-gallarySocial" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Social/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/FE/Photo Gallery/Social/3.jpg" data-gallery class="thumbnail">
-                                    <img src="../../Images/Events/FE/Photo Gallery/Social/3.jpg" alt="thumbnail" />
+                                <a href="../../Images/Events/Department/FE/Photo Gallery/Social/3.jpg" data-gallery="#blueimp-gallery-gallarySocial" class="thumbnail">
+                                    <img src="../../Images/Events/Department/FE/Photo Gallery/Social/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
 
