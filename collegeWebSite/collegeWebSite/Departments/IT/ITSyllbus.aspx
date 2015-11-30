@@ -28,8 +28,8 @@
         Following are the download link for syllabus
     </div>
     <ul>
-        <li><a href="#">SE Syllabus(2012 Course)</a></li>
-        <li><a href="#">TE Syllabus(2012 Course)</a></li>
-        <li><a href="#">BE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/Information_Technology_27-5-13.pdf">SE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2014/engg/Final_TEIT_Syllabus_2012_Course_04.06.2014.pdf">TE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised-2015/engineering/BE-IT-Syllabus-2012-Course-Final-15-6-15.pdf">BE Syllabus(2012 Course)</a></li>
     </ul>
 </asp:Content>

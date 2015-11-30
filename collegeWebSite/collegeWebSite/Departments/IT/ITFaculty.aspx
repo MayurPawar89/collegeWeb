@@ -25,9 +25,9 @@
             <tr>
                 <th>Sr.No</th>
                 <th>Staff Name</th>
-                <th>Asst. Professor</th>
+                <th>Designation</th>
                 <th>Qualification</th>
-                <th>Total Experience</th>
+                <th>Total Experience (Years)</th>
             </tr>
             <tr>
                 <td>1</td>
