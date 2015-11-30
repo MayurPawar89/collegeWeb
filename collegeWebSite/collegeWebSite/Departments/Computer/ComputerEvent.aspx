@@ -310,7 +310,7 @@
     <div class="row">
         <div id="links">
             <div id="accordion" class="panel-group">
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryCCSecurity">
                     <div class="panel-heading">
                         <a href="#collapseCCSecurity" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Cyber Crime and Security</h4>
@@ -319,29 +319,29 @@
                     <div id="collapseCCSecurity" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/1.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/1.jpg" data-gallery="#blueimp-gallery-gallaryCCSecurity" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Cyber Crime and Security/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/2.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/2.jpg" data-gallery="#blueimp-gallery-gallaryCCSecurity" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Cyber Crime and Security/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/3.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/3.jpg" data-gallery="#blueimp-gallery-gallaryCCSecurity" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Cyber Crime and Security/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/4.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Cyber Crime and Security/4.jpg" data-gallery="#blueimp-gallery-gallaryCCSecurity" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Cyber Crime and Security/4.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryMATLAB">
                     <div class="panel-heading">
                         <a href="#collapseMATLAB" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">MATLAB</h4>
@@ -350,39 +350,39 @@
                     <div id="collapseMATLAB" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/MATLAB/1.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/MATLAB/1.jpg" data-gallery="#blueimp-gallery-gallaryMATLAB" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/MATLAB/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/MATLAB/2.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/MATLAB/2.jpg" data-gallery="#blueimp-gallery-gallaryMATLAB" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/MATLAB/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/MATLAB/3.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/MATLAB/3.jpg" data-gallery="#blueimp-gallery-gallaryMATLAB" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/MATLAB/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/MATLAB/4.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/MATLAB/4.jpg" data-gallery="#blueimp-gallery-gallaryMATLAB" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/MATLAB/4.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/MATLAB/5.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/MATLAB/5.jpg" data-gallery="#blueimp-gallery-gallaryMATLAB" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/MATLAB/5.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/MATLAB/6.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/MATLAB/6.jpg" data-gallery="#blueimp-gallery-gallaryMATLAB" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/MATLAB/6.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryStressMgnt">
                     <div class="panel-heading">
                         <a href="#collapseStressMgnt" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Charity Event</h4>
@@ -391,22 +391,22 @@
                     <div id="collapseStressMgnt" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Stress Management/1.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Stress Management/1.jpg" data-gallery="#blueimp-gallery-gallaryStressMgnt" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Stress Management/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Stress Management/3.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Stress Management/3.jpg" data-gallery="#blueimp-gallery-gallaryStressMgnt" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Stress Management/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Stress Management/4.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Stress Management/4.jpg" data-gallery="#blueimp-gallery-gallaryStressMgnt" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Stress Management/4.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Computer/Stress Management/5.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/Computer/Stress Management/5.jpg" data-gallery="#blueimp-gallery-gallaryStressMgnt" class="thumbnail">
                                     <img src="../../Images/Events/Department/Computer/Stress Management/5.jpg" alt="thumbnail" />
                                 </a>
                             </div>

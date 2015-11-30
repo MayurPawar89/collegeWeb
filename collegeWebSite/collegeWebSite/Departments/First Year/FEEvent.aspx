@@ -115,53 +115,53 @@
     <div class="row">
         <div id="links">
             <div id="accordion" class="panel-group">
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryParentMeet14">
                     <div class="panel-heading">
-                        <a href="#collapseAnkur2014" data-toggle="collapse" data-parent="#accordion">
+                        <a href="#collapseParentMeet14" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Parent Meet 2014-15</h4>
                         </a>
                     </div>
-                    <div id="collapseAnkur2014" class="panel-collapse collapse">
+                    <div id="collapseParentMeet14" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/Department/FE/Parent Meet 2014-15/1.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Parent Meet 2014-15/1.jpg" data-gallery="#blueimp-gallery-gallaryParentMeet14" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Parent Meet 2014-15/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Parent Meet 2014-15/2.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Parent Meet 2014-15/2.jpg" data-gallery="#blueimp-gallery-gallaryParentMeet14" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Parent Meet 2014-15/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Parent Meet 2014-15/3.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Parent Meet 2014-15/3.jpg" data-gallery="#blueimp-gallery-gallaryParentMeet14" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Parent Meet 2014-15/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryTeachersDay">
                     <div class="panel-heading">
-                        <a href="#collapseAnkur2015" data-toggle="collapse" data-parent="#accordion">
+                        <a href="#collapseTeachersDay" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Teacher's Day</h4>
                         </a>
                     </div>
-                    <div id="collapseAnkur2015" class="panel-collapse collapse">
+                    <div id="collapseTeachersDay" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Teacher's Day/1.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Teacher's Day/1.jpg" data-gallery="#blueimp-gallery-gallaryTeachersDay" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Teacher's Day/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Teacher's Day/2.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Teacher's Day/2.jpg" data-gallery="#blueimp-gallery-gallaryTeachersDay" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Teacher's Day/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Teacher's Day/3.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Teacher's Day/3.jpg" data-gallery="#blueimp-gallery-gallaryTeachersDay" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Teacher's Day/3.jpg" alt="thumbnail" />
                                 </a>
                             </div>
@@ -169,16 +169,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryPersonalityDevelopment">
                     <div class="panel-heading">
-                        <a href="#collapseCharity" data-toggle="collapse" data-parent="#accordion">
+                        <a href="#collapsePersonalityDevelopment" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Personality Development</h4>
                         </a>
                     </div>
-                    <div id="collapseCharity" class="panel-collapse collapse">
+                    <div id="collapsePersonalityDevelopment" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Personality Development/1.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Personality Development/1.jpg" data-gallery="#blueimp-gallery-gallaryPersonalityDevelopment" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Personality Development/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
@@ -186,21 +186,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="gallaryFarewell">
                     <div class="panel-heading">
-                        <a href="#collapseExuburance" data-toggle="collapse" data-parent="#accordion">
+                        <a href="#collapseFarewell" data-toggle="collapse" data-parent="#accordion">
                             <h4 class="panel-title">Farewell</h4>
                         </a>
                     </div>
-                    <div id="collapseExuburance" class="panel-collapse collapse">
+                    <div id="collapseFarewell" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Farewell/1.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Farewell/1.jpg" data-gallery="#blueimp-gallery-gallaryFarewell" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Farewell/1.jpg" alt="thumbnail" />
                                 </a>
                             </div>
                             <div class="col-sm-2 col-md-2">
-                                <a href="../../Images/Events/Department/FE/Farewell/2.jpg" data-gallery class="thumbnail">
+                                <a href="../../Images/Events/Department/FE/Farewell/2.jpg" data-gallery="#blueimp-gallery-gallaryFarewell" class="thumbnail">
                                     <img src="../../Images/Events/Department/FE/Farewell/2.jpg" alt="thumbnail" />
                                 </a>
                             </div>
