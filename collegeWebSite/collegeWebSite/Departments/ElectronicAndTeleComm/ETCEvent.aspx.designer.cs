@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Deprtments {
+namespace collegeWebSite.Departments.ElectronicAndTeleComm {
     
     
-    public partial class E_TCDepartment {
+    public partial class ETCEvent {
     }
 }

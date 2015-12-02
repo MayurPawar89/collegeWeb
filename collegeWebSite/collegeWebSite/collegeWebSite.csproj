@@ -105,6 +105,13 @@
     <Content Include="Departments\Computer\ComputerLabs.aspx" />
     <Content Include="Departments\Computer\ComputerSyllbus.aspx" />
     <Content Include="Departments\Computer\ComputerPhotoGallery.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCEvent.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCFaculty.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCLabs.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCResults.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx" />
     <Content Include="Departments\First Year\FEDepartment.aspx" />
     <Content Include="Departments\First Year\FEEvent.aspx" />
     <Content Include="Departments\First Year\FEFaculty.aspx" />
@@ -128,6 +135,10 @@
     <Content Include="Images\Carousel\Default\carousel4_large.JPG" />
     <Content Include="Images\Carousel\Default\carousel4_medium.JPG" />
     <Content Include="Images\Carousel\Default\carousel4_small.JPG" />
+    <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_3.jpg" />
+    <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_4.jpg" />
     <Content Include="Images\Carousel\FE\FE_Dprt_Large_1.JPG" />
     <Content Include="Images\Carousel\FE\FE_Dprt_Large_2.JPG" />
     <Content Include="Images\Carousel\FE\FE_Dprt_Large_3.JPG" />
@@ -151,6 +162,21 @@
     <Content Include="Images\Events\Department\Computer\Stress Management\3.jpg" />
     <Content Include="Images\Events\Department\Computer\Stress Management\4.jpg" />
     <Content Include="Images\Events\Department\Computer\Stress Management\5.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\1.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\2.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\3.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\4.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\5.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\6.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\7.jpg" />
+    <Content Include="Images\Events\Department\EandTC\COGNIZIA-15\8.jpg" />
+    <Content Include="Images\Events\Department\EandTC\EmbeddedWorkshop\1.jpg" />
+    <Content Include="Images\Events\Department\EandTC\EmbeddedWorkshop\2.jpg" />
+    <Content Include="Images\Events\Department\EandTC\EmbeddedWorkshop\3.jpg" />
+    <Content Include="Images\Events\Department\EandTC\EmbeddedWorkshop\4.jpg" />
+    <Content Include="Images\Events\Department\EandTC\EmbeddedWorkshop\5.jpg" />
+    <Content Include="Images\Events\Department\EandTC\EmbeddedWorkshop\6.jpg" />
+    <Content Include="Images\Events\Department\EandTC\EmbeddedWorkshop\7.jpg" />
     <Content Include="Images\Events\Department\FE\Farewell\1.jpg" />
     <Content Include="Images\Events\Department\FE\Farewell\2.jpg" />
     <Content Include="Images\Events\Department\FE\Parent Meet 2014-15\1.jpg" />
@@ -255,12 +281,21 @@
     <Content Include="Images\Labs\Computer\nw lab\NetworkLab.jpg" />
     <Content Include="Images\Labs\Computer\sw lab\SoftwareLab.jpg" />
     <Content Include="Images\Labs\Computer\unix lab\UnixLab.jpg" />
+    <Content Include="Images\Labs\ETC\Basic lab\BasicLab.jpg" />
+    <Content Include="Images\Labs\ETC\Communication lab\Communicationlab.jpg" />
+    <Content Include="Images\Labs\ETC\Computer lab\Computerlab.jpg" />
+    <Content Include="Images\Labs\ETC\Microprocessor lab\Microprocessorlab.jpg" />
+    <Content Include="Images\Labs\ETC\Microwave lab\Microwavelab.jpg" />
+    <Content Include="Images\Labs\ETC\PG Lab\PGlab.jpg" />
     <Content Include="Images\Labs\IT\Hardware\HardwareLab.JPG" />
     <Content Include="Images\Labs\IT\Programming\ProgrammingLab.JPG" />
     <Content Include="Images\Labs\IT\Software\SoftwareLab.JPG" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\ETC\ETC_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
+    <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ITDeptCarouselUC.ascx" />
@@ -297,7 +332,6 @@
     <Content Include="Departments\Applied Science\AppliedScience.aspx" />
     <Content Include="Departments\Chemical\ChemicalDepartmentProfile.aspx" />
     <Content Include="Departments\Computer\ComputerDepartment.aspx" />
-    <Content Include="Departments\ElectronicAndTeleComm\EAndTCDepartment.aspx" />
     <Content Include="Departments\Electrical\ElectricalDepartment.aspx" />
     <Content Include="Departments\IT\ITDepartment.aspx" />
     <Content Include="Departments\Library\Library.aspx" />
@@ -417,6 +451,55 @@
     <Compile Include="Departments\Computer\ComputerPhotoGallery.aspx.designer.cs">
       <DependentUpon>ComputerPhotoGallery.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx.cs">
+      <DependentUpon>ETCDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx.designer.cs">
+      <DependentUpon>ETCDepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCEvent.aspx.cs">
+      <DependentUpon>ETCEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCEvent.aspx.designer.cs">
+      <DependentUpon>ETCEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCFaculty.aspx.cs">
+      <DependentUpon>ETCFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCFaculty.aspx.designer.cs">
+      <DependentUpon>ETCFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCLabs.aspx.cs">
+      <DependentUpon>ETCLabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCLabs.aspx.designer.cs">
+      <DependentUpon>ETCLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx.cs">
+      <DependentUpon>ETCPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx.designer.cs">
+      <DependentUpon>ETCPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCResults.aspx.cs">
+      <DependentUpon>ETCResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCResults.aspx.designer.cs">
+      <DependentUpon>ETCResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx.cs">
+      <DependentUpon>ETCSyllbus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx.designer.cs">
+      <DependentUpon>ETCSyllbus.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\First Year\FEDepartment.aspx.cs">
       <DependentUpon>FEDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -465,6 +548,13 @@
     </Compile>
     <Compile Include="Departments\First Year\FESyllbus.aspx.designer.cs">
       <DependentUpon>FESyllbus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx.cs">
+      <DependentUpon>ETCDeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>ETCDeptCarouselUC.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx.cs">
       <DependentUpon>CompDeptCarouselUC.ascx</DependentUpon>
@@ -683,13 +773,6 @@
     <Compile Include="Departments\Computer\ComputerDepartment.aspx.designer.cs">
       <DependentUpon>ComputerDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments\ElectronicAndTeleComm\EAndTCDepartment.aspx.cs">
-      <DependentUpon>EAndTCDepartment.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\ElectronicAndTeleComm\EAndTCDepartment.aspx.designer.cs">
-      <DependentUpon>EAndTCDepartment.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Departments\Electrical\ElectricalDepartment.aspx.cs">
       <DependentUpon>ElectricalDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -830,11 +913,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\Carousel\Chemical\" />
-    <Folder Include="Images\Carousel\EandTC\" />
     <Folder Include="Images\Carousel\Electrical\" />
     <Folder Include="Images\Carousel\Mechanical\" />
     <Folder Include="Images\Events\Department\Chemical\" />
-    <Folder Include="Images\Events\Department\EandTC\" />
     <Folder Include="Images\Events\Department\Electrical\" />
     <Folder Include="Images\Events\Department\Mechanical\" />
   </ItemGroup>
