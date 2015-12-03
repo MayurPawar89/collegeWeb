@@ -7,7 +7,7 @@
         <ul class="nav">
             <li><a href="#">About the Society</a></li>
             <li><a href="#">Mission & Vision</a></li>
-            <li><a href="#">Principle's Desk</a></li>
+            <li><a href="/MainNav/PrincipleDesk.aspx">Principle's Desk</a></li>
             <li><a href="#">Admission</a></li>
             <li><a href="#">Inception</a></li>
             <li><a href="#">Curriculum & Syllabus</a></li>
@@ -90,7 +90,8 @@
                 <h3>Dr. G. B. Shinde, Principal </h3>
                 <p>
                     M.E. (Chemical), M.B.A. (HR), Ph.D. (Chemical)<br />
-                    Member of ISTE, IE.
+                    Member of ISTE, IE.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="/MainNav/PrincipleDesk.aspx" class="text-right">Principle's Desk</a>
                 </p>
             </div>
         </div>

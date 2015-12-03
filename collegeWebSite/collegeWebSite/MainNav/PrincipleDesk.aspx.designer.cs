@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Main {
+namespace collegeWebSite.MainNav {
     
     
-    public partial class ContactUs {
+    public partial class PrincipleDesk {
         
         /// <summary>
         /// CarouselControl1 control.

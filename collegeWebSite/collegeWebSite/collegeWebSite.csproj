@@ -295,6 +295,7 @@
     <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
+    <Content Include="MainNav\PrincipleDesk.aspx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx" />
@@ -548,6 +549,13 @@
     </Compile>
     <Compile Include="Departments\First Year\FESyllbus.aspx.designer.cs">
       <DependentUpon>FESyllbus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainNav\PrincipleDesk.aspx.cs">
+      <DependentUpon>PrincipleDesk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainNav\PrincipleDesk.aspx.designer.cs">
+      <DependentUpon>PrincipleDesk.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx.cs">
       <DependentUpon>ETCDeptCarouselUC.ascx</DependentUpon>
