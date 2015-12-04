@@ -9,10 +9,10 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
-            <li><a href="#">About the Society</a></li>
-            <li><a href="#">Mission & Vision</a></li>
+            <li><a href="../AboutUs.aspx">About the Society</a></li>
+            <li><a href="VisionMission.aspx">Mission & Vision</a></li>
             <li><a href="PrincipleDesk.aspx">Principle's Desk</a></li>
-            <li><a href="#">Admission</a></li>
+            <li><a href="Admission.aspx">Admission</a></li>
             <li><a href="#">Inception</a></li>
             <li><a href="#">Curriculum & Syllabus</a></li>
             <li><a href="#">Infrastructure</a></li>
