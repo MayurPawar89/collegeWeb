@@ -13,8 +13,8 @@
             <li><a href="VisionMission.aspx">Mission & Vision</a></li>
             <li><a href="PrincipleDesk.aspx">Principle's Desk</a></li>
             <li><a href="Admission.aspx">Admission</a></li>
-            <li><a href="#">Inception</a></li>
-            <li><a href="#">Curriculum & Syllabus</a></li>
+            <li><a href="/MainNav/Inception.aspx">Inception</a></li>
+            <li><a href="/MainNav/Curriculum.aspx">Curriculum & Syllabus</a></li>
             <li><a href="#">Infrastructure</a></li>
             <li><a href="#">Success Stories</a></li>
             <li><a href="#">News & Events</a></li>

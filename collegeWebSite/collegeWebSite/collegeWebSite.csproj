@@ -295,7 +295,12 @@
     <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Images\Profile Images\Inception\Ashokrao_Vikhe_Patil.jpg" />
+    <Content Include="Images\Profile Images\Inception\Balasaheb_Vikhe_Patil.jpg" />
+    <Content Include="Images\Profile Images\Inception\Padmashree_Vitthalrao_Vikhe_Patil.jpg" />
     <Content Include="MainNav\Admission.aspx" />
+    <Content Include="MainNav\Curriculum.aspx" />
+    <Content Include="MainNav\Inception.aspx" />
     <Content Include="MainNav\PrincipleDesk.aspx" />
     <Content Include="MainNav\VisionMission.aspx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
@@ -558,6 +563,20 @@
     </Compile>
     <Compile Include="MainNav\Admission.aspx.designer.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainNav\Curriculum.aspx.cs">
+      <DependentUpon>Curriculum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainNav\Curriculum.aspx.designer.cs">
+      <DependentUpon>Curriculum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainNav\Inception.aspx.cs">
+      <DependentUpon>Inception.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainNav\Inception.aspx.designer.cs">
+      <DependentUpon>Inception.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainNav\PrincipleDesk.aspx.cs">
       <DependentUpon>PrincipleDesk.aspx</DependentUpon>
