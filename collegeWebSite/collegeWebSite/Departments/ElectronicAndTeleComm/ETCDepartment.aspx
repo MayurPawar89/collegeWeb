@@ -22,7 +22,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="text-center">
-        <h1>Department of Computer</h1>
+        <h1>Department of Electronic And TeleCommunication</h1>
         <img alt="300x200" src="../../Images/Profile%20Images/Department/ETC/ETC_HOD.jpg" style="height: 250px; width: 400px" />
         <h4>Prof. Dr. B. G. Gawalwad (Asst. Professor), HOD </h4>
         Ph. D

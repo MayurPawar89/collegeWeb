@@ -25,7 +25,7 @@
         <h1>Events</h1>
     </div>
     <div class="page-header-new">
-        Events organized by IT department
+        Events organized by Electronic And TeleCommunication Dept.
     </div>
     <%--<div class="row">
         <div class="col-md-3">
