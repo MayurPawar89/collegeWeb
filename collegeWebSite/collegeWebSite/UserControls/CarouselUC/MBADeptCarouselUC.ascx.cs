@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Deprtments.MBA
+namespace collegeWebSite.UserControls.CarouselUC
 {
-    public partial class MBADepartment : System.Web.UI.Page
+    public partial class MBADeptCarouselUC : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {

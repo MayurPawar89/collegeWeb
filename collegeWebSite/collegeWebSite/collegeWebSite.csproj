@@ -126,6 +126,14 @@
     <Content Include="Departments\First Year\FEPhotoGallery.aspx" />
     <Content Include="Departments\First Year\FEResults.aspx" />
     <Content Include="Departments\First Year\FESyllbus.aspx" />
+    <Content Include="Departments\MBA\MBADepartment.aspx" />
+    <Content Include="Departments\MBA\MBAEvent.aspx" />
+    <Content Include="Departments\MBA\MBAFaculty.aspx" />
+    <Content Include="Departments\MBA\MBALabs.aspx" />
+    <Content Include="Departments\MBA\MBAPhotoGallery.aspx" />
+    <Content Include="Departments\MBA\MBAResults.aspx" />
+    <Content Include="Departments\MBA\MBASyllbus.aspx" />
+    <Content Include="Departments\MBA\MBATest.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
@@ -154,6 +162,10 @@
     <Content Include="Images\Carousel\IT\IT_Dprt_Large_2.jpg" />
     <Content Include="Images\Carousel\IT\IT_Dprt_Large_3.JPG" />
     <Content Include="Images\Carousel\IT\IT_Dprt_Large_4.JPG" />
+    <Content Include="Images\Carousel\MBA\MBA_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\MBA\MBA_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\MBA\MBA_Dept_Large_3.jpg" />
+    <Content Include="Images\Carousel\MBA\MBA_Dept_Large_4.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\1.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\2.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\3.jpg" />
@@ -278,6 +290,76 @@
     <Content Include="Images\Events\Department\IT\Exuburance 2013\7.jpg" />
     <Content Include="Images\Events\Department\IT\Exuburance 2013\8.jpg" />
     <Content Include="Images\Events\Department\IT\Exuburance 2013\9.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\10.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\11.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\12.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\13.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\14.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\3.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\4.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\5.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\6.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\7.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\8.jpg" />
+    <Content Include="Images\Events\Department\MBA\Bizz Ana\9.jpg" />
+    <Content Include="Images\Events\Department\MBA\Campus Placements\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Campus Placements\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Cultural Activities\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Cultural Activities\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Entrepreneurship Development Program\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Entrepreneurship Development Program\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Expert Lectures\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Expert Lectures\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Expert Lectures\3.jpg" />
+    <Content Include="Images\Events\Department\MBA\Expert Lectures\4.jpg" />
+    <Content Include="Images\Events\Department\MBA\Farewell Function\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Farewell Function\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Fresher Welcome Function\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Fresher Welcome Function\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Group Discussions &amp; Project Presentations\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Group Discussions &amp; Project Presentations\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Guest Lectures\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Guest Lectures\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Guest Lectures\3.jpg" />
+    <Content Include="Images\Events\Department\MBA\Guest Lectures\4.jpg" />
+    <Content Include="Images\Events\Department\MBA\Induction Program\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Induction Program\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Industrial Visits\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Industrial Visits\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Industrial Visits\3.jpg" />
+    <Content Include="Images\Events\Department\MBA\Industrial Visits\4.jpg" />
+    <Content Include="Images\Events\Department\MBA\Industrial Visits\5.jpg" />
+    <Content Include="Images\Events\Department\MBA\Industry Interactions\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Management Day Celebration\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Management Day Celebration\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\On the Job Training at Big Bazaar\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\On the Job Training at Big Bazaar\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Personality Development &amp; Communication Skills Workshops\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Personality Development &amp; Communication Skills Workshops\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Role Plays &amp; Presentations\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Role Plays &amp; Presentations\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\3.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\4.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\5.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\6.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\7.jpg" />
+    <Content Include="Images\Events\Department\MBA\Seminars\8.jpg" />
+    <Content Include="Images\Events\Department\MBA\Social Activities\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Social Activities\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Teachers day\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Teachers day\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Teachers day\3.jpg" />
+    <Content Include="Images\Events\Department\MBA\Teachers day\4.jpg" />
+    <Content Include="Images\Events\Department\MBA\Visit to Business Expo\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Visit to Business Expo\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Workshops\1.jpg" />
+    <Content Include="Images\Events\Department\MBA\Workshops\2.jpg" />
+    <Content Include="Images\Events\Department\MBA\Workshops\3.jpg" />
+    <Content Include="Images\Events\Department\MBA\Workshops\4.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
@@ -297,11 +379,13 @@
     <Content Include="Images\Labs\IT\Hardware\HardwareLab.JPG" />
     <Content Include="Images\Labs\IT\Programming\ProgrammingLab.JPG" />
     <Content Include="Images\Labs\IT\Software\SoftwareLab.JPG" />
+    <Content Include="Images\Labs\MBA\Computer Lab\Computer Lab.jpg" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\ETC\ETC_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Images\Profile Images\Department\MBA\MBA_HOD.jpg" />
     <Content Include="Images\Profile Images\Inception\Ashokrao_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Balasaheb_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Padmashree_Vitthalrao_Vikhe_Patil.jpg" />
@@ -310,7 +394,6 @@
     <Content Include="MainNav\Inception.aspx" />
     <Content Include="MainNav\PrincipleDesk.aspx" />
     <Content Include="MainNav\VisionMission.aspx" />
-    <Content Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx" />
@@ -324,7 +407,6 @@
     <Content Include="Departments\IT\ITPhotoGallery.aspx" />
     <Content Include="Departments\IT\ITResults.aspx" />
     <Content Include="Departments\IT\ITSyllbus.aspx" />
-    <Content Include="Departments\MBA\MBADepartment.aspx" />
     <Content Include="Departments\Mechanical\MechanicalDepartment.aspx" />
     <Content Include="Images\Header\HeaderName&amp;Logo.jpg" />
     <Content Include="Images\Profile Images\Default\dircAKGarg.JPG" />
@@ -613,6 +695,62 @@
     <Compile Include="Departments\First Year\FESyllbus.aspx.designer.cs">
       <DependentUpon>FESyllbus.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\MBA\MBADepartment.aspx.cs">
+      <DependentUpon>MBADepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBADepartment.aspx.designer.cs">
+      <DependentUpon>MBADepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAEvent.aspx.cs">
+      <DependentUpon>MBAEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAEvent.aspx.designer.cs">
+      <DependentUpon>MBAEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAFaculty.aspx.cs">
+      <DependentUpon>MBAFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAFaculty.aspx.designer.cs">
+      <DependentUpon>MBAFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBALabs.aspx.cs">
+      <DependentUpon>MBALabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBALabs.aspx.designer.cs">
+      <DependentUpon>MBALabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAPhotoGallery.aspx.cs">
+      <DependentUpon>MBAPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAPhotoGallery.aspx.designer.cs">
+      <DependentUpon>MBAPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAResults.aspx.cs">
+      <DependentUpon>MBAResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAResults.aspx.designer.cs">
+      <DependentUpon>MBAResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBASyllbus.aspx.cs">
+      <DependentUpon>MBASyllbus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBASyllbus.aspx.designer.cs">
+      <DependentUpon>MBASyllbus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBATest.aspx.cs">
+      <DependentUpon>MBATest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBATest.aspx.designer.cs">
+      <DependentUpon>MBATest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainNav\Admission.aspx.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -647,13 +785,6 @@
     </Compile>
     <Compile Include="MainNav\VisionMission.aspx.designer.cs">
       <DependentUpon>VisionMission.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.cs">
-      <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.designer.cs">
-      <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx.cs">
       <DependentUpon>ETCDeptCarouselUC.ascx</DependentUpon>
@@ -738,13 +869,6 @@
     </Compile>
     <Compile Include="Departments\IT\ITSyllbus.aspx.designer.cs">
       <DependentUpon>ITSyllbus.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Departments\MBA\MBADepartment.aspx.cs">
-      <DependentUpon>MBADepartment.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\MBA\MBADepartment.aspx.designer.cs">
-      <DependentUpon>MBADepartment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Mechanical\MechanicalDepartment.aspx.cs">
       <DependentUpon>MechanicalDepartment.aspx</DependentUpon>
