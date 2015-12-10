@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Deprtments.Electrical
+namespace collegeWebSite.Departments.Electrical
 {
-    public partial class ElectricalDepartment : System.Web.UI.Page
+    public partial class ElectricalFaculty : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

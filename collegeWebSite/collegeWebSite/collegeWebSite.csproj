@@ -105,6 +105,13 @@
     <Content Include="Departments\Computer\ComputerLabs.aspx" />
     <Content Include="Departments\Computer\ComputerSyllbus.aspx" />
     <Content Include="Departments\Computer\ComputerPhotoGallery.aspx" />
+    <Content Include="Departments\Electrical\ElectricalDepartment.aspx" />
+    <Content Include="Departments\Electrical\ElectricalEvent.aspx" />
+    <Content Include="Departments\Electrical\ElectricalFaculty.aspx" />
+    <Content Include="Departments\Electrical\ElectricalLabs.aspx" />
+    <Content Include="Departments\Electrical\ElectricalPhotoGallery.aspx" />
+    <Content Include="Departments\Electrical\ElectricalResults.aspx" />
+    <Content Include="Departments\Electrical\ElectricalSyllbus.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCEvent.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCFaculty.aspx" />
@@ -303,6 +310,7 @@
     <Content Include="MainNav\Inception.aspx" />
     <Content Include="MainNav\PrincipleDesk.aspx" />
     <Content Include="MainNav\VisionMission.aspx" />
+    <Content Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx" />
@@ -340,7 +348,6 @@
     <Content Include="Departments\Applied Science\AppliedScience.aspx" />
     <Content Include="Departments\Chemical\ChemicalDepartmentProfile.aspx" />
     <Content Include="Departments\Computer\ComputerDepartment.aspx" />
-    <Content Include="Departments\Electrical\ElectricalDepartment.aspx" />
     <Content Include="Departments\IT\ITDepartment.aspx" />
     <Content Include="Departments\Library\Library.aspx" />
     <Content Include="Departments\Workshop\Workshop.aspx" />
@@ -458,6 +465,55 @@
     </Compile>
     <Compile Include="Departments\Computer\ComputerPhotoGallery.aspx.designer.cs">
       <DependentUpon>ComputerPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalDepartment.aspx.cs">
+      <DependentUpon>ElectricalDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalDepartment.aspx.designer.cs">
+      <DependentUpon>ElectricalDepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalEvent.aspx.cs">
+      <DependentUpon>ElectricalEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalEvent.aspx.designer.cs">
+      <DependentUpon>ElectricalEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalFaculty.aspx.cs">
+      <DependentUpon>ElectricalFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalFaculty.aspx.designer.cs">
+      <DependentUpon>ElectricalFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalLabs.aspx.cs">
+      <DependentUpon>ElectricalLabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalLabs.aspx.designer.cs">
+      <DependentUpon>ElectricalLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalPhotoGallery.aspx.cs">
+      <DependentUpon>ElectricalPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalPhotoGallery.aspx.designer.cs">
+      <DependentUpon>ElectricalPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalResults.aspx.cs">
+      <DependentUpon>ElectricalResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalResults.aspx.designer.cs">
+      <DependentUpon>ElectricalResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalSyllbus.aspx.cs">
+      <DependentUpon>ElectricalSyllbus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalSyllbus.aspx.designer.cs">
+      <DependentUpon>ElectricalSyllbus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx.cs">
       <DependentUpon>ETCDepartment.aspx</DependentUpon>
@@ -591,6 +647,13 @@
     </Compile>
     <Compile Include="MainNav\VisionMission.aspx.designer.cs">
       <DependentUpon>VisionMission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.cs">
+      <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx.cs">
       <DependentUpon>ETCDeptCarouselUC.ascx</DependentUpon>
@@ -815,13 +878,6 @@
     </Compile>
     <Compile Include="Departments\Computer\ComputerDepartment.aspx.designer.cs">
       <DependentUpon>ComputerDepartment.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Departments\Electrical\ElectricalDepartment.aspx.cs">
-      <DependentUpon>ElectricalDepartment.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\Electrical\ElectricalDepartment.aspx.designer.cs">
-      <DependentUpon>ElectricalDepartment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\IT\ITDepartment.aspx.cs">
       <DependentUpon>ITDepartment.aspx</DependentUpon>

@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Deprtments.Electrical {
+namespace collegeWebSite.Departments.Electrical {
     
     
-    public partial class ElectricalDepartment {
+    public partial class ElectricalFaculty {
     }
 }
