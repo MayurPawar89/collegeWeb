@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Deprtments.MBA {
+namespace collegeWebSite.UserControls.CarouselUC {
     
     
-    public partial class MBADepartment {
+    public partial class MBADeptCarouselUC {
     }
 }

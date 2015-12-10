@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Deprtments.MBA {
+namespace collegeWebSite.Departments.MBA {
     
     
-    public partial class MBADepartment {
+    public partial class MBAEvent {
     }
 }
