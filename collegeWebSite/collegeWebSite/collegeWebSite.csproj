@@ -97,6 +97,8 @@
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.css" />
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.min.css" />
     <Content Include="Content\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="CollegeSite.Master" />
+    <Content Include="bin\collegeWebSite.dll.config" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
     <Content Include="Departments\Computer\ComputerEvent.aspx" />
@@ -394,6 +396,47 @@
     <Content Include="MainNav\Inception.aspx" />
     <Content Include="MainNav\PrincipleDesk.aspx" />
     <Content Include="MainNav\VisionMission.aspx" />
+    <Content Include="obj\Debug\collegeWebSite.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\collegeWebSite.dll" />
+    <Content Include="obj\Debug\collegeWebSite.pdb" />
+    <Content Include="Pages\Home.aspx" />
+    <Content Include="tempcheck\blueimpgallary\css\blueimp-gallery-indicator.css" />
+    <Content Include="tempcheck\blueimpgallary\css\blueimp-gallery-video.css" />
+    <Content Include="tempcheck\blueimpgallary\css\blueimp-gallery.css" />
+    <Content Include="tempcheck\blueimpgallary\css\blueimp-gallery.min.css" />
+    <Content Include="tempcheck\blueimpgallary\css\bootstrap-image-gallery.css" />
+    <Content Include="tempcheck\blueimpgallary\css\bootstrap-image-gallery.min.css" />
+    <Content Include="tempcheck\blueimpgallary\css\demo.css" />
+    <Content Include="tempcheck\blueimpgallary\img\error.png" />
+    <Content Include="tempcheck\blueimpgallary\img\loading.gif" />
+    <Content Include="tempcheck\blueimpgallary\img\play-pause.png" />
+    <Content Include="tempcheck\blueimpgallary\img\video-play.png" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-gallery-fullscreen.js" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-gallery-indicator.js" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-gallery-video.js" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-gallery-vimeo.js" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-gallery-youtube.js" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-gallery.js" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-gallery.min.js" />
+    <Content Include="tempcheck\blueimpgallary\js\blueimp-helper.js" />
+    <Content Include="tempcheck\blueimpgallary\js\bootstrap-image-gallery.js" />
+    <Content Include="tempcheck\blueimpgallary\js\bootstrap-image-gallery.min.js" />
+    <Content Include="tempcheck\blueimpgallary\js\demo.js" />
+    <Content Include="tempcheck\blueimpgallary\js\jquery.blueimp-gallery.js" />
+    <Content Include="tempcheck\blueimpgallary\js\jquery.blueimp-gallery.min.js" />
+    <Content Include="tempcheck\bootstrap\css\bootstrap.css" />
+    <Content Include="tempcheck\bootstrap\css\bootstrap.min.css" />
+    <Content Include="tempcheck\bootstrap\js\bootstrap.js" />
+    <Content Include="tempcheck\bootstrap\js\bootstrap.min.js" />
+    <Content Include="tempcheck\bootstrap\js\npm.js" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\css\font-awesome.css" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\css\font-awesome.min.css" />
+    <Content Include="tempcheck\gallarywithpreview.html" />
+    <Content Include="tempcheck\imgcheck\car.png" />
+    <Content Include="tempcheck\imgcheck\dark.jpg" />
+    <Content Include="tempcheck\imgcheck\map.jpg" />
+    <Content Include="tempcheck\jQuery-2.1.4.min.js" />
+    <Content Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx" />
@@ -489,6 +532,7 @@
     <Content Include="TCP\ListOfCompanies.aspx" />
     <Content Include="TCP\PlacementHighlights.aspx" />
     <Content Include="TCP\RegistrationForm.aspx" />
+    <Content Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -505,6 +549,13 @@
     </Compile>
     <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CollegeSite.Master.cs">
+      <DependentUpon>CollegeSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CollegeSite.Master.designer.cs">
+      <DependentUpon>CollegeSite.Master</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
@@ -785,6 +836,23 @@
     </Compile>
     <Compile Include="MainNav\VisionMission.aspx.designer.cs">
       <DependentUpon>VisionMission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Pages\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.cs">
+      <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx.cs">
       <DependentUpon>ETCDeptCarouselUC.ascx</DependentUpon>
@@ -1123,10 +1191,60 @@
     <Compile Include="TCP\RegistrationForm.aspx.designer.cs">
       <DependentUpon>RegistrationForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx.cs">
+      <DependentUpon>MBADeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>MBADeptCarouselUC.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.map" />
+    <Content Include="tempcheck\blueimpgallary\img\error.svg" />
+    <Content Include="tempcheck\blueimpgallary\img\play-pause.svg" />
+    <Content Include="tempcheck\blueimpgallary\img\video-play.svg" />
+    <Content Include="tempcheck\bootstrap\css\bootstrap.css.map" />
+    <Content Include="tempcheck\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="tempcheck\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="tempcheck\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="tempcheck\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="tempcheck\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\fonts\FontAwesome.otf" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\animated.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\bordered-pulled.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\core.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\fixed-width.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\font-awesome.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\icons.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\larger.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\list.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\mixins.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\path.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\rotated-flipped.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\stacked.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\less\variables.less" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\font-awesome.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_animated.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_bordered-pulled.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_core.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_fixed-width.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_icons.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_larger.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_list.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_mixins.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_path.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_rotated-flipped.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_stacked.scss" />
+    <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_variables.scss" />
+    <Content Include="obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1141,6 +1259,7 @@
     <Folder Include="Images\Events\Department\Chemical\" />
     <Folder Include="Images\Events\Department\Electrical\" />
     <Folder Include="Images\Events\Department\Mechanical\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

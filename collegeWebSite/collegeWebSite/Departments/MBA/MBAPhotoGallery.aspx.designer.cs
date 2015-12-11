@@ -7,9 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Departments {
-    
-    
-    public partial class MBAPhotoGallery {
+namespace collegeWebSite.Departments.MBA {
+
+
+    public partial class MBAPhotoGallery
+    {
     }
 }

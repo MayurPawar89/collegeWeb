@@ -1,0 +1,6 @@
+F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.dll.config
+F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.dll
+F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.pdb
+F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache
+F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.dll
+F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.pdb

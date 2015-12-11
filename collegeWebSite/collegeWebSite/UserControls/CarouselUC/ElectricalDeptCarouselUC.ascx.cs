@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace collegeWebSite.UserControls.CarouselUC
 {
-    public partial class ETCDeptCarouselUC : System.Web.UI.UserControl
+    public partial class ElectricalDeptCarouselUC : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {

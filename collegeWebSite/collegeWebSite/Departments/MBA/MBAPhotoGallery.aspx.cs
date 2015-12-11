@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Departments
+namespace collegeWebSite.Departments.MBA
 {
     public partial class MBAPhotoGallery : System.Web.UI.Page
     {
