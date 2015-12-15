@@ -107,6 +107,7 @@
     <Content Include="Departments\Computer\ComputerLabs.aspx" />
     <Content Include="Departments\Computer\ComputerSyllbus.aspx" />
     <Content Include="Departments\Computer\ComputerPhotoGallery.aspx" />
+    <Content Include="Departments\Computer\ComputerPlacement.aspx" />
     <Content Include="Departments\Electrical\ElectricalDepartment.aspx" />
     <Content Include="Departments\Electrical\ElectricalEvent.aspx" />
     <Content Include="Departments\Electrical\ElectricalFaculty.aspx" />
@@ -598,6 +599,13 @@
     </Compile>
     <Compile Include="Departments\Computer\ComputerPhotoGallery.aspx.designer.cs">
       <DependentUpon>ComputerPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerPlacement.aspx.cs">
+      <DependentUpon>ComputerPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerPlacement.aspx.designer.cs">
+      <DependentUpon>ComputerPlacement.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Electrical\ElectricalDepartment.aspx.cs">
       <DependentUpon>ElectricalDepartment.aspx</DependentUpon>

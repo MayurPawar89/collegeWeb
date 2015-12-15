@@ -12,6 +12,7 @@
             <li><a href="/Departments/Computer/ComputerEvent.aspx">Events</a></li>
             <li><a href="/Departments/Computer/ComputerResults.aspx">Results</a></li>
             <li><a href="/Departments/Computer/ComputerPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><a href="/Departments/Computer/ComputerPlacement.aspx">Placement</a></li>
         </ul>
     </div>
 </asp:Content>

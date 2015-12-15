@@ -4,3 +4,8 @@ F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.pdb
 F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache
 F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.dll
 F:\collegeWeb\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.pdb
+D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.dll
+D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.pdb
+D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache
+D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.dll
+D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.pdb
