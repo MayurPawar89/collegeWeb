@@ -12,6 +12,8 @@
             <li><a href="/Departments/ElectronicAndTeleComm/ETCEvent.aspx">Events</a></li>
             <li><a href="/Departments/ElectronicAndTeleComm/ETCResults.aspx">Results</a></li>
             <li><a href="/Departments/ElectronicAndTeleComm/ETCPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><a href="/Departments/ElectronicAndTeleComm/ETCPlacements.aspx">Placement</a></li>
+
         </ul>
     </div>
 </asp:Content>

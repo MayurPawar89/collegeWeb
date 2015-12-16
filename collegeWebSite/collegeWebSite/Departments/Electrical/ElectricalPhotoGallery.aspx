@@ -12,6 +12,8 @@
             <li><a href="/Departments/Electrical/ElectricalEvent.aspx">Events</a></li>
             <li><a href="/Departments/Electrical/ElectricalResults.aspx">Results</a></li>
             <li><a href="/Departments/Electrical/ElectricalPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><a href="/Departments/Electrical/ElectricalPlacement.aspx">Placement</a></li>
+
         </ul>
     </div>
 </asp:Content>

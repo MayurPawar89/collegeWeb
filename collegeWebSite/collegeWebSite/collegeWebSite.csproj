@@ -113,6 +113,7 @@
     <Content Include="Departments\Electrical\ElectricalFaculty.aspx" />
     <Content Include="Departments\Electrical\ElectricalLabs.aspx" />
     <Content Include="Departments\Electrical\ElectricalPhotoGallery.aspx" />
+    <Content Include="Departments\Electrical\ElectricalPlacement.aspx" />
     <Content Include="Departments\Electrical\ElectricalResults.aspx" />
     <Content Include="Departments\Electrical\ElectricalSyllbus.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx" />
@@ -120,6 +121,7 @@
     <Content Include="Departments\ElectronicAndTeleComm\ETCFaculty.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCLabs.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCPlacements.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCResults.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx" />
     <Content Include="Departments\First Year\FEDepartment.aspx" />
@@ -129,6 +131,7 @@
     <Content Include="Departments\First Year\FEPhotoGallery.aspx" />
     <Content Include="Departments\First Year\FEResults.aspx" />
     <Content Include="Departments\First Year\FESyllbus.aspx" />
+    <Content Include="Departments\IT\ITPlacement.aspx" />
     <Content Include="Departments\MBA\MBADepartment.aspx" />
     <Content Include="Departments\MBA\MBAEvent.aspx" />
     <Content Include="Departments\MBA\MBAFaculty.aspx" />
@@ -642,6 +645,13 @@
     <Compile Include="Departments\Electrical\ElectricalPhotoGallery.aspx.designer.cs">
       <DependentUpon>ElectricalPhotoGallery.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\Electrical\ElectricalPlacement.aspx.cs">
+      <DependentUpon>ElectricalPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalPlacement.aspx.designer.cs">
+      <DependentUpon>ElectricalPlacement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\Electrical\ElectricalResults.aspx.cs">
       <DependentUpon>ElectricalResults.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -690,6 +700,13 @@
     </Compile>
     <Compile Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx.designer.cs">
       <DependentUpon>ETCPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCPlacements.aspx.cs">
+      <DependentUpon>ETCPlacements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCPlacements.aspx.designer.cs">
+      <DependentUpon>ETCPlacements.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\ElectronicAndTeleComm\ETCResults.aspx.cs">
       <DependentUpon>ETCResults.aspx</DependentUpon>
@@ -753,6 +770,13 @@
     </Compile>
     <Compile Include="Departments\First Year\FESyllbus.aspx.designer.cs">
       <DependentUpon>FESyllbus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\IT\ITPlacement.aspx.cs">
+      <DependentUpon>ITPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\IT\ITPlacement.aspx.designer.cs">
+      <DependentUpon>ITPlacement.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\MBA\MBADepartment.aspx.cs">
       <DependentUpon>MBADepartment.aspx</DependentUpon>
