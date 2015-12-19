@@ -137,9 +137,13 @@
     <Content Include="Departments\MBA\MBAFaculty.aspx" />
     <Content Include="Departments\MBA\MBALabs.aspx" />
     <Content Include="Departments\MBA\MBAPhotoGallery.aspx" />
+    <Content Include="Departments\MBA\MBAPlacement.aspx" />
     <Content Include="Departments\MBA\MBAResults.aspx" />
     <Content Include="Departments\MBA\MBASyllbus.aspx" />
     <Content Include="Departments\MBA\MBATest.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalEvent.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalFaculty.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalLabs.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
@@ -172,6 +176,10 @@
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_2.jpg" />
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_3.jpg" />
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_4.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_3.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_4.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\1.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\2.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\3.jpg" />
@@ -366,6 +374,12 @@
     <Content Include="Images\Events\Department\MBA\Workshops\2.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\3.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\4.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Teachers Day\1.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Teachers Day\2.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Teachers Day\3.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\1.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\2.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\3.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
@@ -392,6 +406,7 @@
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
     <Content Include="Images\Profile Images\Department\MBA\MBA_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\Mechanical\MECH_HOD.jpg" />
     <Content Include="Images\Profile Images\Inception\Ashokrao_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Balasaheb_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Padmashree_Vitthalrao_Vikhe_Patil.jpg" />
@@ -537,6 +552,7 @@
     <Content Include="TCP\PlacementHighlights.aspx" />
     <Content Include="TCP\RegistrationForm.aspx" />
     <Content Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx" />
+    <Content Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -813,6 +829,13 @@
     <Compile Include="Departments\MBA\MBAPhotoGallery.aspx.designer.cs">
       <DependentUpon>MBAPhotoGallery.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\MBA\MBAPlacement.aspx.cs">
+      <DependentUpon>MBAPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAPlacement.aspx.designer.cs">
+      <DependentUpon>MBAPlacement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\MBA\MBAResults.aspx.cs">
       <DependentUpon>MBAResults.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -833,6 +856,27 @@
     </Compile>
     <Compile Include="Departments\MBA\MBATest.aspx.designer.cs">
       <DependentUpon>MBATest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalEvent.aspx.cs">
+      <DependentUpon>MechanicalEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalEvent.aspx.designer.cs">
+      <DependentUpon>MechanicalEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalFaculty.aspx.cs">
+      <DependentUpon>MechanicalFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalFaculty.aspx.designer.cs">
+      <DependentUpon>MechanicalFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalLabs.aspx.cs">
+      <DependentUpon>MechanicalLabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalLabs.aspx.designer.cs">
+      <DependentUpon>MechanicalLabs.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainNav\Admission.aspx.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
@@ -1230,6 +1274,13 @@
     <Compile Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx.designer.cs">
       <DependentUpon>MBADeptCarouselUC.ascx</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx.cs">
+      <DependentUpon>MechanicalDeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>MechanicalDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
@@ -1287,10 +1338,8 @@
   <ItemGroup>
     <Folder Include="Images\Carousel\Chemical\" />
     <Folder Include="Images\Carousel\Electrical\" />
-    <Folder Include="Images\Carousel\Mechanical\" />
     <Folder Include="Images\Events\Department\Chemical\" />
     <Folder Include="Images\Events\Department\Electrical\" />
-    <Folder Include="Images\Events\Department\Mechanical\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
