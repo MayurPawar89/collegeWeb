@@ -15,6 +15,8 @@
             <li><a href="/Departments/Computer/ComputerResults.aspx">Results</a></li>
             <li><a href="/Departments/Computer/ComputerPhotoGallery.aspx">Photo Gallery</a></li>
             <li><a href="/Departments/Computer/ComputerPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/Computer/ComputerStudentCorner.aspx">Student Corner</a></li>
+            <li><a href="/Departments/Computer/ComputerExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>
 </asp:Content>
@@ -29,7 +31,7 @@
         <div class="col-md-4">
             <div class="row thumbnail">
                 <img alt="300x200" src="../../Images/Labs/Computer/lp lab/LaboratoryPracticeLab.jpg"  />
-                <h3>Laboratory Practice Lab
+                <h3>Practice Lab
                 </h3>
                 <%--<div>
                     <strong>Lab Information</strong><br />

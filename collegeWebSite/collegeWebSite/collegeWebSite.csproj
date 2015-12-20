@@ -97,14 +97,15 @@
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.css" />
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.min.css" />
     <Content Include="Content\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
-    <Content Include="CollegeSite.Master" />
     <Content Include="bin\collegeWebSite.dll.config" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
     <Content Include="Departments\Computer\ComputerEvent.aspx" />
+    <Content Include="Departments\Computer\ComputerExtraActivity.aspx" />
     <Content Include="Departments\Computer\ComputerFaculty.aspx" />
     <Content Include="Departments\Computer\ComputerResults.aspx" />
     <Content Include="Departments\Computer\ComputerLabs.aspx" />
+    <Content Include="Departments\Computer\ComputerStudentCorner.aspx" />
     <Content Include="Departments\Computer\ComputerSyllbus.aspx" />
     <Content Include="Departments\Computer\ComputerPhotoGallery.aspx" />
     <Content Include="Departments\Computer\ComputerPlacement.aspx" />
@@ -144,6 +145,7 @@
     <Content Include="Departments\Mechanical\MechanicalEvent.aspx" />
     <Content Include="Departments\Mechanical\MechanicalFaculty.aspx" />
     <Content Include="Departments\Mechanical\MechanicalLabs.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalPlacement.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
@@ -570,19 +572,19 @@
     <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CollegeSite.Master.cs">
-      <DependentUpon>CollegeSite.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CollegeSite.Master.designer.cs">
-      <DependentUpon>CollegeSite.Master</DependentUpon>
-    </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.designer.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerExtraActivity.aspx.cs">
+      <DependentUpon>ComputerExtraActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerExtraActivity.aspx.designer.cs">
+      <DependentUpon>ComputerExtraActivity.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerFaculty.aspx.cs">
       <DependentUpon>ComputerFaculty.aspx</DependentUpon>
@@ -604,6 +606,13 @@
     </Compile>
     <Compile Include="Departments\Computer\ComputerLabs.aspx.designer.cs">
       <DependentUpon>ComputerLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerStudentCorner.aspx.cs">
+      <DependentUpon>ComputerStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerStudentCorner.aspx.designer.cs">
+      <DependentUpon>ComputerStudentCorner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerSyllbus.aspx.cs">
       <DependentUpon>ComputerSyllbus.aspx</DependentUpon>
@@ -877,6 +886,13 @@
     </Compile>
     <Compile Include="Departments\Mechanical\MechanicalLabs.aspx.designer.cs">
       <DependentUpon>MechanicalLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPlacement.aspx.cs">
+      <DependentUpon>MechanicalPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPlacement.aspx.designer.cs">
+      <DependentUpon>MechanicalPlacement.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainNav\Admission.aspx.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
