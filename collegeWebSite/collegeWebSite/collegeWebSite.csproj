@@ -143,9 +143,14 @@
     <Content Include="Departments\MBA\MBASyllbus.aspx" />
     <Content Include="Departments\MBA\MBATest.aspx" />
     <Content Include="Departments\Mechanical\MechanicalEvent.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalExtraActivity.aspx" />
     <Content Include="Departments\Mechanical\MechanicalFaculty.aspx" />
     <Content Include="Departments\Mechanical\MechanicalLabs.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalPhotoGallery.aspx" />
     <Content Include="Departments\Mechanical\MechanicalPlacement.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalResults.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalStudentCorner.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalSyllabus.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
@@ -392,6 +397,16 @@
     <Content Include="Images\Labs\Computer\nw lab\NetworkLab.jpg" />
     <Content Include="Images\Labs\Computer\sw lab\SoftwareLab.jpg" />
     <Content Include="Images\Labs\Computer\unix lab\UnixLab.jpg" />
+    <Content Include="Images\Labs\Electrical\ADE\ADE.JPG" />
+    <Content Include="Images\Labs\Electrical\BE\BE.JPG" />
+    <Content Include="Images\Labs\Electrical\comp lab\CL.JPG" />
+    <Content Include="Images\Labs\Electrical\Control syst\CS.JPG" />
+    <Content Include="Images\Labs\Electrical\machine\MC.JPG" />
+    <Content Include="Images\Labs\Electrical\material science\MS.JPG" />
+    <Content Include="Images\Labs\Electrical\measurement\M.JPG" />
+    <Content Include="Images\Labs\Electrical\micro &amp; plc\MP.JPG" />
+    <Content Include="Images\Labs\Electrical\network analysis\NA.JPG" />
+    <Content Include="Images\Labs\Electrical\power electronics\PE.JPG" />
     <Content Include="Images\Labs\ETC\Basic lab\BasicLab.jpg" />
     <Content Include="Images\Labs\ETC\Communication lab\Communicationlab.jpg" />
     <Content Include="Images\Labs\ETC\Computer lab\Computerlab.jpg" />
@@ -402,7 +417,16 @@
     <Content Include="Images\Labs\IT\Programming\ProgrammingLab.JPG" />
     <Content Include="Images\Labs\IT\Software\SoftwareLab.JPG" />
     <Content Include="Images\Labs\MBA\Computer Lab\Computer Lab.jpg" />
+    <Content Include="Images\Labs\Mechanical\BME Lab\BME.jpg" />
+    <Content Include="Images\Labs\Mechanical\CAD-CAM Lab\CAD-CAM.jpg" />
+    <Content Include="Images\Labs\Mechanical\DOM&amp;TOM Lab\DOM-TOM.jpg" />
+    <Content Include="Images\Labs\Mechanical\Heat transfer lab\Heat Transf.jpg" />
+    <Content Include="Images\Labs\Mechanical\IC Lab\IC.jpg" />
+    <Content Include="Images\Labs\Mechanical\Metallurgy Lab\Metallurgy.jpg" />
+    <Content Include="Images\Labs\Mechanical\Metrology Lab\Metrology.jpg" />
+    <Content Include="Images\Labs\Mechanical\Turbo Lab\Turbo.jpg" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\Electrical\Electrical_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\ETC\ETC_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
@@ -457,6 +481,7 @@
     <Content Include="tempcheck\imgcheck\dark.jpg" />
     <Content Include="tempcheck\imgcheck\map.jpg" />
     <Content Include="tempcheck\jQuery-2.1.4.min.js" />
+    <Content Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
@@ -873,6 +898,13 @@
     <Compile Include="Departments\Mechanical\MechanicalEvent.aspx.designer.cs">
       <DependentUpon>MechanicalEvent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalExtraActivity.aspx.cs">
+      <DependentUpon>MechanicalExtraActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalExtraActivity.aspx.designer.cs">
+      <DependentUpon>MechanicalExtraActivity.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\Mechanical\MechanicalFaculty.aspx.cs">
       <DependentUpon>MechanicalFaculty.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -887,12 +919,40 @@
     <Compile Include="Departments\Mechanical\MechanicalLabs.aspx.designer.cs">
       <DependentUpon>MechanicalLabs.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPhotoGallery.aspx.cs">
+      <DependentUpon>MechanicalPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPhotoGallery.aspx.designer.cs">
+      <DependentUpon>MechanicalPhotoGallery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\Mechanical\MechanicalPlacement.aspx.cs">
       <DependentUpon>MechanicalPlacement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Departments\Mechanical\MechanicalPlacement.aspx.designer.cs">
       <DependentUpon>MechanicalPlacement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalResults.aspx.cs">
+      <DependentUpon>MechanicalResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalResults.aspx.designer.cs">
+      <DependentUpon>MechanicalResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalStudentCorner.aspx.cs">
+      <DependentUpon>MechanicalStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalStudentCorner.aspx.designer.cs">
+      <DependentUpon>MechanicalStudentCorner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalSyllabus.aspx.cs">
+      <DependentUpon>MechanicalSyllabus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalSyllabus.aspx.designer.cs">
+      <DependentUpon>MechanicalSyllabus.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainNav\Admission.aspx.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
@@ -938,6 +998,12 @@
     </Compile>
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.cs">
+      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.cs">
       <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>

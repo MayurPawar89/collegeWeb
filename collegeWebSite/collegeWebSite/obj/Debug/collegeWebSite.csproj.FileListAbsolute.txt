@@ -14,3 +14,9 @@ D:\SVIT\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.pdb
 D:\SVIT\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache
 D:\SVIT\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.dll
 D:\SVIT\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.pdb
+E:\External Projects\GitHub\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.dll.config
+E:\External Projects\GitHub\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.dll
+E:\External Projects\GitHub\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.pdb
+E:\External Projects\GitHub\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache
+E:\External Projects\GitHub\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.dll
+E:\External Projects\GitHub\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.pdb
