@@ -9,3 +9,9 @@ D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite
 D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache
 D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.dll
 D:\my Data\sample task\Git Project\Repo\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.pdb
+F:\My Works\Git Projects\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.dll.config
+F:\My Works\Git Projects\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.dll
+F:\My Works\Git Projects\collegeWeb\collegeWebSite\collegeWebSite\bin\collegeWebSite.pdb
+F:\My Works\Git Projects\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache
+F:\My Works\Git Projects\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.dll
+F:\My Works\Git Projects\collegeWeb\collegeWebSite\collegeWebSite\obj\Debug\collegeWebSite.pdb

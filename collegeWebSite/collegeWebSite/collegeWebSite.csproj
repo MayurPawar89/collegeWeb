@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -169,6 +170,26 @@
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_2.jpg" />
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_3.jpg" />
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_4.jpg" />
+    <Content Include="Images\Company Logo\ABB.jpg" />
+    <Content Include="Images\Company Logo\AdvanceEnzymes.jpg" />
+    <Content Include="Images\Company Logo\aress.jpg" />
+    <Content Include="Images\Company Logo\Bosch.jpg" />
+    <Content Include="Images\Company Logo\Datamatics.jpg" />
+    <Content Include="Images\Company Logo\HindistanUniliver.jpg" />
+    <Content Include="Images\Company Logo\HotelTaj.jpg" />
+    <Content Include="Images\Company Logo\IFB.jpg" />
+    <Content Include="Images\Company Logo\IndianArmy.jpg" />
+    <Content Include="Images\Company Logo\JindalSaw.jpg" />
+    <Content Include="Images\Company Logo\KRIS.jpg" />
+    <Content Include="Images\Company Logo\L&amp;T.jpg" />
+    <Content Include="Images\Company Logo\Mahindra.jpg" />
+    <Content Include="Images\Company Logo\Persistance.jpg" />
+    <Content Include="Images\Company Logo\Powerdeal.jpg" />
+    <Content Include="Images\Company Logo\Pristine.jpg" />
+    <Content Include="Images\Company Logo\PriviOrganics.jpg" />
+    <Content Include="Images\Company Logo\Rishabh.jpg" />
+    <Content Include="Images\Company Logo\ThyssenKrrup.jpg" />
+    <Content Include="Images\Company Logo\Wipro.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\1.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\2.jpg" />
     <Content Include="Images\Events\Department\Computer\Cyber Crime and Security\3.jpg" />
@@ -401,6 +422,9 @@
     <Content Include="obj\Debug\collegeWebSite.dll" />
     <Content Include="obj\Debug\collegeWebSite.pdb" />
     <Content Include="Pages\Home.aspx" />
+    <Content Include="TCP\CurrentStudents.aspx" />
+    <Content Include="TCP\ForgotPassword.aspx" />
+    <Content Include="TCP\PlacementSummary.aspx" />
     <Content Include="tempcheck\blueimpgallary\css\blueimp-gallery-indicator.css" />
     <Content Include="tempcheck\blueimpgallary\css\blueimp-gallery-video.css" />
     <Content Include="tempcheck\blueimpgallary\css\blueimp-gallery.css" />
@@ -529,7 +553,7 @@
     <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="TCP\CurrentStudents.aspx" />
+    <Content Include="TCP\ViewAllTPCStudent.aspx" />
     <Content Include="TCP\ListOfCompanies.aspx" />
     <Content Include="TCP\PlacementHighlights.aspx" />
     <Content Include="TCP\RegistrationForm.aspx" />
@@ -551,6 +575,9 @@
     <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Data\StudentInformation.cs" />
+    <Compile Include="App_Data\DataAccess.cs" />
+    <Compile Include="App_Data\Encryption.cs" />
     <Compile Include="CollegeSite.Master.cs">
       <DependentUpon>CollegeSite.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -854,6 +881,27 @@
     </Compile>
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TCP\CurrentStudents.aspx.cs">
+      <DependentUpon>CurrentStudents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TCP\CurrentStudents.aspx.designer.cs">
+      <DependentUpon>CurrentStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TCP\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TCP\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TCP\PlacementSummary.aspx.cs">
+      <DependentUpon>PlacementSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TCP\PlacementSummary.aspx.designer.cs">
+      <DependentUpon>PlacementSummary.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.cs">
       <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
@@ -1171,12 +1219,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="TCP\CurrentStudents.aspx.cs">
-      <DependentUpon>CurrentStudents.aspx</DependentUpon>
+    <Compile Include="TCP\ViewAllTPCStudent.aspx.cs">
+      <DependentUpon>ViewAllTPCStudent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TCP\CurrentStudents.aspx.designer.cs">
-      <DependentUpon>CurrentStudents.aspx</DependentUpon>
+    <Compile Include="TCP\ViewAllTPCStudent.aspx.designer.cs">
+      <DependentUpon>ViewAllTPCStudent.aspx</DependentUpon>
     </Compile>
     <Compile Include="TCP\ListOfCompanies.aspx.cs">
       <DependentUpon>ListOfCompanies.aspx</DependentUpon>
@@ -1253,6 +1301,7 @@
     <Content Include="tempcheck\font-awesome-4.3.0\font-awesome-4.3.0\scss\_variables.scss" />
     <Content Include="obj\Debug\collegeWebSite.csprojResolveAssemblyReference.cache" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="Documents\placement brochre 2016.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
