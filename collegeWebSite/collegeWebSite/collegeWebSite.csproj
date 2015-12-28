@@ -98,11 +98,11 @@
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.css" />
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.min.css" />
     <Content Include="Content\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="CollegeSite.Master" />
     <Content Include="bin\collegeWebSite.dll.config" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
     <Content Include="Departments\Computer\ComputerEvent.aspx" />
-    <Content Include="Departments\Computer\ComputerExtraActivity.aspx" />
     <Content Include="Departments\Computer\ComputerFaculty.aspx" />
     <Content Include="Departments\Computer\ComputerResults.aspx" />
     <Content Include="Departments\Computer\ComputerLabs.aspx" />
@@ -188,10 +188,6 @@
     <Content Include="Images\Company Logo\AdvanceEnzymes.jpg" />
     <Content Include="Images\Company Logo\aress.jpg" />
     <Content Include="Images\Company Logo\Bosch.jpg" />
-    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_1.jpg" />
-    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_2.jpg" />
-    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_3.jpg" />
-    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_4.jpg" />
     <Content Include="Images\Company Logo\Datamatics.jpg" />
     <Content Include="Images\Company Logo\HindistanUniliver.jpg" />
     <Content Include="Images\Company Logo\HotelTaj.jpg" />
@@ -402,12 +398,6 @@
     <Content Include="Images\Events\Department\MBA\Workshops\2.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\3.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\4.jpg" />
-    <Content Include="Images\Events\Department\Mechanical\Teachers Day\1.jpg" />
-    <Content Include="Images\Events\Department\Mechanical\Teachers Day\2.jpg" />
-    <Content Include="Images\Events\Department\Mechanical\Teachers Day\3.jpg" />
-    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\1.jpg" />
-    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\2.jpg" />
-    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\3.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
@@ -418,16 +408,6 @@
     <Content Include="Images\Labs\Computer\nw lab\NetworkLab.jpg" />
     <Content Include="Images\Labs\Computer\sw lab\SoftwareLab.jpg" />
     <Content Include="Images\Labs\Computer\unix lab\UnixLab.jpg" />
-    <Content Include="Images\Labs\Electrical\ADE\ADE.JPG" />
-    <Content Include="Images\Labs\Electrical\BE\BE.JPG" />
-    <Content Include="Images\Labs\Electrical\comp lab\CL.JPG" />
-    <Content Include="Images\Labs\Electrical\Control syst\CS.JPG" />
-    <Content Include="Images\Labs\Electrical\machine\MC.JPG" />
-    <Content Include="Images\Labs\Electrical\material science\MS.JPG" />
-    <Content Include="Images\Labs\Electrical\measurement\M.JPG" />
-    <Content Include="Images\Labs\Electrical\micro &amp; plc\MP.JPG" />
-    <Content Include="Images\Labs\Electrical\network analysis\NA.JPG" />
-    <Content Include="Images\Labs\Electrical\power electronics\PE.JPG" />
     <Content Include="Images\Labs\ETC\Basic lab\BasicLab.jpg" />
     <Content Include="Images\Labs\ETC\Communication lab\Communicationlab.jpg" />
     <Content Include="Images\Labs\ETC\Computer lab\Computerlab.jpg" />
@@ -438,22 +418,12 @@
     <Content Include="Images\Labs\IT\Programming\ProgrammingLab.JPG" />
     <Content Include="Images\Labs\IT\Software\SoftwareLab.JPG" />
     <Content Include="Images\Labs\MBA\Computer Lab\Computer Lab.jpg" />
-    <Content Include="Images\Labs\Mechanical\BME Lab\BME.jpg" />
-    <Content Include="Images\Labs\Mechanical\CAD-CAM Lab\CAD-CAM.jpg" />
-    <Content Include="Images\Labs\Mechanical\DOM&amp;TOM Lab\DOM-TOM.jpg" />
-    <Content Include="Images\Labs\Mechanical\Heat transfer lab\Heat Transf.jpg" />
-    <Content Include="Images\Labs\Mechanical\IC Lab\IC.jpg" />
-    <Content Include="Images\Labs\Mechanical\Metallurgy Lab\Metallurgy.jpg" />
-    <Content Include="Images\Labs\Mechanical\Metrology Lab\Metrology.jpg" />
-    <Content Include="Images\Labs\Mechanical\Turbo Lab\Turbo.jpg" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
-    <Content Include="Images\Profile Images\Department\Electrical\Electrical_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\ETC\ETC_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
     <Content Include="Images\Profile Images\Department\MBA\MBA_HOD.jpg" />
-    <Content Include="Images\Profile Images\Department\Mechanical\MECH_HOD.jpg" />
     <Content Include="Images\Profile Images\Inception\Ashokrao_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Balasaheb_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Padmashree_Vitthalrao_Vikhe_Patil.jpg" />
@@ -463,6 +433,8 @@
     <Content Include="MainNav\PrincipleDesk.aspx" />
     <Content Include="MainNav\VisionMission.aspx" />
     <Content Include="obj\Debug\collegeWebSite.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\collegeWebSite.dll" />
+    <Content Include="obj\Debug\collegeWebSite.pdb" />
     <Content Include="Pages\Home.aspx" />
     <Content Include="TCP\CurrentStudents.aspx" />
     <Content Include="TCP\ForgotPassword.aspx" />
@@ -503,7 +475,6 @@
     <Content Include="tempcheck\imgcheck\dark.jpg" />
     <Content Include="tempcheck\imgcheck\map.jpg" />
     <Content Include="tempcheck\jQuery-2.1.4.min.js" />
-    <Content Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
@@ -622,19 +593,19 @@
     <Compile Include="App_Data\StudentInformation.cs" />
     <Compile Include="App_Data\DataAccess.cs" />
     <Compile Include="App_Data\Encryption.cs" />
+    <Compile Include="CollegeSite.Master.cs">
+      <DependentUpon>CollegeSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CollegeSite.Master.designer.cs">
+      <DependentUpon>CollegeSite.Master</DependentUpon>
+    </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.designer.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Departments\Computer\ComputerExtraActivity.aspx.cs">
-      <DependentUpon>ComputerExtraActivity.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\Computer\ComputerExtraActivity.aspx.designer.cs">
-      <DependentUpon>ComputerExtraActivity.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerFaculty.aspx.cs">
       <DependentUpon>ComputerFaculty.aspx</DependentUpon>
@@ -1030,12 +1001,6 @@
     </Compile>
     <Compile Include="TCP\CurrentStudents.aspx.designer.cs">
       <DependentUpon>CurrentStudents.aspx</DependentUpon>
-    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.cs">
-      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.designer.cs">
-      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
-    </Compile>
     </Compile>
     <Compile Include="TCP\ForgotPassword.aspx.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
@@ -1467,8 +1432,10 @@
   <ItemGroup>
     <Folder Include="Images\Carousel\Chemical\" />
     <Folder Include="Images\Carousel\Electrical\" />
+    <Folder Include="Images\Carousel\Mechanical\" />
     <Folder Include="Images\Events\Department\Chemical\" />
     <Folder Include="Images\Events\Department\Electrical\" />
+    <Folder Include="Images\Events\Department\Mechanical\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
