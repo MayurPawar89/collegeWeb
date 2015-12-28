@@ -98,14 +98,15 @@
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.css" />
     <Content Include="Content\font-awesome-4.3.0\css\font-awesome.min.css" />
     <Content Include="Content\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
-    <Content Include="CollegeSite.Master" />
     <Content Include="bin\collegeWebSite.dll.config" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
     <Content Include="Departments\Computer\ComputerEvent.aspx" />
+    <Content Include="Departments\Computer\ComputerExtraActivity.aspx" />
     <Content Include="Departments\Computer\ComputerFaculty.aspx" />
     <Content Include="Departments\Computer\ComputerResults.aspx" />
     <Content Include="Departments\Computer\ComputerLabs.aspx" />
+    <Content Include="Departments\Computer\ComputerStudentCorner.aspx" />
     <Content Include="Departments\Computer\ComputerSyllbus.aspx" />
     <Content Include="Departments\Computer\ComputerPhotoGallery.aspx" />
     <Content Include="Departments\Computer\ComputerPlacement.aspx" />
@@ -114,6 +115,7 @@
     <Content Include="Departments\Electrical\ElectricalFaculty.aspx" />
     <Content Include="Departments\Electrical\ElectricalLabs.aspx" />
     <Content Include="Departments\Electrical\ElectricalPhotoGallery.aspx" />
+    <Content Include="Departments\Electrical\ElectricalPlacement.aspx" />
     <Content Include="Departments\Electrical\ElectricalResults.aspx" />
     <Content Include="Departments\Electrical\ElectricalSyllbus.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx" />
@@ -121,6 +123,7 @@
     <Content Include="Departments\ElectronicAndTeleComm\ETCFaculty.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCLabs.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCPlacements.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCResults.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx" />
     <Content Include="Departments\First Year\FEDepartment.aspx" />
@@ -130,14 +133,25 @@
     <Content Include="Departments\First Year\FEPhotoGallery.aspx" />
     <Content Include="Departments\First Year\FEResults.aspx" />
     <Content Include="Departments\First Year\FESyllbus.aspx" />
+    <Content Include="Departments\IT\ITPlacement.aspx" />
     <Content Include="Departments\MBA\MBADepartment.aspx" />
     <Content Include="Departments\MBA\MBAEvent.aspx" />
     <Content Include="Departments\MBA\MBAFaculty.aspx" />
     <Content Include="Departments\MBA\MBALabs.aspx" />
     <Content Include="Departments\MBA\MBAPhotoGallery.aspx" />
+    <Content Include="Departments\MBA\MBAPlacement.aspx" />
     <Content Include="Departments\MBA\MBAResults.aspx" />
     <Content Include="Departments\MBA\MBASyllbus.aspx" />
     <Content Include="Departments\MBA\MBATest.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalEvent.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalExtraActivity.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalFaculty.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalLabs.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalPhotoGallery.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalPlacement.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalResults.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalStudentCorner.aspx" />
+    <Content Include="Departments\Mechanical\MechanicalSyllabus.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
@@ -174,6 +188,10 @@
     <Content Include="Images\Company Logo\AdvanceEnzymes.jpg" />
     <Content Include="Images\Company Logo\aress.jpg" />
     <Content Include="Images\Company Logo\Bosch.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_3.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_4.jpg" />
     <Content Include="Images\Company Logo\Datamatics.jpg" />
     <Content Include="Images\Company Logo\HindistanUniliver.jpg" />
     <Content Include="Images\Company Logo\HotelTaj.jpg" />
@@ -384,6 +402,12 @@
     <Content Include="Images\Events\Department\MBA\Workshops\2.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\3.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\4.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Teachers Day\1.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Teachers Day\2.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Teachers Day\3.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\1.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\2.jpg" />
+    <Content Include="Images\Events\Department\Mechanical\Tool and Die Design\3.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
@@ -394,6 +418,16 @@
     <Content Include="Images\Labs\Computer\nw lab\NetworkLab.jpg" />
     <Content Include="Images\Labs\Computer\sw lab\SoftwareLab.jpg" />
     <Content Include="Images\Labs\Computer\unix lab\UnixLab.jpg" />
+    <Content Include="Images\Labs\Electrical\ADE\ADE.JPG" />
+    <Content Include="Images\Labs\Electrical\BE\BE.JPG" />
+    <Content Include="Images\Labs\Electrical\comp lab\CL.JPG" />
+    <Content Include="Images\Labs\Electrical\Control syst\CS.JPG" />
+    <Content Include="Images\Labs\Electrical\machine\MC.JPG" />
+    <Content Include="Images\Labs\Electrical\material science\MS.JPG" />
+    <Content Include="Images\Labs\Electrical\measurement\M.JPG" />
+    <Content Include="Images\Labs\Electrical\micro &amp; plc\MP.JPG" />
+    <Content Include="Images\Labs\Electrical\network analysis\NA.JPG" />
+    <Content Include="Images\Labs\Electrical\power electronics\PE.JPG" />
     <Content Include="Images\Labs\ETC\Basic lab\BasicLab.jpg" />
     <Content Include="Images\Labs\ETC\Communication lab\Communicationlab.jpg" />
     <Content Include="Images\Labs\ETC\Computer lab\Computerlab.jpg" />
@@ -404,12 +438,22 @@
     <Content Include="Images\Labs\IT\Programming\ProgrammingLab.JPG" />
     <Content Include="Images\Labs\IT\Software\SoftwareLab.JPG" />
     <Content Include="Images\Labs\MBA\Computer Lab\Computer Lab.jpg" />
+    <Content Include="Images\Labs\Mechanical\BME Lab\BME.jpg" />
+    <Content Include="Images\Labs\Mechanical\CAD-CAM Lab\CAD-CAM.jpg" />
+    <Content Include="Images\Labs\Mechanical\DOM&amp;TOM Lab\DOM-TOM.jpg" />
+    <Content Include="Images\Labs\Mechanical\Heat transfer lab\Heat Transf.jpg" />
+    <Content Include="Images\Labs\Mechanical\IC Lab\IC.jpg" />
+    <Content Include="Images\Labs\Mechanical\Metallurgy Lab\Metallurgy.jpg" />
+    <Content Include="Images\Labs\Mechanical\Metrology Lab\Metrology.jpg" />
+    <Content Include="Images\Labs\Mechanical\Turbo Lab\Turbo.jpg" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\Electrical\Electrical_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\ETC\ETC_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
     <Content Include="Images\Profile Images\Department\MBA\MBA_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\Mechanical\MECH_HOD.jpg" />
     <Content Include="Images\Profile Images\Inception\Ashokrao_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Balasaheb_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Padmashree_Vitthalrao_Vikhe_Patil.jpg" />
@@ -459,6 +503,7 @@
     <Content Include="tempcheck\imgcheck\dark.jpg" />
     <Content Include="tempcheck\imgcheck\map.jpg" />
     <Content Include="tempcheck\jQuery-2.1.4.min.js" />
+    <Content Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
@@ -556,6 +601,7 @@
     <Content Include="TCP\PlacementHighlights.aspx" />
     <Content Include="TCP\RegistrationForm.aspx" />
     <Content Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx" />
+    <Content Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -576,19 +622,19 @@
     <Compile Include="App_Data\StudentInformation.cs" />
     <Compile Include="App_Data\DataAccess.cs" />
     <Compile Include="App_Data\Encryption.cs" />
-    <Compile Include="CollegeSite.Master.cs">
-      <DependentUpon>CollegeSite.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CollegeSite.Master.designer.cs">
-      <DependentUpon>CollegeSite.Master</DependentUpon>
-    </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.designer.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerExtraActivity.aspx.cs">
+      <DependentUpon>ComputerExtraActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerExtraActivity.aspx.designer.cs">
+      <DependentUpon>ComputerExtraActivity.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerFaculty.aspx.cs">
       <DependentUpon>ComputerFaculty.aspx</DependentUpon>
@@ -610,6 +656,13 @@
     </Compile>
     <Compile Include="Departments\Computer\ComputerLabs.aspx.designer.cs">
       <DependentUpon>ComputerLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerStudentCorner.aspx.cs">
+      <DependentUpon>ComputerStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerStudentCorner.aspx.designer.cs">
+      <DependentUpon>ComputerStudentCorner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerSyllbus.aspx.cs">
       <DependentUpon>ComputerSyllbus.aspx</DependentUpon>
@@ -667,6 +720,13 @@
     <Compile Include="Departments\Electrical\ElectricalPhotoGallery.aspx.designer.cs">
       <DependentUpon>ElectricalPhotoGallery.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\Electrical\ElectricalPlacement.aspx.cs">
+      <DependentUpon>ElectricalPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalPlacement.aspx.designer.cs">
+      <DependentUpon>ElectricalPlacement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\Electrical\ElectricalResults.aspx.cs">
       <DependentUpon>ElectricalResults.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -715,6 +775,13 @@
     </Compile>
     <Compile Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx.designer.cs">
       <DependentUpon>ETCPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCPlacements.aspx.cs">
+      <DependentUpon>ETCPlacements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCPlacements.aspx.designer.cs">
+      <DependentUpon>ETCPlacements.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\ElectronicAndTeleComm\ETCResults.aspx.cs">
       <DependentUpon>ETCResults.aspx</DependentUpon>
@@ -779,6 +846,13 @@
     <Compile Include="Departments\First Year\FESyllbus.aspx.designer.cs">
       <DependentUpon>FESyllbus.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\IT\ITPlacement.aspx.cs">
+      <DependentUpon>ITPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\IT\ITPlacement.aspx.designer.cs">
+      <DependentUpon>ITPlacement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\MBA\MBADepartment.aspx.cs">
       <DependentUpon>MBADepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -814,6 +888,13 @@
     <Compile Include="Departments\MBA\MBAPhotoGallery.aspx.designer.cs">
       <DependentUpon>MBAPhotoGallery.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\MBA\MBAPlacement.aspx.cs">
+      <DependentUpon>MBAPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAPlacement.aspx.designer.cs">
+      <DependentUpon>MBAPlacement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\MBA\MBAResults.aspx.cs">
       <DependentUpon>MBAResults.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -834,6 +915,69 @@
     </Compile>
     <Compile Include="Departments\MBA\MBATest.aspx.designer.cs">
       <DependentUpon>MBATest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalEvent.aspx.cs">
+      <DependentUpon>MechanicalEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalEvent.aspx.designer.cs">
+      <DependentUpon>MechanicalEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalExtraActivity.aspx.cs">
+      <DependentUpon>MechanicalExtraActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalExtraActivity.aspx.designer.cs">
+      <DependentUpon>MechanicalExtraActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalFaculty.aspx.cs">
+      <DependentUpon>MechanicalFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalFaculty.aspx.designer.cs">
+      <DependentUpon>MechanicalFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalLabs.aspx.cs">
+      <DependentUpon>MechanicalLabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalLabs.aspx.designer.cs">
+      <DependentUpon>MechanicalLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPhotoGallery.aspx.cs">
+      <DependentUpon>MechanicalPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPhotoGallery.aspx.designer.cs">
+      <DependentUpon>MechanicalPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPlacement.aspx.cs">
+      <DependentUpon>MechanicalPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalPlacement.aspx.designer.cs">
+      <DependentUpon>MechanicalPlacement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalResults.aspx.cs">
+      <DependentUpon>MechanicalResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalResults.aspx.designer.cs">
+      <DependentUpon>MechanicalResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalStudentCorner.aspx.cs">
+      <DependentUpon>MechanicalStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalStudentCorner.aspx.designer.cs">
+      <DependentUpon>MechanicalStudentCorner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalSyllabus.aspx.cs">
+      <DependentUpon>MechanicalSyllabus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Mechanical\MechanicalSyllabus.aspx.designer.cs">
+      <DependentUpon>MechanicalSyllabus.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainNav\Admission.aspx.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
@@ -886,6 +1030,12 @@
     </Compile>
     <Compile Include="TCP\CurrentStudents.aspx.designer.cs">
       <DependentUpon>CurrentStudents.aspx</DependentUpon>
+    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.cs">
+      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
     </Compile>
     <Compile Include="TCP\ForgotPassword.aspx.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
@@ -1252,6 +1402,13 @@
     <Compile Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx.designer.cs">
       <DependentUpon>MBADeptCarouselUC.ascx</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx.cs">
+      <DependentUpon>MechanicalDeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>MechanicalDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
@@ -1310,10 +1467,8 @@
   <ItemGroup>
     <Folder Include="Images\Carousel\Chemical\" />
     <Folder Include="Images\Carousel\Electrical\" />
-    <Folder Include="Images\Carousel\Mechanical\" />
     <Folder Include="Images\Events\Department\Chemical\" />
     <Folder Include="Images\Events\Department\Electrical\" />
-    <Folder Include="Images\Events\Department\Mechanical\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>

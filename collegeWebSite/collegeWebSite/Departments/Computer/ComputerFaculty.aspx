@@ -14,6 +14,8 @@
             <li><a href="/Departments/Computer/ComputerResults.aspx">Results</a></li>
             <li><a href="/Departments/Computer/ComputerPhotoGallery.aspx">Photo Gallery</a></li>
             <li><a href="/Departments/Computer/ComputerPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/Computer/ComputerStudentCorner.aspx">Student Corner</a></li>
+            <li><a href="/Departments/Computer/ComputerExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>
 </asp:Content>
