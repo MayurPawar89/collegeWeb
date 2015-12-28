@@ -1,37 +1,21 @@
 ﻿<%@ Page Title="Alumni Information" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Alumni.aspx.cs" Inherits="collegeWebSite.Main.Alumni" %>
 
+<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/DefaultCarouselUC.ascx" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
-            <%--<li><a href="#">About the Society</a></li>
-            <li><a href="#">Mission & Vision</a></li>
-            <li><a href="#">Principle's Desk</a></li>
-            <li><a href="#">Admission</a></li>
-            <li><a href="#">Inception</a></li>
-            <li><a href="#">Curriculum & Syllabus</a></li>
-            <li><a href="#">Infrastructure</a></li>
-            <li><a href="#">Success Stories</a></li>
-            <li><a href="#">News & Events</a></li>
-            <li><a href="#">MBA</a></li>
-            <li><a href="#">Academic Calender</a></li>
-            <li><a href="#">Placement Brochure</a></li>
-            <li><a href="#">E-Brochure</a></li>
-            <li><a href="#">Group Linkages</a></li>--%>
-            <li><a href="/Alumni.aspx">Alumni Brief Info</a></li>
-            <li><a href="#">Our Alumni</a></li><%-- PDF file --%>
-            <li><a href="/AlumniRegistration.aspx">Alumni Registration</a></li>
-            <li><a href="/StudentLogin.aspx">Alumni Student Login</a></li>
-            <li><a href="/AlumniSearch.aspx">Alumni Search</a></li>
-            <li><a href="/ViewAllAlumni.aspx">View All Alumni</a></li>
-            <li><a href="#">Local Chapters</a></li>
-            <li><a href="#">Class/Notes</a></li>
-            <li><a href="/PhotoGallery.aspx">Photo Gallery</a></li>
+            <li><a href="/Alumni/Alumni.aspx">Alumni Brief Info</a></li>
+            <li><a href="/Alumni/AlumniRegistration.aspx">Alumni Registration</a></li>
+            <li><a href="/Alumni/AlumniSearch.aspx">Alumni Search</a></li>
+            <li><a href="/Alumni/ViewAllAlumni.aspx">View All Alumni</a></li>
         </ul>
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
+    <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="panel panel-default">

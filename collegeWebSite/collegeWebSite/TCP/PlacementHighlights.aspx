@@ -4,14 +4,14 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
-            <li><a href="/TPCSection.aspx">TPC Brief Information</a></li>
-            <li><a href="/RegistrationForm.aspx">Registration Form</a></li>
-            <li><a href="/TPCMemberLogin.aspx">TPC Member Login</a></li>
-            <li><a href="/PlacementProcess.aspx">Placement Process</a></li>
-            <li><a href="/PlacementHighlights.aspx">Placement Highlight</a></li>
-            <li><a href="/ListOfCompanies.aspx">List of Companies</a></li>
-            <li><a href="RecruiterCompanies.aspx">Recruiter Companies</a></li>
-            <li><a href="/CurrentStudents.aspx">Current Students</a></li>
+            <li><a href="/TCP/TPCSection.aspx">TPC Brief Information</a></li>
+            <li><a href="/TCP/RegistrationForm.aspx">Registration Form</a></li>
+            <li><a href="/TCP/TPCMemberLogin.aspx">TPC Member Login</a></li>
+            <li><a href="/TCP/PlacementProcess.aspx">Placement Process</a></li>
+            <li><a href="/TCP/ListOfCompanies.aspx">List of Companies</a></li>
+            <li><a href="/TCP/CurrentStudents.aspx">Current Students</a></li>
+            <li><a href="../Documents/placement brochre 2016.pdf" target="_blank">Placement Broucher</a></li>
+            <li><a href="/TCP/PlacementSummary.aspx">Placement Summary</a></li>
             <li><a href="#">Registration for Companies for recruitments</a></li>
         </ul>
     </div>

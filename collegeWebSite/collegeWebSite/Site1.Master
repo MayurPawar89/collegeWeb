@@ -5,19 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'/>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport' />
     
     <link href="/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="/Content/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" />
     <link href="/Content/blueimpgallary/css/blueimp-gallery.min.css" rel="stylesheet" />
     <link href="/Content/blueimpgallary/css/bootstrap-image-gallery.min.css" rel="stylesheet" />
-
+    <script src="/Content/Scripts/jquery-2.1.4.min.js" type="text/javascript"></script>
     <link href="/Content/CustomCSS.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="Contenthead" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <form id="form1" runat="server">
     <script type="text/javascript">
+
         //function toggleExuburance() {
         //    var dvExub = document.getElementById("dvExuburance2013");
         //    var dvChar = document.getElementById("dvCharityEvent");
@@ -133,10 +135,8 @@
                                 <ul role="menu" class="dropdown-menu">
                                     <li><a href="/Alumni/Alumni.aspx">Alumni Information</a></li>
                                     <li><a href="/Alumni/AlumniRegistration.aspx">Alumni Registration</a></li>
-                                    <li><a href="/Alumni/StudentLogin.aspx">Student Login</a></li>
                                     <li><a href="/Alumni/AlumniSearch.aspx">Alumni Search</a></li>
                                     <li><a href="/Alumni/ViewAllAlumni.aspx">View All Alumni</a></li>
-                                    <li><a href="/Alumni/PhotoGallery.aspx">Photo Gallery</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -315,9 +315,10 @@
         </div>
         <!-- end container -->
     </footer>
-    <script src="/Content/Scripts/jquery-2.1.4.min.js"></script>
+
     <script src="/Content/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="/Content/blueimpgallary/js/jquery.blueimp-gallery.min.js"></script>
     <script src="/Content/blueimpgallary/js/bootstrap-image-gallery.min.js"></script>
+    </form>
 </body>
 </html>
