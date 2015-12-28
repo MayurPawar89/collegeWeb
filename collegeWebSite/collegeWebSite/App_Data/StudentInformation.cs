@@ -389,7 +389,35 @@ namespace collegeWebSite.App_Data
             }
             return _dt;
         }
+
+
         #endregion
+
+        public DataTable GetBranchIntakeDetails(Int64 nBranchID=0)
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DBParameters.Add("@nBranchID", nBranchID, ParameterDirection.Input, SqlDbType.BigInt);
+                _DataAccess.Retrive("SP_SVIT_GetBranchIntakeDetails", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
+        }
     }
 
 }

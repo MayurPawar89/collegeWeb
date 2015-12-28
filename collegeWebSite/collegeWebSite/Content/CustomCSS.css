@@ -218,3 +218,13 @@ footer {
     background-color: #eeeeee;
     border-color: #dddddd;
 }
+
+.GridHeader
+{
+    text-align:center;   
+}
+
+.GridHeader th
+{
+    text-align:center !important;   
+}

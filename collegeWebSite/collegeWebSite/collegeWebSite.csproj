@@ -100,6 +100,7 @@
     <Content Include="Content\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
     <Content Include="CollegeSite.Master" />
     <Content Include="bin\collegeWebSite.dll.config" />
+    <Content Include="App_Themes\Default\Default.skin" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
     <Content Include="Departments\Chemical\ChemicalDepartment.aspx" />

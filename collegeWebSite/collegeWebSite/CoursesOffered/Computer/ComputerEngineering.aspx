@@ -64,7 +64,9 @@
     <div class="page-header-new">Information about student association</div>
     Computer Engineering Department has Association “Association of Computer Engineering Students” (ACES).It provides platform for students to organize various activities through the year. Every year Department is organizing “Delve” a national level Technical event.
     <div>
-        
+        <br />
+        <asp:GridView ID="grdCompIntake" runat="server">
+        </asp:GridView>
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
