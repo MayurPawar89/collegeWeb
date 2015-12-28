@@ -630,6 +630,9 @@
     <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Data\DataAccess.cs" />
+    <Compile Include="App_Data\Encryption.cs" />
+    <Compile Include="App_Data\StudentInformation.cs" />
     <Compile Include="Departments\Chemical\ChemicalDepartment.aspx.cs">
       <DependentUpon>ChemicalDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
