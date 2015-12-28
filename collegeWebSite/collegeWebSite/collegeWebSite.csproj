@@ -100,6 +100,16 @@
     <Content Include="bin\collegeWebSite.dll.config" />
     <None Include="Content\Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Content\Scripts\jquery-2.1.4.js" />
+    <Content Include="Departments\Chemical\ChemicalDepartment.aspx" />
+    <Content Include="Departments\Chemical\ChemicalEvent.aspx" />
+    <Content Include="Departments\Chemical\ChemicalExtraActivity.aspx" />
+    <Content Include="Departments\Chemical\ChemicalFaculty.aspx" />
+    <Content Include="Departments\Chemical\ChemicalLabs.aspx" />
+    <Content Include="Departments\Chemical\ChemicalPhotoGallery.aspx" />
+    <Content Include="Departments\Chemical\ChemicalPlacement.aspx" />
+    <Content Include="Departments\Chemical\ChemicalResults.aspx" />
+    <Content Include="Departments\Chemical\ChemicalStudentCorner.aspx" />
+    <Content Include="Departments\Chemical\ChemicalSyllabus.aspx" />
     <Content Include="Departments\Computer\ComputerEvent.aspx" />
     <Content Include="Departments\Computer\ComputerExtraActivity.aspx" />
     <Content Include="Departments\Computer\ComputerFaculty.aspx" />
@@ -133,6 +143,10 @@
     <Content Include="Departments\First Year\FEResults.aspx" />
     <Content Include="Departments\First Year\FESyllbus.aspx" />
     <Content Include="Departments\IT\ITPlacement.aspx" />
+    <Content Include="Departments\Library\LibraryFacilities.aspx" />
+    <Content Include="Departments\Library\LibraryFaculty.aspx" />
+    <Content Include="Departments\Library\LibraryObjectives.aspx" />
+    <Content Include="Departments\Library\LibrarySection.aspx" />
     <Content Include="Departments\MBA\MBADepartment.aspx" />
     <Content Include="Departments\MBA\MBAEvent.aspx" />
     <Content Include="Departments\MBA\MBAFaculty.aspx" />
@@ -152,6 +166,9 @@
     <Content Include="Departments\Mechanical\MechanicalStudentCorner.aspx" />
     <Content Include="Departments\Mechanical\MechanicalSyllabus.aspx" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="Images\Carousel\Chemical\Chem_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\Chemical\Chem_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\Chemical\Chem_Dept_Large_3.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_3.jpg" />
@@ -311,6 +328,15 @@
     <Content Include="Images\Events\Department\IT\Exuburance 2013\7.jpg" />
     <Content Include="Images\Events\Department\IT\Exuburance 2013\8.jpg" />
     <Content Include="Images\Events\Department\IT\Exuburance 2013\9.jpg" />
+    <Content Include="Images\Events\Department\Library\Book_Bank_Schme.jpg" />
+    <Content Include="Images\Events\Department\Library\Central_Library.jpg" />
+    <Content Include="Images\Events\Department\Library\Digital_Library_Section.jpg" />
+    <Content Include="Images\Events\Department\Library\Individual_Study_Room.jpg" />
+    <Content Include="Images\Events\Department\Library\Issuing_Section.jpg" />
+    <Content Include="Images\Events\Department\Library\Journal _Periodical_Section.jpg" />
+    <Content Include="Images\Events\Department\Library\Reading_Room.jpg" />
+    <Content Include="Images\Events\Department\Library\Reference_Section.jpg" />
+    <Content Include="Images\Events\Department\Library\Stacking_Section.jpg" />
     <Content Include="Images\Events\Department\MBA\Bizz Ana\1.jpg" />
     <Content Include="Images\Events\Department\MBA\Bizz Ana\10.jpg" />
     <Content Include="Images\Events\Department\MBA\Bizz Ana\11.jpg" />
@@ -393,6 +419,13 @@
     <Content Include="Images\Icons\Female.jpg" />
     <Content Include="Images\Icons\Male.jpg" />
     <Content Include="Images\Icons\thumbnail_default.jpg" />
+    <Content Include="Images\Labs\Chemical\CRE lab\CRE_Lab.jpg" />
+    <Content Include="Images\Labs\Chemical\Instrument\Instrument.jpg" />
+    <Content Include="Images\Labs\Chemical\Mass transfer II\Mass_Transfer_II.jpg" />
+    <Content Include="Images\Labs\Chemical\MASS TRANSFER-I\Mass_Transfer_I.jpg" />
+    <Content Include="Images\Labs\Chemical\Mechanical operation\Mech_Operation.jpg" />
+    <Content Include="Images\Labs\Chemical\Process dyanamic\Process_Dynamic.jpg" />
+    <Content Include="Images\Labs\Chemical\Process moduling lab\Process_Moduling_Lab.jpg" />
     <Content Include="Images\Labs\Computer\lp lab\LaboratoryPracticeLab.jpg" />
     <Content Include="Images\Labs\Computer\nw lab\NetworkLab.jpg" />
     <Content Include="Images\Labs\Computer\sw lab\SoftwareLab.jpg" />
@@ -425,6 +458,7 @@
     <Content Include="Images\Labs\Mechanical\Metallurgy Lab\Metallurgy.jpg" />
     <Content Include="Images\Labs\Mechanical\Metrology Lab\Metrology.jpg" />
     <Content Include="Images\Labs\Mechanical\Turbo Lab\Turbo.jpg" />
+    <Content Include="Images\Profile Images\Department\Chemical\CHEM_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\Electrical\Electrical_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\ETC\ETC_HOD.jpg" />
@@ -481,14 +515,12 @@
     <Content Include="tempcheck\imgcheck\dark.jpg" />
     <Content Include="tempcheck\imgcheck\map.jpg" />
     <Content Include="tempcheck\jQuery-2.1.4.min.js" />
-    <Content Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ETCDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\CompDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\FEDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ITDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\DefaultCarouselUC.ascx" />
-    <Content Include="Departments\Chemical\ChemicalFaculty.aspx" />
     <Content Include="Content\CustomCSS.css" />
     <Content Include="Departments\IT\ITEvent.aspx" />
     <Content Include="Departments\IT\ITFaculty.aspx" />
@@ -517,10 +549,9 @@
     <Content Include="CoursesOffered\Mechanical\MechanicalEngineering.aspx" />
     <Content Include="DefaultTest.aspx" />
     <Content Include="Departments\Applied Science\AppliedScience.aspx" />
-    <Content Include="Departments\Chemical\ChemicalDepartmentProfile.aspx" />
     <Content Include="Departments\Computer\ComputerDepartment.aspx" />
     <Content Include="Departments\IT\ITDepartment.aspx" />
-    <Content Include="Departments\Library\Library.aspx" />
+    <Content Include="Departments\Library\LibraryDepartment.aspx" />
     <Content Include="Departments\Workshop\Workshop.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Default.aspx" />
@@ -579,6 +610,7 @@
     <Content Include="TCP\PlacementHighlights.aspx" />
     <Content Include="TCP\RegistrationForm.aspx" />
     <Content Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx" />
+    <Content Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -596,6 +628,76 @@
     </Compile>
     <Compile Include="Alumni\AlumniSearch.aspx.designer.cs">
       <DependentUpon>AlumniSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalDepartment.aspx.cs">
+      <DependentUpon>ChemicalDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalDepartment.aspx.designer.cs">
+      <DependentUpon>ChemicalDepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalEvent.aspx.cs">
+      <DependentUpon>ChemicalEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalEvent.aspx.designer.cs">
+      <DependentUpon>ChemicalEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalExtraActivity.aspx.cs">
+      <DependentUpon>ChemicalExtraActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalExtraActivity.aspx.designer.cs">
+      <DependentUpon>ChemicalExtraActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalFaculty.aspx.cs">
+      <DependentUpon>ChemicalFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalFaculty.aspx.designer.cs">
+      <DependentUpon>ChemicalFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalLabs.aspx.cs">
+      <DependentUpon>ChemicalLabs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalLabs.aspx.designer.cs">
+      <DependentUpon>ChemicalLabs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalPhotoGallery.aspx.cs">
+      <DependentUpon>ChemicalPhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalPhotoGallery.aspx.designer.cs">
+      <DependentUpon>ChemicalPhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalPlacement.aspx.cs">
+      <DependentUpon>ChemicalPlacement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalPlacement.aspx.designer.cs">
+      <DependentUpon>ChemicalPlacement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalResults.aspx.cs">
+      <DependentUpon>ChemicalResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalResults.aspx.designer.cs">
+      <DependentUpon>ChemicalResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalStudentCorner.aspx.cs">
+      <DependentUpon>ChemicalStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalStudentCorner.aspx.designer.cs">
+      <DependentUpon>ChemicalStudentCorner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalSyllabus.aspx.cs">
+      <DependentUpon>ChemicalSyllabus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Chemical\ChemicalSyllabus.aspx.designer.cs">
+      <DependentUpon>ChemicalSyllabus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
@@ -828,6 +930,34 @@
     <Compile Include="Departments\IT\ITPlacement.aspx.designer.cs">
       <DependentUpon>ITPlacement.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\Library\LibraryFacilities.aspx.cs">
+      <DependentUpon>LibraryFacilities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Library\LibraryFacilities.aspx.designer.cs">
+      <DependentUpon>LibraryFacilities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Library\LibraryFaculty.aspx.cs">
+      <DependentUpon>LibraryFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Library\LibraryFaculty.aspx.designer.cs">
+      <DependentUpon>LibraryFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Library\LibraryObjectives.aspx.cs">
+      <DependentUpon>LibraryObjectives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Library\LibraryObjectives.aspx.designer.cs">
+      <DependentUpon>LibraryObjectives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Library\LibrarySection.aspx.cs">
+      <DependentUpon>LibrarySection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Library\LibrarySection.aspx.designer.cs">
+      <DependentUpon>LibrarySection.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\MBA\MBADepartment.aspx.cs">
       <DependentUpon>MBADepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -999,12 +1129,6 @@
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.cs">
-      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.designer.cs">
-      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
-    </Compile>
     <Compile Include="UserControls\CarouselUC\ElectricalDeptCarouselUC.ascx.cs">
       <DependentUpon>ElectricalDeptCarouselUC.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1046,13 +1170,6 @@
     </Compile>
     <Compile Include="UserControls\CarouselUC\DefaultCarouselUC.ascx.designer.cs">
       <DependentUpon>DefaultCarouselUC.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Departments\Chemical\ChemicalFaculty.aspx.cs">
-      <DependentUpon>ChemicalFaculty.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\Chemical\ChemicalFaculty.aspx.designer.cs">
-      <DependentUpon>ChemicalFaculty.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\IT\ITEvent.aspx.cs">
       <DependentUpon>ITEvent.aspx</DependentUpon>
@@ -1215,13 +1332,6 @@
     <Compile Include="Departments\Applied Science\AppliedScience.aspx.designer.cs">
       <DependentUpon>AppliedScience.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments\Chemical\ChemicalDepartmentProfile.aspx.cs">
-      <DependentUpon>ChemicalDepartmentProfile.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\Chemical\ChemicalDepartmentProfile.aspx.designer.cs">
-      <DependentUpon>ChemicalDepartmentProfile.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Departments\Computer\ComputerDepartment.aspx.cs">
       <DependentUpon>ComputerDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1236,12 +1346,12 @@
     <Compile Include="Departments\IT\ITDepartment.aspx.designer.cs">
       <DependentUpon>ITDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments\Library\Library.aspx.cs">
-      <DependentUpon>Library.aspx</DependentUpon>
+    <Compile Include="Departments\Library\LibraryDepartment.aspx.cs">
+      <DependentUpon>LibraryDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Departments\Library\Library.aspx.designer.cs">
-      <DependentUpon>Library.aspx</DependentUpon>
+    <Compile Include="Departments\Library\LibraryDepartment.aspx.designer.cs">
+      <DependentUpon>LibraryDepartment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Workshop\Workshop.aspx.cs">
       <DependentUpon>Workshop.aspx</DependentUpon>
@@ -1356,6 +1466,13 @@
     <Compile Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx.designer.cs">
       <DependentUpon>MBADeptCarouselUC.ascx</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.cs">
+      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx.designer.cs">
+      <DependentUpon>ChemicalDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx.cs">
       <DependentUpon>MechanicalDeptCarouselUC.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1418,7 +1535,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\Carousel\Chemical\" />
     <Folder Include="Images\Carousel\Electrical\" />
     <Folder Include="Images\Events\Department\Chemical\" />
     <Folder Include="Images\Events\Department\Electrical\" />

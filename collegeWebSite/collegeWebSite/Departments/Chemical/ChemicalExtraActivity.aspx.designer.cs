@@ -10,6 +10,6 @@
 namespace collegeWebSite.Departments.Chemical {
     
     
-    public partial class ChemicalFaculty {
+    public partial class ChemicalExtraActivity {
     }
 }

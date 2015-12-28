@@ -1,21 +1,21 @@
-﻿<%@ Page Title="Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="MechanicalDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Mechanical.MechanicalDepartment" %>
-<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/MechanicalDeptCarouselUC.ascx" %>
+﻿<%@ Page Title="Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ChemicalDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Chemical.ChemicalDepartment" %>
+<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ChemicalDeptCarouselUC.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
-            <li><a href="/Departments/Mechanical/MechanicalDepartment.aspx">Department Profile</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalFaculty.aspx">Faculty</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalLabs.aspx">Labs</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalSyllabus.aspx">Syllabus</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalEvent.aspx">Events</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalResults.aspx">Results</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalPhotoGallery.aspx">Photo Gallery</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalPlacement.aspx">Placement</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalStudentCorner.aspx">Student Corner</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
+            <li><a href="/Departments/Chemical/ChemicalDepartment.aspx">Department Profile</a></li>
+            <li><a href="/Departments/Chemical/ChemicalFaculty.aspx">Faculty</a></li>
+            <li><a href="/Departments/Chemical/ChemicalLabs.aspx">Labs</a></li>
+            <li><a href="/Departments/Chemical/ChemicalSyllabus.aspx">Syllabus</a></li>
+            <li><a href="/Departments/Chemical/ChemicalEvent.aspx">Events</a></li>
+            <li><a href="/Departments/Chemical/ChemicalResults.aspx">Results</a></li>
+            <li><a href="/Departments/Chemical/ChemicalPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><a href="/Departments/Chemical/ChemicalPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/Chemical/ChemicalStudentCorner.aspx">Student Corner</a></li>
+            <li><a href="/Departments/Chemical/ChemicalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
             
 
         </ul>
@@ -23,10 +23,10 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="text-center">
-        <h1>Department of Mechanical</h1>
-        <img alt="300x200" src="../../Images/Profile Images/Department/Mechanical/MECH_HOD.jpg" style="height: 250px; width: 400px" />
-        <h4>Prof. V. M. Rane (Asst. Professor), HOD </h4>
-        ME, MBA
+        <h1>Department of Chemical</h1>
+        <img alt="300x200" src="../../Images/Profile Images/Department/Chemical/CHEM_HOD.jpg" style="height: 250px; width: 400px" />
+        <h4>Prof. R. M. Abhang, HOD </h4>
+        M. Tech. Chemical Engg.  Ph. D (Pursing)
     </div>
     <div class="page-header-new">
         <h3>HOD Desk's</h3>

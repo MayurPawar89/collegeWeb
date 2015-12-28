@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Departments.Chemical {
+namespace collegeWebSite.Deprtments.Chemical {
     
     
-    public partial class ChemicalFaculty {
+    public partial class ChemicalDepartment {
     }
 }
