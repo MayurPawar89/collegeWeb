@@ -7,9 +7,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Main
+namespace collegeWebSite.MainNav
 {
-    public partial class AboutUs : System.Web.UI.Page
+    public partial class GroupLinkages : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,8 +22,8 @@ namespace collegeWebSite.Main
         {
             DataTable _dt = null;
             _dt = GetInstituteDetails();
-            grdAboutUs.DataSource = _dt;
-            grdAboutUs.DataBind();
+            grdSisterInstitute.DataSource = _dt;
+            grdSisterInstitute.DataBind();
         }
         private DataTable GetInstituteDetails()
         {
@@ -33,7 +33,7 @@ namespace collegeWebSite.Main
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetIntituteDetails(true);
+                _dt = _Student.GetIntituteDetails(false);
             }
             catch (Exception)
             {
@@ -45,20 +45,20 @@ namespace collegeWebSite.Main
             return _dt;
         }
 
-        protected void grdAboutUs_RowDataBound(object sender, GridViewRowEventArgs e)
+        protected void grdSisterInstitute_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
                 //id="btnEdit" data-toggle="modal" data-target="#EditModal" runat="server" cssclass="btn  icon-edit" xmlns:asp="#unknown" 
 
                 HyperLink lb = new HyperLink();
-                lb.NavigateUrl = e.Row.Cells[3].Text;
+                lb.NavigateUrl = e.Row.Cells[2].Text;
                 lb.ID = "lbInstuiteLink";
-                lb.Text = e.Row.Cells[3].Text;
+                lb.Text = e.Row.Cells[2].Text;
                 lb.Attributes.Add("runat", "server");
                 lb.Attributes.Add("target", "_blank");
-
-                e.Row.Cells[3].Controls.Add(lb);
+                
+                e.Row.Cells[2].Controls.Add(lb);
             }
         }
     }

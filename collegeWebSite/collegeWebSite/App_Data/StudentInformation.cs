@@ -88,7 +88,7 @@ namespace collegeWebSite.App_Data
         
         #endregion
 
-        #region"Methods"
+        #region"TPC & Alumni Methods"
         public Int64 InsertUpdateStudentInfo()
         {
             DBParameters _DBParameters = new DBParameters();
@@ -393,6 +393,7 @@ namespace collegeWebSite.App_Data
 
         #endregion
 
+        #region"Intake Methods"
         public DataTable GetBranchIntakeDetails(Int64 nBranchID=0)
         {
             DataTable _dt = null;
@@ -418,6 +419,63 @@ namespace collegeWebSite.App_Data
             }
             return _dt;
         }
+
+        #endregion
+
+        #region"News Methods"
+        public DataTable GetLatestNEWS()
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DataAccess.Retrive("SP_SVIT_GetLatestNews", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
+        }
+        #endregion
+
+        #region"Institute Details"
+        public DataTable GetIntituteDetails(bool bIsShowInAbout)
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DBParameters.Add("@bIsShowInAbout", bIsShowInAbout, ParameterDirection.Input, SqlDbType.Bit);
+                _DataAccess.Retrive("SP_SVIT_GetIntituteDetails", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
+        }
+        #endregion
     }
 
 }

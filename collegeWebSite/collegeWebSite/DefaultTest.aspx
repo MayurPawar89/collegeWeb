@@ -10,19 +10,15 @@
 
 <body>
     <%--<form id="form1" runat="server">--%>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 bg-danger">
-                    <div class="panel panel-default"></div>
-                </div>
-                <div class="col-md-4 bg-primary">
-                    <div class="panel panel-default"></div>
-                </div>
-                <div class="col-md-4 bg-success">
-                    <div class="panel panel-default"></div>
-                </div>
-            </div>
+    <div class="col-md-5">
+        <div class="text-right header-padding">
+            <marquee behavior="scroll" direction="up" scrolldelay="200" onmouseover="this.stop()" onmouseout="this.start()">
+            <ul>
+                <%= NewsTicker%>
+            </ul>
+        </marquee>
         </div>
+    </div>
     <%--</form>--%>
     <script src="Scripts/jquery-1.9.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>

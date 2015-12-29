@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Main {
+namespace collegeWebSite.MainNav {
     
     
-    public partial class AboutUs {
+    public partial class Infrastructure {
         
         /// <summary>
         /// CarouselControl1 control.
@@ -20,14 +20,5 @@ namespace collegeWebSite.Main {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::collegeWebSite.UserControls.CarouselUC.DefaultCarouselUC CarouselControl1;
-        
-        /// <summary>
-        /// grdAboutUs control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdAboutUs;
     }
 }
