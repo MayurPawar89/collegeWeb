@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ChemicalDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Chemical.ChemicalDepartment" %>
+﻿<%@ Page Title="Chemical Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ChemicalDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Chemical.ChemicalDepartment" %>
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ChemicalDeptCarouselUC.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
@@ -12,7 +12,7 @@
             <li><a href="/Departments/Chemical/ChemicalSyllabus.aspx">Syllabus</a></li>
             <li><a href="/Departments/Chemical/ChemicalEvent.aspx">Events</a></li>
             <li><a href="/Departments/Chemical/ChemicalResults.aspx">Results</a></li>
-            <li><a href="/Departments/Chemical/ChemicalPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><%--<a href="/Departments/Chemical/ChemicalPhotoGallery.aspx">Photo Gallery</a>--%></li>
             <li><a href="/Departments/Chemical/ChemicalPlacement.aspx">Placement</a></li>
             <li><a href="/Departments/Chemical/ChemicalStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/Chemical/ChemicalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>

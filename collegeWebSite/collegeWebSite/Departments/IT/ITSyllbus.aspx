@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ITSyllbus.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITSyllbus" %>
+﻿<%@ Page Title="IT Syllabus" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ITSyllbus.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITSyllbus" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ITDeptCarouselUC.ascx" %>
 
@@ -13,8 +13,9 @@
             <li><a href="/Departments/IT/ITSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/IT/ITEvent.aspx">Events</a></li>
             <li><a href="/Departments/IT/ITResults.aspx">Results</a></li>
-            <li><a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a></li>
-           <li><a href="/Departments/IT/ITPlacement.aspx">Placement</a></li>
+            <li><%--<a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a>--%></li>
+            <li><a href="/Departments/IT/ITPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/IT/ITExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>
 </asp:Content>
