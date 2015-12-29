@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ITResults.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITResults" %>
+﻿<%@ Page Title="IT Results" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ITResults.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITResults" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ITDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
@@ -12,8 +12,9 @@
             <li><a href="/Departments/IT/ITSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/IT/ITEvent.aspx">Events</a></li>
             <li><a href="/Departments/IT/ITResults.aspx">Results</a></li>
-            <li><a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a></li>
-           <li><a href="/Departments/IT/ITPlacement.aspx">Placement</a></li>
+            <li><%--<a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a>--%></li>
+            <li><a href="/Departments/IT/ITPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/IT/ITExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>
 </asp:Content>

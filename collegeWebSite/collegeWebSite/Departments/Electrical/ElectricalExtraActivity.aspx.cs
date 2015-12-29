@@ -7,9 +7,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Departments.Mechanical
+namespace collegeWebSite.Departments.Electrical
 {
-    public partial class MechanicalExtraActivity : System.Web.UI.Page
+    public partial class ElectricalExtraActivity : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -19,15 +19,17 @@ namespace collegeWebSite.Departments.Mechanical
 
             }
         }
-
         private void LoadDataGrid()
         {
             DataTable _dt = null;
             _dt = GetGuestLectures();
-            grdMechGuestLect.DataSource = _dt;
-            grdMechGuestLect.DataBind();
-        }
+            if (_dt != null && _dt.Rows.Count > 0)
+            {
+                grdElectGuestLect.DataSource = _dt;
+                grdElectGuestLect.DataBind();
+            }
 
+        }
         private DataTable GetGuestLectures()
         {
             DataTable _dt = null;
@@ -36,7 +38,7 @@ namespace collegeWebSite.Departments.Mechanical
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetGuestLectures(5);
+                _dt = _Student.GetGuestLectures(4);
             }
             catch (Exception)
             {

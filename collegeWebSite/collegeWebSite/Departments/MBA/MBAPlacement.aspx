@@ -14,8 +14,9 @@
             <li><a href="/Departments/MBA/MBASyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/MBA/MBAEvent.aspx">Events</a></li>
             <li><a href="/Departments/MBA/MBAResults.aspx">Results</a></li>
-            <li><a href="/Departments/MBA/MBAPhotoGallery.aspx">Photo Gallery</a></li>
+            <%--<li><a href="/Departments/MBA/MBAPhotoGallery.aspx">Photo Gallery</a></li>--%>
             <li><a href="/Departments/MBA/MBAPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/MBA/MBAExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>
 </asp:Content>

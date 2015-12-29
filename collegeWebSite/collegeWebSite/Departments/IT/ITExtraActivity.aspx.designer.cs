@@ -7,18 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Departments.Computer {
+namespace collegeWebSite.Departments.IT {
     
     
-    public partial class ComputerExtraActivity {
+    public partial class ITExtraActivity {
         
         /// <summary>
-        /// grdCompGuestLect control.
+        /// grdITGuestLect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdCompGuestLect;
+        protected global::System.Web.UI.WebControls.GridView grdITGuestLect;
     }
 }

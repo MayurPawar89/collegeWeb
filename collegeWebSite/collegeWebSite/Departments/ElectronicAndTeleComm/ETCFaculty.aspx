@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ETCFaculty.aspx.cs" Inherits="collegeWebSite.Departments.ElectronicAndTeleComm.ETCFaculty" %>
+﻿<%@ Page Title="E&TC Faculty" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ETCFaculty.aspx.cs" Inherits="collegeWebSite.Departments.ElectronicAndTeleComm.ETCFaculty" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ETCDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
@@ -12,8 +12,9 @@
             <li><a href="/Departments/ElectronicAndTeleComm/ETCSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/ElectronicAndTeleComm/ETCEvent.aspx">Events</a></li>
             <li><a href="/Departments/ElectronicAndTeleComm/ETCResults.aspx">Results</a></li>
-            <li><a href="/Departments/ElectronicAndTeleComm/ETCPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><%--<a href="/Departments/ElectronicAndTeleComm/ETCPhotoGallery.aspx">Photo Gallery</a>--%></li>
             <li><a href="/Departments/ElectronicAndTeleComm/ETCPlacements.aspx">Placement</a></li>
+            <li><a href="/Departments/ElectronicAndTeleComm/ETCExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
 
         </ul>
     </div>

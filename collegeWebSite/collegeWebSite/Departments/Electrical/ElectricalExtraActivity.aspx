@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Computer Extra Activity" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerExtraActivity.aspx.cs" Inherits="collegeWebSite.Departments.Computer.ComputerExtraActivity" %>
+﻿<%@ Page Title="Electrical Extra Activity" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ElectricalExtraActivity.aspx.cs" Inherits="collegeWebSite.Departments.Electrical.ElectricalExtraActivity" %>
+<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ElectricalDeptCarouselUC.ascx" %>
 
-<%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/CompDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentCarousel" runat="server">
@@ -9,21 +9,22 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
-            <li><a href="/Departments/Computer/ComputerDepartment.aspx">Department Profile</a></li>
-            <li><a href="/Departments/Computer/ComputerFaculty.aspx">Faculty</a></li>
-            <li><a href="/Departments/Computer/ComputerLabs.aspx">Labs</a></li>
-            <li><a href="/Departments/Computer/ComputerSyllbus.aspx">Syllabus</a></li>
-            <li><a href="/Departments/Computer/ComputerEvent.aspx">Events</a></li>
-            <li><a href="/Departments/Computer/ComputerResults.aspx">Results</a></li>
-            <li><a href="/Departments/Computer/ComputerPhotoGallery.aspx">Photo Gallery</a></li>
-            <li><a href="/Departments/Computer/ComputerPlacement.aspx">Placement</a></li>
-            <li><a href="/Departments/Computer/ComputerStudentCorner.aspx">Student Corner</a></li>
-            <li><a href="/Departments/Computer/ComputerExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
+            <li><a href="/Departments/Electrical/ElectricalDepartment.aspx">Department Profile</a></li>
+            <li><a href="/Departments/Electrical/ElectricalFaculty.aspx">Faculty</a></li>
+            <li><a href="/Departments/Electrical/ElectricalLabs.aspx">Labs</a></li>
+            <li><a href="/Departments/Electrical/ElectricalSyllbus.aspx">Syllabus</a></li>
+            <li><a href="/Departments/Electrical/ElectricalEvent.aspx">Events</a></li>
+            <li><a href="/Departments/Electrical/ElectricalResults.aspx">Results</a></li>
+            <%--<li><a href="/Departments/Electrical/ElectricalPhotoGallery.aspx">Photo Gallery</a></li>--%>
+            <li><a href="/Departments/Electrical/ElectricalPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/Electrical/ElectricalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
+            
+
         </ul>
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="table-responsive">
+   <%-- <div class="table-responsive">
         <h3>Extra-curricular & Co-curricular Activities</h3>
         <br />
         <h4>I. Seminar Organized</h4>
@@ -34,11 +35,11 @@
                 <th>Academic Year</th>
                 <th>Seminar Topic</th>
                 <th>Expert Name</th>
-            </tr>
+            </tr>--%>
             <%-- <tr>
                 <td colspan="4" class="text-center"><b>Seminar Organized</b></td>
             </tr>--%>
-            <tr>
+       <%--     <tr>
                 <td>1</td>
                 <td>2013-14</td>
                 <td>Cyber Crime and Security</td>
@@ -71,15 +72,16 @@
             </tr>
 
 
-        </table>
+        </table>--%>
 
-        <h4>II. Guest Lectures Organized</h4>
+        <h4>Guest Lectures Organized</h4>
+        
         <div>
-            <asp:GridView ID="grdCompGuestLect" runat="server">
+            <asp:GridView ID="grdElectGuestLect" runat="server">
             </asp:GridView>
         </div>
 
-        <h4>III. Workshop Organized</h4>
+       <%-- <h4>III. Workshop Organized</h4>
         <table class="table table-bordered">
 
             <tr>
@@ -775,6 +777,6 @@
             </tr>
 
 
-        </table>
+        </table>--%>
     </div>
 </asp:Content>

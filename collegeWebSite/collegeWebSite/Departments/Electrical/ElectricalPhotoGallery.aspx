@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ElectricalPhotoGallery.aspx.cs" Inherits="collegeWebSite.Departments.Electrical.ElectricalPhotoGallery" %>
+﻿<%@ Page Title="Electrical Photo Gallery" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ElectricalPhotoGallery.aspx.cs" Inherits="collegeWebSite.Departments.Electrical.ElectricalPhotoGallery" %>
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ElectricalDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
@@ -11,8 +11,9 @@
             <li><a href="/Departments/Electrical/ElectricalSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/Electrical/ElectricalEvent.aspx">Events</a></li>
             <li><a href="/Departments/Electrical/ElectricalResults.aspx">Results</a></li>
-            <li><a href="/Departments/Electrical/ElectricalPhotoGallery.aspx">Photo Gallery</a></li>
+            <%--<li><a href="/Departments/Electrical/ElectricalPhotoGallery.aspx">Photo Gallery</a></li>--%>
             <li><a href="/Departments/Electrical/ElectricalPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/Electrical/ElectricalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
 
         </ul>
     </div>

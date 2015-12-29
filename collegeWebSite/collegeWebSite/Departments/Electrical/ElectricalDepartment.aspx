@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ElectricalDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Electrical.ElectricalDepartment" %>
+﻿<%@ Page Title="Electrical Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ElectricalDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Electrical.ElectricalDepartment" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ElectricalDeptCarouselUC.ascx" %>
 
@@ -13,8 +13,9 @@
             <li><a href="/Departments/Electrical/ElectricalSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/Electrical/ElectricalEvent.aspx">Events</a></li>
             <li><a href="/Departments/Electrical/ElectricalResults.aspx">Results</a></li>
-            <li><a href="/Departments/Electrical/ElectricalPhotoGallery.aspx">Photo Gallery</a></li>
+           <%-- <li><a href="/Departments/Electrical/ElectricalPhotoGallery.aspx">Photo Gallery</a></li>--%>
             <li><a href="/Departments/Electrical/ElectricalPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/Electrical/ElectricalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
 
         </ul>
     </div>

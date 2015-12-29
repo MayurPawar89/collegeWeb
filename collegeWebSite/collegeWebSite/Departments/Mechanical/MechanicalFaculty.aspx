@@ -16,7 +16,7 @@
             <li><a href="/Departments/Mechanical/MechanicalSyllabus.aspx">Syllabus</a></li>
             <li><a href="/Departments/Mechanical/MechanicalEvent.aspx">Events</a></li>
             <li><a href="/Departments/Mechanical/MechanicalResults.aspx">Results</a></li>
-            <li><a href="/Departments/Mechanical/MechanicalPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><%--<a href="/Departments/Mechanical/MechanicalPhotoGallery.aspx">Photo Gallery</a>--%></li>
             <li><a href="/Departments/Mechanical/MechanicalPlacement.aspx">Placement</a></li>
             <li><a href="/Departments/Mechanical/MechanicalStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/Mechanical/MechanicalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>

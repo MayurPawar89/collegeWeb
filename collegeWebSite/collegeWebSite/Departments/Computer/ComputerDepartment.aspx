@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.ComputerDepartment" %>
+﻿<%@ Page Title="Computer Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.ComputerDepartment" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/CompDeptCarouselUC.ascx" %>
 
@@ -13,7 +13,7 @@
             <li><a href="/Departments/Computer/ComputerSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/Computer/ComputerEvent.aspx">Events</a></li>
             <li><a href="/Departments/Computer/ComputerResults.aspx">Results</a></li>
-            <li><a href="/Departments/Computer/ComputerPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><%--<a href="/Departments/Computer/ComputerPhotoGallery.aspx">Photo Gallery</a>--%></li>
             <li><a href="/Departments/Computer/ComputerPlacement.aspx">Placement</a></li>
             <li><a href="/Departments/Computer/ComputerStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/Computer/ComputerExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>

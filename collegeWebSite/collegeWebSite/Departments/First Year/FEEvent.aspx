@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEEvent.aspx.cs" Inherits="collegeWebSite.Departments.FE.FEEvent" %>
+﻿<%@ Page Title="FE Events" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEEvent.aspx.cs" Inherits="collegeWebSite.Departments.FE.FEEvent" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
@@ -12,7 +12,7 @@
             <li><a href="/Departments/First Year/FESyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/First Year/FEEvent.aspx">Events</a></li>
             <li><a href="/Departments/First Year/FEResults.aspx">Results</a></li>
-            <li><a href="/Departments/First Year/FEPhotoGallery.aspx">Photo Gallery</a></li>
+            <li><%--<a href="/Departments/First Year/FEPhotoGallery.aspx">Photo Gallery</a>--%></li>
         </ul>
     </div>
 </asp:Content>
