@@ -22,10 +22,10 @@ namespace collegeWebSite.Departments.Mechanical
 
         private void LoadDataGrid()
         {
-            DataTable _dt = null;
-            _dt = GetGuestLectures();
-            grdMechGuestLect.DataSource = _dt;
-            grdMechGuestLect.DataBind();
+            //DataTable _dt = null;
+            //_dt = GetGuestLectures();
+            //grdMechGuestLect.DataSource = _dt;
+            //grdMechGuestLect.DataBind();
         }
 
         private DataTable GetGuestLectures()

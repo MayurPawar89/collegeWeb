@@ -1,9 +1,10 @@
-﻿<%@ Page Title="IT Extra Activity" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ITExtraActivity.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITExtraActivity" %>
+﻿<%@ Page Title="IT Student Corner" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ITStudentCorner.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITStudentCorner" %>
+
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ITDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentCarousel" runat="server">
-     <uc:carouselControl runat="server" />
+    <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
@@ -14,7 +15,7 @@
             <li><a href="/Departments/IT/ITSyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/IT/ITEvent.aspx">Events</a></li>
             <li><a href="/Departments/IT/ITResults.aspx">Results</a></li>
-            <li><%--<a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a>--%></li>
+            <%--<li><a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a></li>--%>
             <li><a href="/Departments/IT/ITPlacement.aspx">Placement</a></li>
             <li><a href="/Departments/IT/ITStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/IT/ITExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
@@ -22,9 +23,9 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
-     <h4>Guest Lectures Organized</h4>
-        <div>
-            <asp:GridView ID="grdITGuestLect" runat="server">
-            </asp:GridView>
-        </div>
+    <div class="page-header-new">
+        <h3>Student Corner</h3>
+    </div>
+    <asp:GridView ID="grdITStudentCorner" SkinID="grdExtraActivity" runat="server" OnRowDataBound="grdITStudentCorner_RowDataBound">
+    </asp:GridView>
 </asp:Content>

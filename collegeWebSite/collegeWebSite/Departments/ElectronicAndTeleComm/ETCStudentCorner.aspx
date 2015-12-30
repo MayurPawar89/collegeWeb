@@ -1,4 +1,4 @@
-﻿<%@ Page Title="E&TC Extra Activity" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ETCExtraActivity.aspx.cs" Inherits="collegeWebSite.Departments.ElectronicAndTeleComm.ETCExtraActivity" %>
+﻿<%@ Page Title="E&TC Student Corner" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ETCStudentCorner.aspx.cs" Inherits="collegeWebSite.Departments.ElectronicAndTeleComm.ETCStudentCorner" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ETCDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
@@ -24,9 +24,9 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
-     <h4>Guest Lectures Organized</h4>
-        <div>
-            <asp:GridView ID="grdETCGuestLect" runat="server">
-            </asp:GridView>
-        </div>
+    <div class="page-header-new">
+        <h3>Student Corner</h3>
+    </div>
+    <asp:GridView ID="grdETCStudentCorner" SkinID="grdExtraActivity" runat="server" OnRowDataBound="grdETCStudentCorner_RowDataBound">
+    </asp:GridView>
 </asp:Content>

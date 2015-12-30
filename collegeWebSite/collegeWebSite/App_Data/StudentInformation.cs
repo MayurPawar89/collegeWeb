@@ -393,7 +393,7 @@ namespace collegeWebSite.App_Data
 
         #endregion
 
-        #region"Intake Methods"
+        #region"Guest Lecture Methods"
         public DataTable GetGuestLectures(Int64 nBranchID = 0)
         {
             DataTable _dt = null;
@@ -419,7 +419,9 @@ namespace collegeWebSite.App_Data
             }
             return _dt;
         }
+        #endregion
 
+        #region"Intake Methods"
         public DataTable GetBranchIntakeDetails(Int64 nBranchID=0)
         {
             DataTable _dt = null;
@@ -501,6 +503,64 @@ namespace collegeWebSite.App_Data
             }
             return _dt;
         }
+        #endregion
+
+        #region"Student Corner Methods"
+        public DataTable GetStudentCorner(Int64 nBranchID = 0)
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DBParameters.Add("@nBranchID", nBranchID, ParameterDirection.Input, SqlDbType.BigInt);
+                _DataAccess.Retrive("SP_SVIT_GetStudentCorner", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
+        }
+
+        #endregion
+
+        #region"WorkShop Methods"
+        public DataTable GetWorkshopDetails(Int64 nBranchID = 0)
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DBParameters.Add("@nBranchID", nBranchID, ParameterDirection.Input, SqlDbType.BigInt);
+                _DataAccess.Retrive("SP_SVIT_GetWorkshopSeminar", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
+        }
+
         #endregion
     }
 

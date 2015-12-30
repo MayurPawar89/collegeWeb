@@ -16,6 +16,7 @@
             <li><a href="/Departments/ElectronicAndTeleComm/ETCResults.aspx">Results</a></li>
             <li><%--<a href="/Departments/ElectronicAndTeleComm/ETCPhotoGallery.aspx">Photo Gallery</a>--%></li>
             <li><a href="/Departments/ElectronicAndTeleComm/ETCPlacements.aspx">Placement</a></li>
+            <li><a href="/Departments/ElectronicAndTeleComm/ETCStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/ElectronicAndTeleComm/ETCExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>

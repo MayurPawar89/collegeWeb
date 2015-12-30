@@ -80,7 +80,11 @@
         </div>
 
         <h4>III. Workshop Organized</h4>
-        <table class="table table-bordered">
+        <div>
+            <asp:GridView ID="grdCompWorkshop" runat="server">
+            </asp:GridView>
+        </div>
+        <%--<table class="table table-bordered">
 
             <tr>
                 <th>Sr. No.</th>
@@ -127,7 +131,7 @@
 
 
 
-        </table>
+        </table>--%>
 
         <h4>IV. Paper published/Presented by Staff details</h4>
         <table class="table table-bordered">

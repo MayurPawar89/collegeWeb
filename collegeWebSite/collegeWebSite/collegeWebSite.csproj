@@ -129,6 +129,7 @@
     <Content Include="Departments\Electrical\ElectricalPhotoGallery.aspx" />
     <Content Include="Departments\Electrical\ElectricalPlacement.aspx" />
     <Content Include="Departments\Electrical\ElectricalResults.aspx" />
+    <Content Include="Departments\Electrical\ElectricalStudentCorner.aspx" />
     <Content Include="Departments\Electrical\ElectricalSyllbus.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCDepartment.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCEvent.aspx" />
@@ -138,6 +139,7 @@
     <Content Include="Departments\ElectronicAndTeleComm\ETCPhotoGallery.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCPlacements.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCResults.aspx" />
+    <Content Include="Departments\ElectronicAndTeleComm\ETCStudentCorner.aspx" />
     <Content Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx" />
     <Content Include="Departments\First Year\FEDepartment.aspx" />
     <Content Include="Departments\First Year\FEEvent.aspx" />
@@ -148,6 +150,7 @@
     <Content Include="Departments\First Year\FESyllbus.aspx" />
     <Content Include="Departments\IT\ITExtraActivity.aspx" />
     <Content Include="Departments\IT\ITPlacement.aspx" />
+    <Content Include="Departments\IT\ITStudentCorner.aspx" />
     <Content Include="Departments\Library\LibraryFacilities.aspx" />
     <Content Include="Departments\Library\LibraryFaculty.aspx" />
     <Content Include="Departments\Library\LibraryObjectives.aspx" />
@@ -160,6 +163,7 @@
     <Content Include="Departments\MBA\MBAPhotoGallery.aspx" />
     <Content Include="Departments\MBA\MBAPlacement.aspx" />
     <Content Include="Departments\MBA\MBAResults.aspx" />
+    <Content Include="Departments\MBA\MBAStudentCorner.aspx" />
     <Content Include="Departments\MBA\MBASyllbus.aspx" />
     <Content Include="Departments\MBA\MBATest.aspx" />
     <Content Include="Departments\Mechanical\MechanicalEvent.aspx" />
@@ -836,6 +840,13 @@
     <Compile Include="Departments\Electrical\ElectricalResults.aspx.designer.cs">
       <DependentUpon>ElectricalResults.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\Electrical\ElectricalStudentCorner.aspx.cs">
+      <DependentUpon>ElectricalStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Electrical\ElectricalStudentCorner.aspx.designer.cs">
+      <DependentUpon>ElectricalStudentCorner.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\Electrical\ElectricalSyllbus.aspx.cs">
       <DependentUpon>ElectricalSyllbus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -898,6 +909,13 @@
     </Compile>
     <Compile Include="Departments\ElectronicAndTeleComm\ETCResults.aspx.designer.cs">
       <DependentUpon>ETCResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCStudentCorner.aspx.cs">
+      <DependentUpon>ETCStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\ElectronicAndTeleComm\ETCStudentCorner.aspx.designer.cs">
+      <DependentUpon>ETCStudentCorner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx.cs">
       <DependentUpon>ETCSyllbus.aspx</DependentUpon>
@@ -968,6 +986,13 @@
     </Compile>
     <Compile Include="Departments\IT\ITPlacement.aspx.designer.cs">
       <DependentUpon>ITPlacement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\IT\ITStudentCorner.aspx.cs">
+      <DependentUpon>ITStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\IT\ITStudentCorner.aspx.designer.cs">
+      <DependentUpon>ITStudentCorner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Library\LibraryFacilities.aspx.cs">
       <DependentUpon>LibraryFacilities.aspx</DependentUpon>
@@ -1052,6 +1077,13 @@
     </Compile>
     <Compile Include="Departments\MBA\MBAResults.aspx.designer.cs">
       <DependentUpon>MBAResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAStudentCorner.aspx.cs">
+      <DependentUpon>MBAStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\MBA\MBAStudentCorner.aspx.designer.cs">
+      <DependentUpon>MBAStudentCorner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\MBA\MBASyllbus.aspx.cs">
       <DependentUpon>MBASyllbus.aspx</DependentUpon>

@@ -15,6 +15,7 @@
             <li><a href="/Departments/IT/ITResults.aspx">Results</a></li>
             <li><%--<a href="/Departments/IT/ITPhotoGallery.aspx">Photo Gallery</a>--%></li>
             <li><a href="/Departments/IT/ITPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/IT/ITStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/IT/ITExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>

@@ -7,18 +7,18 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Departments.Mechanical
+namespace collegeWebSite.Departments.MBA
 {
-    public partial class MechanicalStudentCorner : System.Web.UI.Page
+    public partial class MBAStudentCorner : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
             if (!IsPostBack)
             {
                 LoadDataGrid();
 
             }
+
         }
 
         private void LoadDataGrid()
@@ -27,8 +27,8 @@ namespace collegeWebSite.Departments.Mechanical
             _dt = GetStudentCorner();
             if (_dt != null && _dt.Rows.Count > 0)
             {
-                grdMechStudentCorner.DataSource = _dt;
-                grdMechStudentCorner.DataBind();
+                grdMBAStudentCorner.DataSource = _dt;
+                grdMBAStudentCorner.DataBind();
             }
         }
 
@@ -40,7 +40,7 @@ namespace collegeWebSite.Departments.Mechanical
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetStudentCorner(5);
+                _dt = _Student.GetStudentCorner(13);
             }
             catch (Exception)
             {
@@ -52,7 +52,7 @@ namespace collegeWebSite.Departments.Mechanical
             return _dt;
         }
 
-        protected void grdMechStudentCorner_RowDataBound(object sender, GridViewRowEventArgs e)
+        protected void grdMBAStudentCorner_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
             {

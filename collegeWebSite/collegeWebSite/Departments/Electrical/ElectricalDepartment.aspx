@@ -15,6 +15,7 @@
             <li><a href="/Departments/Electrical/ElectricalResults.aspx">Results</a></li>
            <%-- <li><a href="/Departments/Electrical/ElectricalPhotoGallery.aspx">Photo Gallery</a></li>--%>
             <li><a href="/Departments/Electrical/ElectricalPlacement.aspx">Placement</a></li>
+            <li><a href="/Departments/Electrical/ElectricalStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/Electrical/ElectricalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
 
         </ul>

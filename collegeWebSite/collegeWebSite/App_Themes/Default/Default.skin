@@ -13,5 +13,7 @@ Default skin template. The following skins are provided as examples only.
 
 <asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
 --%>
+<asp:GridView runat="server" SkinID="grdExtraActivity" CssClass="table table-responsive">
+</asp:GridView>
 <asp:GridView runat="server" CssClass="table table-responsive GridHeader">
 </asp:GridView>

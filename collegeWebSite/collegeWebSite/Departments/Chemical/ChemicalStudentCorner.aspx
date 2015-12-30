@@ -1,15 +1,16 @@
 ﻿<%@ Page Title="Chemcial Student Corner" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ChemicalStudentCorner.aspx.cs" Inherits="collegeWebSite.Departments.Chemical.ChemicalStudentCorner" %>
+
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ChemicalDeptCarouselUC.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentCarousel" runat="server">
-     <uc:carouselControl runat="server" />
+    <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
-           <li><a href="/Departments/Chemical/ChemicalDepartment.aspx">Department Profile</a></li>
+            <li><a href="/Departments/Chemical/ChemicalDepartment.aspx">Department Profile</a></li>
             <li><a href="/Departments/Chemical/ChemicalFaculty.aspx">Faculty</a></li>
             <li><a href="/Departments/Chemical/ChemicalLabs.aspx">Labs</a></li>
             <li><a href="/Departments/Chemical/ChemicalSyllabus.aspx">Syllabus</a></li>
@@ -23,4 +24,9 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
+    <div class="page-header-new">
+        <h3>Student Corner</h3>
+    </div>
+    <asp:GridView ID="grdChemStudentCorner" SkinID="grdExtraActivity" runat="server" OnRowDataBound="grdChemStudentCorner_RowDataBound">
+    </asp:GridView>
 </asp:Content>
