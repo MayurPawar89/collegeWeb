@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Deprtments
+namespace collegeWebSite.Departments.Workshop
 {
 
 
-    public partial class Workshop
+    public partial class WorkshopFaculty
     {
     }
 }

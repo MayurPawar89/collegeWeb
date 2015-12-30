@@ -175,6 +175,9 @@
     <Content Include="Departments\Mechanical\MechanicalResults.aspx" />
     <Content Include="Departments\Mechanical\MechanicalStudentCorner.aspx" />
     <Content Include="Departments\Mechanical\MechanicalSyllabus.aspx" />
+    <Content Include="Departments\Workshop\WorkshopDepartment.aspx" />
+    <Content Include="Departments\Workshop\WorkshopFaculty.aspx" />
+    <Content Include="Departments\Workshop\WorkshopSection.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Carousel\Chemical\Chem_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\Chemical\Chem_Dept_Large_2.jpg" />
@@ -183,21 +186,18 @@
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_2.jpg" />
     <Content Include="Images\Carousel\Computer\Comp_Dept_Large_3.jpg" />
     <Content Include="Images\Carousel\Default\carousel1_large.JPG" />
-    <Content Include="Images\Carousel\Default\carousel1_medium.JPG" />
-    <Content Include="Images\Carousel\Default\carousel1_small.JPG" />
     <Content Include="Images\Carousel\Default\carousel2_large.JPG" />
-    <Content Include="Images\Carousel\Default\carousel2_medium.JPG" />
-    <Content Include="Images\Carousel\Default\carousel2_small.JPG" />
     <Content Include="Images\Carousel\Default\carousel3_large.JPG" />
-    <Content Include="Images\Carousel\Default\carousel3_medium.JPG" />
-    <Content Include="Images\Carousel\Default\carousel3_small.JPG" />
     <Content Include="Images\Carousel\Default\carousel4_large.JPG" />
-    <Content Include="Images\Carousel\Default\carousel4_medium.JPG" />
-    <Content Include="Images\Carousel\Default\carousel4_small.JPG" />
     <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_1.jpg" />
     <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_2.jpg" />
     <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_3.jpg" />
     <Content Include="Images\Carousel\EandTC\ETC_Dept_Large_4.jpg" />
+    <Content Include="Images\Carousel\Electrical\Electrical_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\Electrical\Electrical_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\Electrical\Electrical_Dept_Large_3.jpg" />
+    <Content Include="Images\Carousel\Electrical\Electrical_Dept_Large_4.jpg" />
+    <Content Include="Images\Carousel\Electrical\Electrical_Dept_Large_5.jpg" />
     <Content Include="Images\Carousel\FE\FE_Dprt_Large_1.JPG" />
     <Content Include="Images\Carousel\FE\FE_Dprt_Large_2.JPG" />
     <Content Include="Images\Carousel\FE\FE_Dprt_Large_3.JPG" />
@@ -210,6 +210,10 @@
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_2.jpg" />
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_3.jpg" />
     <Content Include="Images\Carousel\MBA\MBA_Dept_Large_4.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_1.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_2.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_3.jpg" />
+    <Content Include="Images\Carousel\Mechanical\MECH_Dept_Large_4.jpg" />
     <Content Include="Images\Company Logo\ABB.jpg" />
     <Content Include="Images\Company Logo\AdvanceEnzymes.jpg" />
     <Content Include="Images\Company Logo\aress.jpg" />
@@ -433,6 +437,15 @@
     <Content Include="Images\Events\Department\MBA\Workshops\2.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\3.jpg" />
     <Content Include="Images\Events\Department\MBA\Workshops\4.jpg" />
+    <Content Include="Images\Events\Department\Workshop\BlacSmithy.jpg" />
+    <Content Include="Images\Events\Department\Workshop\CarpentryShop.jpg" />
+    <Content Include="Images\Events\Department\Workshop\FittingShop.jpg" />
+    <Content Include="Images\Events\Department\Workshop\MachineShop.jpg" />
+    <Content Include="Images\Events\Department\Workshop\PlasticMouldingShop.jpg" />
+    <Content Include="Images\Events\Department\Workshop\PlumbingShop.jpg" />
+    <Content Include="Images\Events\Department\Workshop\TinSmithyShop.jpg" />
+    <Content Include="Images\Events\Department\Workshop\WeldingShop.jpg" />
+    <Content Include="Images\Events\Department\Workshop\WorkshopBuilding.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
@@ -468,12 +481,16 @@
     <Content Include="Images\Labs\Mechanical\Metallurgy Lab\Metallurgy.jpg" />
     <Content Include="Images\Labs\Mechanical\Metrology Lab\Metrology.jpg" />
     <Content Include="Images\Labs\Mechanical\Turbo Lab\Turbo.jpg" />
+    <Content Include="Images\Profile Images\Department\Chemical\CHEM_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\Electrical\Electrical_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\ETC\ETC_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\FE\FE_HOD.JPG" />
     <Content Include="Images\Profile Images\Department\IT\IT_HOD.JPG" />
     <Content Include="Content\Scripts\jquery-2.1.4.min.js" />
     <Content Include="Images\Profile Images\Department\MBA\MBA_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\Mechanical\MECH_HOD.jpg" />
+    <Content Include="Images\Profile Images\Department\Workshop\Workshop_HOD.jpg" />
     <Content Include="Images\Profile Images\Inception\Ashokrao_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Balasaheb_Vikhe_Patil.jpg" />
     <Content Include="Images\Profile Images\Inception\Padmashree_Vitthalrao_Vikhe_Patil.jpg" />
@@ -571,7 +588,6 @@
     <Content Include="Departments\Computer\ComputerDepartment.aspx" />
     <Content Include="Departments\IT\ITDepartment.aspx" />
     <Content Include="Departments\Library\LibraryDepartment.aspx" />
-    <Content Include="Departments\Workshop\Workshop.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Default.aspx" />
     <Content Include="AboutUs.aspx" />
@@ -1162,6 +1178,27 @@
     <Compile Include="Departments\Mechanical\MechanicalSyllabus.aspx.designer.cs">
       <DependentUpon>MechanicalSyllabus.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\Workshop\WorkshopDepartment.aspx.cs">
+      <DependentUpon>WorkshopDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Workshop\WorkshopDepartment.aspx.designer.cs">
+      <DependentUpon>WorkshopDepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Workshop\WorkshopFaculty.aspx.cs">
+      <DependentUpon>WorkshopFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Workshop\WorkshopFaculty.aspx.designer.cs">
+      <DependentUpon>WorkshopFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Workshop\WorkshopSection.aspx.cs">
+      <DependentUpon>WorkshopSection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Workshop\WorkshopSection.aspx.designer.cs">
+      <DependentUpon>WorkshopSection.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainNav\Admission.aspx.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1473,13 +1510,6 @@
     <Compile Include="Departments\Library\LibraryDepartment.aspx.designer.cs">
       <DependentUpon>LibraryDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments\Workshop\Workshop.aspx.cs">
-      <DependentUpon>Workshop.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\Workshop\Workshop.aspx.designer.cs">
-      <DependentUpon>Workshop.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1662,8 +1692,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\Carousel\Electrical\" />
-    <Folder Include="Images\Carousel\Mechanical\" />
     <Folder Include="Images\Events\Department\Chemical\" />
     <Folder Include="Images\Events\Department\Electrical\" />
     <Folder Include="Images\Events\Department\Mechanical\" />

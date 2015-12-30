@@ -70,7 +70,7 @@
                                         <li><a href="/Departments/Electrical/ElectricalDepartment.aspx">Electrical Department</a></li>
                                         <li><a href="/Departments/Mechanical/MechanicalDepartment.aspx">Mechanical Department</a></li>
                                         <li><a href="/Departments/IT/ITDepartment.aspx">Information Technology Department</a></li>
-                                        <li><a href="/Departments/Workshop/Workshop.aspx">Workshop</a></li>
+                                        <li><a href="/Departments/Workshop/WorkshopDepartment.aspx">Workshop</a></li>
                                         <li><a href="/Departments/Library/LibraryDepartment.aspx">Library</a></li>
                                         <li><a href="/Departments/MBA/MBADepartment.aspx">M.B.A.</a></li>
                                     </ul>

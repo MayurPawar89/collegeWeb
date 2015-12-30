@@ -60,13 +60,6 @@
                 <img alt="300x200" src="../../Images/Events/Department/Library/Issuing_Section.jpg" />
                 <h4>Issuing Section
                 </h4>
-                <%--<div>
-                    <strong>Lab Information</strong><br />
-                    <ol>
-                        <li>Digital trainer kit.</li>
-                        <li>Digital IC tester.</li>
-                    </ol>
-                </div>--%>
             </div>
         </div>
         <div class="col-md-4">
@@ -74,13 +67,6 @@
                 <img alt="300x200" src="../../Images/Events/Department/Library/Journal _Periodical_Section.jpg" />
                 <h4>Journal Periodical
                 </h4>
-                <%--<div>
-                    <strong>Lab Information</strong><br />
-                    <ol>
-                        <li>Digital trainer kit.</li>
-                        <li>Digital IC tester.</li>
-                    </ol>
-                </div>--%>
             </div>
         </div>
         <div class="col-md-4">
@@ -88,13 +74,6 @@
                 <img alt="300x200" src="../../Images/Events/Department/Library/Reading_Room.jpg" />
                 <h4>Reading Room
                 </h4>
-                <%--<div>
-                    <strong>Lab Information</strong><br />
-                    <ol>
-                        <li>Digital trainer kit.</li>
-                        <li>Digital IC tester.</li>
-                    </ol>
-                </div>--%>
             </div>
         </div>
         <div class="col-md-4">
@@ -102,13 +81,6 @@
                 <img alt="300x200" src="../../Images/Events/Department/Library/Reference_Section.jpg" />
                 <h4>Reference Section
                 </h4>
-                <%--<div>
-                    <strong>Lab Information</strong><br />
-                    <ol>
-                        <li>Digital trainer kit.</li>
-                        <li>Digital IC tester.</li>
-                    </ol>
-                </div>--%>
             </div>
         </div>
         <div class="col-md-4">
@@ -116,13 +88,6 @@
                 <img alt="300x200" src="../../Images/Events/Department/Library/Stacking_Section.jpg" />
                 <h4>Stacking Section
                 </h4>
-                <%--<div>
-                    <strong>Lab Information</strong><br />
-                    <ol>
-                        <li>Digital trainer kit.</li>
-                        <li>Digital IC tester.</li>
-                    </ol>
-                </div>--%>
             </div>
         </div>
     </div>
