@@ -13,6 +13,15 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm {
     public partial class ETCExtraActivity {
         
         /// <summary>
+        /// grdETCSeminarOrganized control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdETCSeminarOrganized;
+        
+        /// <summary>
         /// grdETCGuestLect control.
         /// </summary>
         /// <remarks>
@@ -20,5 +29,32 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView grdETCGuestLect;
+        
+        /// <summary>
+        /// grdETCWorkshop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdETCWorkshop;
+        
+        /// <summary>
+        /// grdETCPaperStaff control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdETCPaperStaff;
+        
+        /// <summary>
+        /// grdETCSeminarAttend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdETCSeminarAttend;
     }
 }

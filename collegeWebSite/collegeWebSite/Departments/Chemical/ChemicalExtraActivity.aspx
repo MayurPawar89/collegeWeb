@@ -23,4 +23,47 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
+    <div class="text-center">
+        <h1>Extra-curricular & Co-curricular Activities</h1>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Seminar Organized</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdChemSeminarOrganized" runat="server" OnRowDataBound="grdChemSeminarOrganized_RowDataBound">
+        </asp:GridView>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Guest Lectures Organized</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdChemGuestLect" runat="server">
+        </asp:GridView>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Workshop Organized</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdChemWorkshop" runat="server">
+        </asp:GridView>
+    </div>
+    
+    <div class="page-model-header-new">
+        <h4>Paper published/Presented by Staff details</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdChemPaperStaff" runat="server">
+        </asp:GridView>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Seminar or workshop attended by Staff details</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdChemSeminarAttend" runat="server">
+        </asp:GridView>
+    </div>
 </asp:Content>

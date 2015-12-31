@@ -11,5 +11,50 @@ namespace collegeWebSite.Departments.Mechanical {
     
     
     public partial class MechanicalExtraActivity {
+        
+        /// <summary>
+        /// grdMechSeminarOrganized control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMechSeminarOrganized;
+        
+        /// <summary>
+        /// grdMechGuestLect control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMechGuestLect;
+        
+        /// <summary>
+        /// grdMechWorkshop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMechWorkshop;
+        
+        /// <summary>
+        /// grdMechPaperStaff control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMechPaperStaff;
+        
+        /// <summary>
+        /// grdMechSeminarAttend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMechSeminarAttend;
     }
 }

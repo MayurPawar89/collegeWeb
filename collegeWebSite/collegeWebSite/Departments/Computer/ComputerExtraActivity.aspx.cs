@@ -23,8 +23,16 @@ namespace collegeWebSite.Departments.Computer
         {
             DataTable _dt = null;
             DataTable _dtWorkshop = null;
+            DataTable _dtSeminarOrganized = null;
+            DataTable _dtPaperPresented = null;
+            DataTable _dtSeminarAttended = null;
+
             _dt = GetGuestLectures();
             _dtWorkshop = GetWorkshopDetails();
+            _dtSeminarOrganized = GetSeminarOrganized();
+            _dtPaperPresented = GetPaperPresentedByStaff();
+            _dtSeminarAttended = GetSeminarAttendedByStaff();
+
             if (_dt != null && _dt.Rows.Count > 0)
             {
                 grdCompGuestLect.DataSource = _dt;
@@ -35,6 +43,81 @@ namespace collegeWebSite.Departments.Computer
                 grdCompWorkshop.DataSource = _dtWorkshop;
                 grdCompWorkshop.DataBind();
             }
+            if (_dtSeminarOrganized != null && _dtSeminarOrganized.Rows.Count > 0)
+            {
+                grdCompSeminarOrganized.DataSource = _dtSeminarOrganized;
+                grdCompSeminarOrganized.DataBind();
+            }
+            if (_dtPaperPresented != null && _dtPaperPresented.Rows.Count > 0)
+            {
+                grdCompPaperStaff.DataSource = _dtPaperPresented;
+                grdCompPaperStaff.DataBind();
+            }
+            if (_dtSeminarAttended != null && _dtSeminarAttended.Rows.Count > 0)
+            {
+                grdCompSeminarAttend.DataSource = _dtSeminarAttended;
+                grdCompSeminarAttend.DataBind();
+            }
+        }
+
+        private DataTable GetSeminarAttendedByStaff()
+        {
+            DataTable _dt = null;
+
+            DataAccess _DataAccess = new DataAccess();
+            StudentInformation _Student = new StudentInformation();
+            try
+            {
+                _dt = _Student.GetSeminarAttendedByStaff(2);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+            }
+            return _dt;
+        }
+
+        private DataTable GetPaperPresentedByStaff()
+        {
+            DataTable _dt = null;
+
+            DataAccess _DataAccess = new DataAccess();
+            StudentInformation _Student = new StudentInformation();
+            try
+            {
+                _dt = _Student.GetPaperPresentedByStaff(2);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+            }
+            return _dt;
+        }
+
+        private DataTable GetSeminarOrganized()
+        {
+            DataTable _dt = null;
+
+            DataAccess _DataAccess = new DataAccess();
+            StudentInformation _Student = new StudentInformation();
+            try
+            {
+                _dt = _Student.GetSeminarOrganized(2);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+            }
+            return _dt;
         }
 
         private DataTable GetWorkshopDetails()
@@ -74,6 +157,22 @@ namespace collegeWebSite.Departments.Computer
             {
             }
             return _dt;
+        }
+
+        protected void grdCompSeminarOrganized_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            string[] sSeminars = e.Row.Cells[3].Text.Split(new string[] { "; " }, StringSplitOptions.None);
+
+            foreach (string item in sSeminars)
+            {
+                Label lb = new Label();
+                lb.ID = "lbsSeminars";
+                lb.Text = item.Trim(); 
+                lb.Attributes.Add("runat", "server");
+
+                e.Row.Cells[3].Controls.Add(lb);
+                e.Row.Cells[3].Controls.Add(new LiteralControl("<br />"));
+            }
         }
     }
 }

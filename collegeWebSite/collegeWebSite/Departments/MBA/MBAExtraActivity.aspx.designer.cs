@@ -13,6 +13,15 @@ namespace collegeWebSite.Departments.MBA {
     public partial class MBAExtraActivity {
         
         /// <summary>
+        /// grdMBASeminarOrganized control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMBASeminarOrganized;
+        
+        /// <summary>
         /// grdMBAGuestLect control.
         /// </summary>
         /// <remarks>
@@ -20,5 +29,32 @@ namespace collegeWebSite.Departments.MBA {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView grdMBAGuestLect;
+        
+        /// <summary>
+        /// grdMBAWorkshop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMBAWorkshop;
+        
+        /// <summary>
+        /// grdMBAPaperStaff control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMBAPaperStaff;
+        
+        /// <summary>
+        /// grdMBASeminarAttend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdMBASeminarAttend;
     }
 }

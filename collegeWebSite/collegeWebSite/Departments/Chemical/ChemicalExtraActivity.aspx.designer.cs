@@ -11,5 +11,50 @@ namespace collegeWebSite.Departments.Chemical {
     
     
     public partial class ChemicalExtraActivity {
+        
+        /// <summary>
+        /// grdChemSeminarOrganized control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdChemSeminarOrganized;
+        
+        /// <summary>
+        /// grdChemGuestLect control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdChemGuestLect;
+        
+        /// <summary>
+        /// grdChemWorkshop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdChemWorkshop;
+        
+        /// <summary>
+        /// grdChemPaperStaff control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdChemPaperStaff;
+        
+        /// <summary>
+        /// grdChemSeminarAttend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdChemSeminarAttend;
     }
 }

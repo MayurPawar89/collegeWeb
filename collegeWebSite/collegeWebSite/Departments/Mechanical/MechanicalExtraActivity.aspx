@@ -23,9 +23,47 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
-    <%-- <h4>Guest Lectures Organized</h4>
-        <div>
-            <asp:GridView ID="grdMechGuestLect" runat="server">
-            </asp:GridView>
-        </div>--%>
+    <div class="text-center">
+        <h1>Extra-curricular & Co-curricular Activities</h1>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Seminar Organized</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdMechSeminarOrganized" runat="server" OnRowDataBound="grdMechSeminarOrganized_RowDataBound">
+        </asp:GridView>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Guest Lectures Organized</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdMechGuestLect" runat="server">
+        </asp:GridView>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Workshop Organized</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdMechWorkshop" runat="server">
+        </asp:GridView>
+    </div>
+    
+    <div class="page-model-header-new">
+        <h4>Paper published/Presented by Staff details</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdMechPaperStaff" runat="server">
+        </asp:GridView>
+    </div>
+
+    <div class="page-model-header-new">
+        <h4>Seminar or workshop attended by Staff details</h4>
+    </div>
+    <div>
+        <asp:GridView ID="grdMechSeminarAttend" runat="server">
+        </asp:GridView>
+    </div>
 </asp:Content>

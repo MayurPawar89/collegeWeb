@@ -13,6 +13,15 @@ namespace collegeWebSite.Departments.Electrical {
     public partial class ElectricalExtraActivity {
         
         /// <summary>
+        /// grdElectSeminarOrganized control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdElectSeminarOrganized;
+        
+        /// <summary>
         /// grdElectGuestLect control.
         /// </summary>
         /// <remarks>
@@ -20,5 +29,32 @@ namespace collegeWebSite.Departments.Electrical {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView grdElectGuestLect;
+        
+        /// <summary>
+        /// grdElectWorkshop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdElectWorkshop;
+        
+        /// <summary>
+        /// grdElectPaperStaff control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdElectPaperStaff;
+        
+        /// <summary>
+        /// grdElectSeminarAttend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdElectSeminarAttend;
     }
 }

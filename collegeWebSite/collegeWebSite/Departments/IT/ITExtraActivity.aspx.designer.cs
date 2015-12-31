@@ -13,6 +13,15 @@ namespace collegeWebSite.Departments.IT {
     public partial class ITExtraActivity {
         
         /// <summary>
+        /// grdITSeminarOrganized control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdITSeminarOrganized;
+        
+        /// <summary>
         /// grdITGuestLect control.
         /// </summary>
         /// <remarks>
@@ -20,5 +29,32 @@ namespace collegeWebSite.Departments.IT {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView grdITGuestLect;
+        
+        /// <summary>
+        /// grdITWorkshop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdITWorkshop;
+        
+        /// <summary>
+        /// grdITPaperStaff control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdITPaperStaff;
+        
+        /// <summary>
+        /// grdITSeminarAttend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdITSeminarAttend;
     }
 }
