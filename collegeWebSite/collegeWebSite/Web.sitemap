@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="/Default.aspx" title="Home"  description="Home">
+    <siteMapNode url="/Glimpses.aspx" title="Glimpses"  description="Glimpses">
+    </siteMapNode>
+    <siteMapNode title="Alumni"  description="Alumni">
+      <siteMapNode url="/Alumni/Alumni.aspx" title="Alumni Information"  description="Alumni Information" />
+      <siteMapNode url="/Alumni/AlumniRegistration.aspx" title="Alumni Registration"  description="Alumni Registration" />
+      <siteMapNode url="/Alumni/AlumniSearch.aspx" title="Alumni Search"  description="Alumni Search" />
+      <siteMapNode url="/Alumni/ViewAllAlumni.aspx" title="View All Alumni"  description="View All Alumni" />
+    </siteMapNode>
+    <siteMapNode title="TPC Section"  description="TPC Section">
+      <siteMapNode url="/TCP/TPCSection.aspx" title="TPC Section"  description="TPC Section" />
+      <siteMapNode url="/TCP/RegistrationForm.aspx" title="TPC Registration Form"  description="TPC Registration Form" />
+      <siteMapNode url="/TCP/CurrentStudents.aspx" title="Current Students"  description="Current Students" />
+      <siteMapNode url="/TCP/PlacementHighlights.aspx" title="Placement Highlights"  description="Placement Highlights" />
+      <siteMapNode url="/TCP/ListOfCompanies.aspx" title="List Of Companies"  description="List Of Companies" />
+    </siteMapNode>
+    <siteMapNode title="Departments" description="Departments">
+      <siteMapNode url="" title="First Year Department"  description="First Year Department">
+        <siteMapNode url="/Departments/First Year/FEDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/First Year/FEFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/First Year/FELabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/First Year/FESyllbus.aspx" title="Syllbus"  description="Syllbus" />
+        <siteMapNode url="/Departments/First Year/FEEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/First Year/FEResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/First Year/FEStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/First Year/FEExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+      <siteMapNode url="" title="Computer Department"  description="Computer Department" >
+        <siteMapNode url="/Departments/Computer/ComputerDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/Computer/ComputerFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/Computer/ComputerLabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/Computer/ComputerSyllbus.aspx" title="Syllabus"  description="Syllabus" />
+        <siteMapNode url="/Departments/Computer/ComputerEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/Computer/ComputerResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/Computer/ComputerPlacement.aspx" title="Placement"  description="Placement" />
+        <siteMapNode url="/Departments/Computer/ComputerStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/Computer/ComputerExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+      <siteMapNode url="" title="Chemical Department"  description="Chemical Department" >
+        <siteMapNode url="/Departments/Chemical/ChemicalDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/Chemical/ChemicalFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/Chemical/ChemicalLabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/Chemical/ChemicalSyllabus.aspx" title="Syllabus"  description="Syllabus" />
+        <siteMapNode url="/Departments/Chemical/ChemicalEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/Chemical/ChemicalResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/Chemical/ChemicalPlacement.aspx" title="Placement"  description="Placement" />
+        <siteMapNode url="/Departments/Chemical/ChemicalStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/Chemical/ChemicalExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+      <siteMapNode url="" title="Electronic &amp; Tele Communication Department"  description="Electronic &amp; Tele Communication Department" >
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCLabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCSyllbus.aspx" title="Syllabus"  description="Syllabus" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCPlacement.aspx" title="Placement"  description="Placement" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/ElectronicAndTeleComm/ETCExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+      <siteMapNode url="" title="Electrical Department"  description="Electrical Department" >
+        <siteMapNode url="/Departments/Electrical/ElectricalDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/Electrical/ElectricalFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/Electrical/ElectricalLabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/Electrical/ElectricalSyllbus.aspx" title="Syllabus"  description="Syllabus" />
+        <siteMapNode url="/Departments/Electrical/ElectricalEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/Electrical/ElectricalResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/Electrical/ElectricalPlacement.aspx" title="Placement"  description="Placement" />
+        <siteMapNode url="/Departments/Electrical/ElectricalStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/Electrical/ElectricalExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+      <siteMapNode url="" title="Mechanical Department"  description="Mechanical Department" >
+        <siteMapNode url="/Departments/Mechanical/MechanicalDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalLabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalSyllbus.aspx" title="Syllabus"  description="Syllabus" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalPlacement.aspx" title="Placement"  description="Placement" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/Mechanical/MechanicalExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+      <siteMapNode url="" title="Information Technology Department"  description="Information Technology Department" >
+        <siteMapNode url="/Departments/IT/ITDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/IT/ITFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/IT/ITLabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/IT/ITSyllbus.aspx" title="Syllabus"  description="Syllabus" />
+        <siteMapNode url="/Departments/IT/ITEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/IT/ITResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/IT/ITPlacement.aspx" title="Placement"  description="Placement" />
+        <siteMapNode url="/Departments/IT/ITStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/IT/ITExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+      <siteMapNode url="" title="Workshop"  description="Workshop" >
+        <siteMapNode url="/Departments/Workshop/WorkshopDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/Workshop/WorkshopFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/Workshop/WorkshopSection.aspx" title="Section"  description="Section" />
+      </siteMapNode>
+      <siteMapNode url="" title="Library Department"  description="Library Department" >
+        <siteMapNode url="/Departments/Library/LibraryDepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/Library/LibraryFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/Library/LibraryObjectives.aspx" title="Objectives"  description="Objectives" />
+        <siteMapNode url="/Departments/Library/LibraryFacilities.aspx" title="Facilities"  description="Facilities" />
+        <siteMapNode url="/Departments/Library/LibrarySection.aspx" title="Section"  description="Section" />
+      </siteMapNode>
+      <siteMapNode url="" title="MBA Department"  description="MBA Department" >
+        <siteMapNode url="/Departments/MBA/MBADepartment.aspx" title="Department Profile"  description="Department Profile" />
+        <siteMapNode url="/Departments/MBA/MBAFaculty.aspx" title="Faculty"  description="Faculty" />
+        <siteMapNode url="/Departments/MBA/MBALabs.aspx" title="Labs"  description="Labs" />
+        <siteMapNode url="/Departments/MBA/MBASyllbus.aspx" title="Syllabus"  description="Syllabus" />
+        <siteMapNode url="/Departments/MBA/MBAEvent.aspx" title="Event"  description="Event" />
+        <siteMapNode url="/Departments/MBA/MBAResults.aspx" title="Results"  description="Results" />
+        <siteMapNode url="/Departments/MBA/MBAPlacement.aspx" title="Placement"  description="Placement" />
+        <siteMapNode url="/Departments/MBA/MBAStudentCorner.aspx" title="Student Corner"  description="Student Corner" />
+        <siteMapNode url="/Departments/MBA/MBAExtraActivity.aspx" title="Extra Activity"  description="Extra Activity" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Courses Offered"  description="Courses Offered">
+      <siteMapNode url="/CoursesOffered/Computer/ComputerEngineering.aspx" title="Computer Engineering"  description="Computer Engineering" />
+      <siteMapNode url="/CoursesOffered/Chemical/ChemicalEngineering.aspx" title="Chemical Engineering"  description="Chemical Engineering" />
+      <siteMapNode url="/CoursesOffered/ElectronicAndTeleComm/EAndTCEngineering.aspx" title="E&amp;TC Engineering"  description="E&amp;TC Engineering" />
+      <siteMapNode url="/CoursesOffered/Electrical/ElectricalEngineering.aspx" title="Electrical Engineering"  description="Electrical Engineering" />
+      <siteMapNode url="/CoursesOffered/Mechanical/MechanicalEngineering.aspx" title="Mechanical Engineering"  description="Mechanical Engineering" />
+      <siteMapNode url="/CoursesOffered/IT/ITEngineering.aspx" title="Information Technology Engineering"  description="Information Technology Engineering" />
+      <siteMapNode url="/CoursesOffered/MBA/MBACourse.aspx" title="M.B.A."  description="M.B.A." />
+    </siteMapNode>
+    <siteMapNode url="/ContactUs.aspx" title="ContactUs"  description="Contact Us">
+    </siteMapNode>
+    <siteMapNode url="/AboutUs.aspx" title="About Us"  description="About Us">
+    </siteMapNode>
+    <siteMapNode url="/SiteMap.aspx" title="Site Map"  description="Site Map">
+    </siteMapNode>
+  </siteMapNode>
+
+
+</siteMap>

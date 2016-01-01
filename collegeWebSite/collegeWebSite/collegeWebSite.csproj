@@ -112,6 +112,7 @@
     <Content Include="Departments\Chemical\ChemicalResults.aspx" />
     <Content Include="Departments\Chemical\ChemicalStudentCorner.aspx" />
     <Content Include="Departments\Chemical\ChemicalSyllabus.aspx" />
+    <Content Include="Departments\Computer\ComputerDepartment.aspx" />
     <Content Include="Departments\Computer\ComputerEvent.aspx" />
     <Content Include="Departments\Computer\ComputerExtraActivity.aspx" />
     <Content Include="Departments\Computer\ComputerFaculty.aspx" />
@@ -448,6 +449,8 @@
     <Content Include="Images\Events\Department\Workshop\TinSmithyShop.jpg" />
     <Content Include="Images\Events\Department\Workshop\WeldingShop.jpg" />
     <Content Include="Images\Events\Department\Workshop\WorkshopBuilding.jpg" />
+    <Content Include="Images\Footer_Background.jpg" />
+    <Content Include="Images\Footer_Background1.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
@@ -502,6 +505,15 @@
     <Content Include="Images\Profile Images\Infrastructure\Girls hostel.jpg" />
     <Content Include="Images\Profile Images\Infrastructure\indoor_stadium.jpg" />
     <Content Include="Images\Profile Images\Infrastructure\indoor_stadium1.jpg" />
+    <Content Include="Images\TreeLineImages\dash.gif" />
+    <Content Include="Images\TreeLineImages\dashminus.gif" />
+    <Content Include="Images\TreeLineImages\dashplus.gif" />
+    <Content Include="Images\TreeLineImages\i.gif" />
+    <Content Include="Images\TreeLineImages\l.gif" />
+    <Content Include="Images\TreeLineImages\lminus.gif" />
+    <Content Include="Images\TreeLineImages\lplus.gif" />
+    <Content Include="Images\TreeLineImages\minus.gif" />
+    <Content Include="Images\TreeLineImages\plus.gif" />
     <Content Include="MainNav\Admission.aspx" />
     <Content Include="MainNav\Curriculum.aspx" />
     <Content Include="MainNav\GroupLinkages.aspx" />
@@ -587,7 +599,6 @@
     <Content Include="CoursesOffered\Mechanical\MechanicalEngineering.aspx" />
     <Content Include="DefaultTest.aspx" />
     <Content Include="Departments\Applied Science\AppliedScience.aspx" />
-    <Content Include="Departments\Computer\ComputerDepartment.aspx" />
     <Content Include="Departments\IT\ITDepartment.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Default.aspx" />
@@ -649,6 +660,7 @@
     <Content Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx" />
     <Content Include="Web.config" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumni\AlumniRegistration.aspx.cs">
@@ -737,6 +749,13 @@
     </Compile>
     <Compile Include="Departments\Chemical\ChemicalSyllabus.aspx.designer.cs">
       <DependentUpon>ChemicalSyllabus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerDepartment.aspx.cs">
+      <DependentUpon>ComputerDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Computer\ComputerDepartment.aspx.designer.cs">
+      <DependentUpon>ComputerDepartment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Computer\ComputerEvent.aspx.cs">
       <DependentUpon>ComputerEvent.aspx</DependentUpon>
@@ -1504,13 +1523,6 @@
     <Compile Include="Departments\Applied Science\AppliedScience.aspx.designer.cs">
       <DependentUpon>AppliedScience.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments\Computer\ComputerDepartment.aspx.cs">
-      <DependentUpon>ComputerDepartment.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\Computer\ComputerDepartment.aspx.designer.cs">
-      <DependentUpon>ComputerDepartment.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Departments\IT\ITDepartment.aspx.cs">
       <DependentUpon>ITDepartment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1701,6 +1713,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Images\Background\" />
     <Folder Include="Images\Events\Department\Chemical\" />
     <Folder Include="Images\Events\Department\Electrical\" />
     <Folder Include="Images\Events\Department\Mechanical\" />

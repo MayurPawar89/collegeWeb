@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/Content/CustomCSS.css" rel="stylesheet" />
 </head>
 <body>
@@ -170,8 +170,10 @@
                         <div class="thumbnail">
                             <img alt="300x200" src="Images/Profile Images/propGBShinde.JPG" />
                             <h3>Dr. G. B. Shinde, Principal </h3>
-                            <p>M.E. (Chemical), M.B.A. (HR), Ph.D. (Chemical)<br />
-                                Member of ISTE, IE.</p>
+                            <p>
+                                M.E. (Chemical), M.B.A. (HR), Ph.D. (Chemical)<br />
+                                Member of ISTE, IE.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -189,9 +191,72 @@
     <footer>
         <div class="container">
             <div class="row">
-                <h6>&copy; All Rights Reserved Pravara Rural Education Society, Loni.</h6>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <h6>Quick links</h6>
+                    <ul class="unstyled">
+                        <li><a href="/Default.aspx">Home</a></li>
+                        <li><a href="/Photos.aspx">Glimpses</a></li>
+                        <li><a href="/Contact.aspx">Contact Us</a></li>
+                        <li><a href="/About.aspx">About Us</a></li>
+                        <li><a href="/Sitemap.aspx">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Quick links</h6>
+                    <ul class="unstyled">
+                        <li><a href="About.aspx">About the Society</a></li>
+                        <li><a href="Aims_Obj.aspx">Mission & Vision</a></li>
+                        <li><a href="Principal_Desk.aspx">Principle's Desk</a></li>
+                        <li><a href="Admission.aspx">Admission</a></li>
+                        <li><a href="Inception.aspx">Inception</a></li>
+                        <li><a href="Curriculum.aspx">Curriculum & Syllabus</a></li>
+                        <li><a href="Infrastucture.aspx">Infrastructure</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Quick links</h6>
+                    <ul class="unstyled">
+                        <li><a href="Success_Stories.aspx">Success Stories</a></li>
+                        <li><a href="News_Event.aspx">News & Events</a></li>
+                        <li><a href="MBA.aspx">MBA</a></li>
+                        <li><a href="Link_Document/acedemic.pdf">Academic Calender</a></li>
+                        <li><a href="Link_Document/Broucher Sir Visveswaraiya.pdf">Placement Brochure</a></li>
+                        <li><a href="Link_Document/brochure.pdf">E-Brochure</a></li>
+                        <li><a href="Grouplink.aspx">Group Linkages</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Quick links</h6>
+                    <ul class="unstyled">
+                        <li><a href="/Comp_Engg.aspx">Computer Engineering</a></li>
+                        <li><a href="/chem_engg.aspx">Chemical Engineering</a></li>
+                        <li><a href="/ETC_Engg.aspx">Electronic and Telecommunication Engineering</a></li>
+                        <li><a href="/Elec_Engg.aspx">Electrical Engineering</a></li>
+                        <li><a href="/mech_engg.aspx">Mechanical Engineering</a></li>
+                        <li><a href="/IT_Engg.aspx">Information Technology Engineering</a></li>
+                        <li><a href="/MBA_Engg.aspx">M.B.A.</a></li>
+                    </ul>
+                </div>
+                
+                <!-- end col-sm-2 -->
+
+                <div class="col-sm-2">
+                    <h6>Follow Us</h6>
+                    <ul class="unstyled">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Google Plus</a></li>
+                    </ul>
+
+                </div>
+
             </div>
             <!-- end row -->
+            <div class="row">
+                <h6>&copy; All Rights Reserved Pravara Rural Education Society, Loni.</h6>
+            </div>
         </div>
         <!-- end container -->
     </footer>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="VisionMission.aspx.cs" Inherits="collegeWebSite.MainNav.VisionMission" %>
+﻿<%@ Page Title="Mission & Vision" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="VisionMission.aspx.cs" Inherits="collegeWebSite.MainNav.VisionMission" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/DefaultCarouselUC.ascx" %>
 
@@ -61,14 +61,14 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img alt="300x200" src="../Images/Icons/thumbnail_default.jpg" />
+                    <img alt="300x200" src="../Images/Events/Department/Library/Reading_Room.jpg" />
                     <h3>Library Reading Hall</h3>
                 </div>
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img alt="300x200" src="../Images/Icons/thumbnail_default.jpg" />
+                    <img alt="300x200" src="../Images/Profile Images/Infrastructure/Bus.jpg" />
                     <h3>College buses</h3>
                 </div>
             </div>

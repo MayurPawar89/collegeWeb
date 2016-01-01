@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Inception.aspx.cs" Inherits="collegeWebSite.MainNav.Inception" %>
+﻿<%@ Page Title="Inception" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Inception.aspx.cs" Inherits="collegeWebSite.MainNav.Inception" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/DefaultCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
