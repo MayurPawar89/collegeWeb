@@ -153,6 +153,7 @@
     <Content Include="Departments\IT\ITExtraActivity.aspx" />
     <Content Include="Departments\IT\ITPlacement.aspx" />
     <Content Include="Departments\IT\ITStudentCorner.aspx" />
+    <Content Include="Departments\Library\LibraryDepartment.aspx" />
     <Content Include="Departments\Library\LibraryFacilities.aspx" />
     <Content Include="Departments\Library\LibraryFaculty.aspx" />
     <Content Include="Departments\Library\LibraryObjectives.aspx" />
@@ -588,7 +589,6 @@
     <Content Include="Departments\Applied Science\AppliedScience.aspx" />
     <Content Include="Departments\Computer\ComputerDepartment.aspx" />
     <Content Include="Departments\IT\ITDepartment.aspx" />
-    <Content Include="Departments\Library\LibraryDepartment.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Default.aspx" />
     <Content Include="AboutUs.aspx" />
@@ -1024,6 +1024,13 @@
     </Compile>
     <Compile Include="Departments\IT\ITStudentCorner.aspx.designer.cs">
       <DependentUpon>ITStudentCorner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\Library\LibraryDepartment.aspx.cs">
+      <DependentUpon>LibraryDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\Library\LibraryDepartment.aspx.designer.cs">
+      <DependentUpon>LibraryDepartment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Library\LibraryFacilities.aspx.cs">
       <DependentUpon>LibraryFacilities.aspx</DependentUpon>
@@ -1511,13 +1518,6 @@
     <Compile Include="Departments\IT\ITDepartment.aspx.designer.cs">
       <DependentUpon>ITDepartment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments\Library\LibraryDepartment.aspx.cs">
-      <DependentUpon>LibraryDepartment.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\Library\LibraryDepartment.aspx.designer.cs">
-      <DependentUpon>LibraryDepartment.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1692,6 +1692,7 @@
     <Content Include="Documents\womengravience.pdf" />
     <Content Include="Documents\acedemic.pdf" />
     <Content Include="Documents\brochure.pdf" />
+    <None Include="Properties\PublishProfiles\Mayur.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

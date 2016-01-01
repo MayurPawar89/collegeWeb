@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Library Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="LibraryDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Library.LibraryDepartment" %>
-
+﻿<%@ Page Title="Library Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="LibraryDepartment.aspx.cs" Inherits="collegeWebSite.Departments.Library.LibraryDepartment" %>
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/DefaultCarouselUC.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">

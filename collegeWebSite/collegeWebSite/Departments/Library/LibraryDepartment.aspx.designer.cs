@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Deprtments.Library {
+namespace collegeWebSite.Departments.Library {
     
     
     public partial class LibraryDepartment {
