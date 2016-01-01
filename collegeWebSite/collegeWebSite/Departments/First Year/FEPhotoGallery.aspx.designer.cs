@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Departments.FE {
+namespace collegeWebSite.Departments.First_Year {
     
     
     public partial class FEPhotoGallery {

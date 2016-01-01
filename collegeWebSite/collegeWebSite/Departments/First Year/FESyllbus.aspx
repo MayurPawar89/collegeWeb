@@ -1,4 +1,4 @@
-﻿<%@ Page Title="FE Syllabus" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FESyllbus.aspx.cs" Inherits="collegeWebSite.Departments.FE.FESyllbus" %>
+﻿<%@ Page Title="First Year Syllabus" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FESyllbus.aspx.cs" Inherits="collegeWebSite.Departments.First_Year.FESyllbus" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 

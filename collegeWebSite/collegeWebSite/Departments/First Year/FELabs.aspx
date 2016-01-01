@@ -1,4 +1,4 @@
-﻿<%@ Page Title="FE Labs" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FELabs.aspx.cs" Inherits="collegeWebSite.Departments.FE.FELabs" %>
+﻿<%@ Page Title="First Year Labs" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FELabs.aspx.cs" Inherits="collegeWebSite.Departments.First_Year.FELabs" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 

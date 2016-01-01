@@ -167,7 +167,6 @@
     <Content Include="Departments\MBA\MBAResults.aspx" />
     <Content Include="Departments\MBA\MBAStudentCorner.aspx" />
     <Content Include="Departments\MBA\MBASyllbus.aspx" />
-    <Content Include="Departments\MBA\MBATest.aspx" />
     <Content Include="Departments\Mechanical\MechanicalEvent.aspx" />
     <Content Include="Departments\Mechanical\MechanicalExtraActivity.aspx" />
     <Content Include="Departments\Mechanical\MechanicalFaculty.aspx" />
@@ -1123,13 +1122,6 @@
     </Compile>
     <Compile Include="Departments\MBA\MBASyllbus.aspx.designer.cs">
       <DependentUpon>MBASyllbus.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Departments\MBA\MBATest.aspx.cs">
-      <DependentUpon>MBATest.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Departments\MBA\MBATest.aspx.designer.cs">
-      <DependentUpon>MBATest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\Mechanical\MechanicalEvent.aspx.cs">
       <DependentUpon>MechanicalEvent.aspx</DependentUpon>

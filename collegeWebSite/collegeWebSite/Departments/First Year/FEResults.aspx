@@ -1,4 +1,4 @@
-﻿<%@ Page Title="FE Results" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEResults.aspx.cs" Inherits="collegeWebSite.Departments.FE.FEResults" %>
+﻿<%@ Page Title="First Year Results" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEResults.aspx.cs" Inherits="collegeWebSite.Departments.First_Year.FEResults" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">

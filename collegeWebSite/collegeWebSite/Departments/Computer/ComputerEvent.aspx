@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Computer Events" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerEvent.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITEvent" %>
+﻿<%@ Page Title="Computer Events" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerEvent.aspx.cs" Inherits="collegeWebSite.Departments.Computer.ComputerEvent" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/CompDeptCarouselUC.ascx" %>
 

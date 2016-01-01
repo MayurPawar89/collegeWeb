@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Computer Syllabus" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerSyllbus.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITSyllbus" %>
+﻿<%@ Page Title="Computer Syllabus" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerSyllbus.aspx.cs" Inherits="collegeWebSite.Departments.Computer.ComputerSyllbus" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/CompDeptCarouselUC.ascx" %>
 

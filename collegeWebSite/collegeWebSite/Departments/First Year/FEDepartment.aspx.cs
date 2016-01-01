@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Deprtments
+namespace collegeWebSite.Deprtments.First_Year
 {
     public partial class FEDepartment : System.Web.UI.Page
     {

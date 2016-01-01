@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Computer Photo Gallery" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerPhotoGallery.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITPhotoGallery" %>
+﻿<%@ Page Title="Computer Photo Gallery" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerPhotoGallery.aspx.cs" Inherits="collegeWebSite.Departments.Computer.ComputerPhotoGallery" %>
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/CompDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
