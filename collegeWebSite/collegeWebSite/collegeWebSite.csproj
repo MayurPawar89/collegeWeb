@@ -457,6 +457,8 @@
     <Content Include="Images\Icons\Female.jpg" />
     <Content Include="Images\Icons\Male.jpg" />
     <Content Include="Images\Icons\thumbnail_default.jpg" />
+    <Content Include="Images\Icons\underConstruction.jpg" />
+    <Content Include="Images\Icons\under_construction.jpg" />
     <Content Include="Images\Labs\Chemical\CRE lab\CRE_Lab.jpg" />
     <Content Include="Images\Labs\Chemical\Instrument\Instrument.jpg" />
     <Content Include="Images\Labs\Chemical\Mass transfer II\Mass_Transfer_II.jpg" />
@@ -519,6 +521,7 @@
     <Content Include="MainNav\GroupLinkages.aspx" />
     <Content Include="MainNav\Inception.aspx" />
     <Content Include="MainNav\Infrastructure.aspx" />
+    <Content Include="MainNav\NewsAndEvents.aspx" />
     <Content Include="MainNav\PrincipleDesk.aspx" />
     <Content Include="MainNav\SuccessStories.aspx" />
     <Content Include="MainNav\VisionMission.aspx" />
@@ -1267,6 +1270,13 @@
     </Compile>
     <Compile Include="MainNav\Infrastructure.aspx.designer.cs">
       <DependentUpon>Infrastructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainNav\NewsAndEvents.aspx.cs">
+      <DependentUpon>NewsAndEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainNav\NewsAndEvents.aspx.designer.cs">
+      <DependentUpon>NewsAndEvents.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainNav\PrincipleDesk.aspx.cs">
       <DependentUpon>PrincipleDesk.aspx</DependentUpon>

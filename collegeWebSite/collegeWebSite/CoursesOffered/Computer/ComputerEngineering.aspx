@@ -15,7 +15,7 @@
             <li><a href="/MainNav/Curriculum.aspx">Curriculum & Syllabus</a></li>
             <li><a href="/MainNav/Infrastructure.aspx">Infrastructure</a></li>
             <li><a href="/MainNav/SuccessStories.aspx">Success Stories</a></li>
-            <li><a href="#">News & Events</a></li>
+            <li><a href="/MainNav/NewsAndEvents.aspx">News & Events</a></li>
             <li><a href="../Departments/MBA/MBADepartment.aspx">MBA</a></li>
             <li><a href="../Documents/acedemic.pdf" target="_blank">Academic Calender</a></li>
             <li><a href="../Documents/placement brochre 2016.pdf" target="_blank">Placement Brochure</a></li>
