@@ -161,17 +161,20 @@ namespace collegeWebSite.Departments.Computer
 
         protected void grdCompSeminarOrganized_RowDataBound(object sender, GridViewRowEventArgs e)
         {
-            string[] sSeminars = e.Row.Cells[3].Text.Split(new string[] { "; " }, StringSplitOptions.None);
-
-            foreach (string item in sSeminars)
+            if (e.Row.RowType == DataControlRowType.DataRow)
             {
-                Label lb = new Label();
-                lb.ID = "lbsSeminars";
-                lb.Text = item.Trim(); 
-                lb.Attributes.Add("runat", "server");
+                string[] sSeminars = e.Row.Cells[3].Text.Split(new string[] { "; " }, StringSplitOptions.None);
 
-                e.Row.Cells[3].Controls.Add(lb);
-                e.Row.Cells[3].Controls.Add(new LiteralControl("<br />"));
+                foreach (string item in sSeminars)
+                {
+                    Label lb = new Label();
+                    lb.ID = "lbsSeminars";
+                    lb.Text = item.Trim();
+                    lb.Attributes.Add("runat", "server");
+
+                    e.Row.Cells[3].Controls.Add(lb);
+                    e.Row.Cells[3].Controls.Add(new LiteralControl("<br />"));
+                }
             }
         }
     }

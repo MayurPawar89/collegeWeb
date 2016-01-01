@@ -1,9 +1,11 @@
-﻿<%@ Page Title="FE Faculty" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEFaculty.aspx.cs" Inherits="collegeWebSite.Departments.FE.FEFaculty" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FEStudentCorner.aspx.cs" Inherits="collegeWebSite.Departments.First_Year.FEStudentCorner" %>
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/FEDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentCarousel" runat="server">
+    <uc:carouselControl runat="server" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
         <ul class="nav">
             <li><a href="/Departments/First Year/FEDepartment.aspx">Department Profile</a></li>
@@ -18,13 +20,10 @@
         </ul>
     </div>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
-    <uc:carouselControl runat="server" />
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="page-header-new text-center">
-        <h1>Department Faculty</h1>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
+    <div class="page-header-new">
+        <h3>Student Corner</h3>
     </div>
-    <asp:GridView ID="grdFEFaculty" runat="server" OnRowDataBound="grdFEFaculty_RowDataBound">
+    <asp:GridView ID="grdFEStudentCorner" SkinID="grdExtraActivity" runat="server" OnRowDataBound="grdFEStudentCorner_RowDataBound">
     </asp:GridView>
 </asp:Content>

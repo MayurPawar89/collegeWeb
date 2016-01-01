@@ -7,9 +7,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace collegeWebSite.Departments.ElectronicAndTeleComm
+namespace collegeWebSite.Departments.First_Year
 {
-    public partial class ETCExtraActivity : System.Web.UI.Page
+    public partial class FEExtraActivity : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -19,7 +19,6 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
 
             }
         }
-
         private void LoadDataGrid()
         {
             DataTable _dt = null;
@@ -36,28 +35,28 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
 
             if (_dt != null && _dt.Rows.Count > 0)
             {
-                grdETCGuestLect.DataSource = _dt;
-                grdETCGuestLect.DataBind();
+                grdFEGuestLect.DataSource = _dt;
+                grdFEGuestLect.DataBind();
             }
             if (_dtWorkshop != null && _dtWorkshop.Rows.Count > 0)
             {
-                grdETCWorkshop.DataSource = _dtWorkshop;
-                grdETCWorkshop.DataBind();
+                grdFEWorkshop.DataSource = _dtWorkshop;
+                grdFEWorkshop.DataBind();
             }
             if (_dtSeminarOrganized != null && _dtSeminarOrganized.Rows.Count > 0)
             {
-                grdETCSeminarOrganized.DataSource = _dtSeminarOrganized;
-                grdETCSeminarOrganized.DataBind();
+                grdFESeminarOrganized.DataSource = _dtSeminarOrganized;
+                grdFESeminarOrganized.DataBind();
             }
             if (_dtPaperPresented != null && _dtPaperPresented.Rows.Count > 0)
             {
-                grdETCPaperStaff.DataSource = _dtPaperPresented;
-                grdETCPaperStaff.DataBind();
+                grdFEPaperStaff.DataSource = _dtPaperPresented;
+                grdFEPaperStaff.DataBind();
             }
             if (_dtSeminarAttended != null && _dtSeminarAttended.Rows.Count > 0)
             {
-                grdETCSeminarAttend.DataSource = _dtSeminarAttended;
-                grdETCSeminarAttend.DataBind();
+                grdFESeminarAttend.DataSource = _dtSeminarAttended;
+                grdFESeminarAttend.DataBind();
             }
         }
 
@@ -69,7 +68,7 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetSeminarAttendedByStaff(6);
+                _dt = _Student.GetSeminarAttendedByStaff(16);
             }
             catch (Exception)
             {
@@ -89,7 +88,7 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetPaperPresentedByStaff(6);
+                _dt = _Student.GetPaperPresentedByStaff(16);
             }
             catch (Exception)
             {
@@ -109,7 +108,7 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetSeminarOrganized(6);
+                _dt = _Student.GetSeminarOrganized(16);
             }
             catch (Exception)
             {
@@ -129,7 +128,7 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetWorkshopDetails(6);
+                _dt = _Student.GetWorkshopDetails(16);
             }
             catch (Exception)
             {
@@ -148,7 +147,7 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetGuestLectures(6);
+                _dt = _Student.GetGuestLectures(16);
             }
             catch (Exception)
             {
@@ -160,7 +159,7 @@ namespace collegeWebSite.Departments.ElectronicAndTeleComm
             return _dt;
         }
 
-        protected void grdETCSeminarOrganized_RowDataBound(object sender, GridViewRowEventArgs e)
+        protected void grdFESeminarOrganized_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
             {

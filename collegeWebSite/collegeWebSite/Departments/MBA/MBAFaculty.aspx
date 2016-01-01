@@ -24,73 +24,12 @@
     <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="table-responsive">
-        <table class="table">
-            <tr>
-                <th>Sr.No</th>
-                <th>Staff Name</th>
-                <th>Designation</th>
-                <th>Qualification</th>
-                <th>Total Experience (Years)</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Dr. Abhay R. Bora</td>
-                <td>HOD</td>
-                <td>Ph.D. (Marketing) MBA(Marketing)</td>
-                <td>9 (Industry) 6 (Academic)</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Prof. Rahul M. Bhandari</td>
-                <td>Assistant Professor</td>
-                <td>MBA(Marketing)</td>
-                <td>6 (Industry) 7 (Academic)</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Prof. Vishakha A. Gaidhani</td>
-                <td>Assistant Professor</td>
-                <td>MCM(Computer)</td>
-                <td>7 (Industry) 7 (Academic)</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Prof. Sanjay Vikhe</td>
-                <td>Assistant Professor</td>
-                <td>MBA(Marketing)</td>
-                <td>6 (Industry) 5 (Academic)</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Prof. Smita Walunj</td>
-                <td>Assistant Professor</td>
-                <td>MBA (Finance)</td>
-                <td>4 (Academic)</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Prof. Amol P. Kare</td>
-                <td>Assistant Professor</td>
-                <td>PhD (Pursuing) MBA(HRM), DLL&LW</td>
-                <td>1 (Industry) 4 (Academic)</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Prof. Viresh B Parkhe</td>
-                <td>Assistant Professor</td>
-                <td>MBA (Marketing)</td>
-                <td>4 (Academic)</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>Mrs. Rekha T. Dethe</td>
-                <td>Peon</td>
-                <td>7th Std</td>
-                <td>7</td>
-            </tr>
-        </table>
+    <div class="page-header-new text-center">
+        <h1>Department Faculty</h1>
     </div>
+    <asp:GridView ID="grdMBAFaculty" runat="server" OnRowDataBound="grdMBAFaculty_RowDataBound">
+    </asp:GridView>
+
     <%--<div class="row">
         <div class="col-md-6">
             <div class="row thumbnail">

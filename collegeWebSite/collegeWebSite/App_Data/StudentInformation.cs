@@ -646,6 +646,59 @@ namespace collegeWebSite.App_Data
             return _dt;
         }
         #endregion 
+    
+        #region"Paper Presented by Staff"
+        public DataTable GetDepartmentFacultyList(Int64 nBranchID = 0)
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DBParameters.Add("@nBranchID", nBranchID, ParameterDirection.Input, SqlDbType.BigInt);
+                _DataAccess.Retrive("SP_SVIT_GetStaffList", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
+        }
+        public DataSet GetPaperSeminarBYStaff(Int64 nStaffID = 0)
+        {
+            DataSet _ds = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DBParameters.Add("@nStaffID", nStaffID, ParameterDirection.Input, SqlDbType.BigInt);
+                _DataAccess.Retrive("SP_SVIT_GetPaperAndSeminarByStaff", _DBParameters, out _ds);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _ds;
+        }
+        #endregion
     }
 
 }

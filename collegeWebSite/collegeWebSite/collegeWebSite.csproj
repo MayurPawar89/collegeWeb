@@ -143,11 +143,13 @@
     <Content Include="Departments\ElectronicAndTeleComm\ETCSyllbus.aspx" />
     <Content Include="Departments\First Year\FEDepartment.aspx" />
     <Content Include="Departments\First Year\FEEvent.aspx" />
+    <Content Include="Departments\First Year\FEExtraActivity.aspx" />
     <Content Include="Departments\First Year\FEFaculty.aspx" />
     <Content Include="Departments\First Year\FELabs.aspx" />
     <Content Include="Departments\First Year\FEPhotoGallery.aspx" />
     <Content Include="Departments\First Year\FEResults.aspx" />
     <Content Include="Departments\First Year\FESyllbus.aspx" />
+    <Content Include="Departments\First Year\FEStudentCorner.aspx" />
     <Content Include="Departments\IT\ITExtraActivity.aspx" />
     <Content Include="Departments\IT\ITPlacement.aspx" />
     <Content Include="Departments\IT\ITStudentCorner.aspx" />
@@ -954,6 +956,13 @@
     <Compile Include="Departments\First Year\FEEvent.aspx.designer.cs">
       <DependentUpon>FEEvent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments\First Year\FEExtraActivity.aspx.cs">
+      <DependentUpon>FEExtraActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FEExtraActivity.aspx.designer.cs">
+      <DependentUpon>FEExtraActivity.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Departments\First Year\FEFaculty.aspx.cs">
       <DependentUpon>FEFaculty.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -988,6 +997,13 @@
     </Compile>
     <Compile Include="Departments\First Year\FESyllbus.aspx.designer.cs">
       <DependentUpon>FESyllbus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments\First Year\FEStudentCorner.aspx.cs">
+      <DependentUpon>FEStudentCorner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments\First Year\FEStudentCorner.aspx.designer.cs">
+      <DependentUpon>FEStudentCorner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Departments\IT\ITExtraActivity.aspx.cs">
       <DependentUpon>ITExtraActivity.aspx</DependentUpon>

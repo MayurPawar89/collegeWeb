@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Computer Faculty" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerFaculty.aspx.cs" Inherits="collegeWebSite.Departments.IT.ITFaculty" %>
+﻿<%@ Page Title="Computer Faculty" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ComputerFaculty.aspx.cs" Inherits="collegeWebSite.Departments.Computer.ComputerFaculty" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/CompDeptCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
@@ -23,150 +23,13 @@
     <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="table-responsive">
-        <table class="table">
-            <tr>
-                <th>Sr.No</th>
-                <th>Staff Name</th>
-                <th>Designation</th>
-                <th>Qualification</th>
-                <th>Total Experience (Years)</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Prof. S. M. Rokade</td>
-                <td>Associate Professor & HOD</td>
-                <td>M. E. (CSE)</td>
-                <td>20</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Prof. M. M. Naoghare</td>
-                <td>Assistant Professor</td>
-                <td>M. E. (CSE)</td>
-                <td>13</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Prof. K. N. Shedge</td>
-                <td>Assistant Professor</td>
-                <td>M. Tech (CSE)</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Prof. G. J. Gagare</td>
-                <td>Assistant Professor</td>
-                <td>M. Tech (Computer Engineering)</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Prof. D. S. Thosar</td>
-                <td>Assistant Professor</td>
-                <td>M. E. (Software Engineering)</td>
-                <td>4.6</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Prof. S. A. Gade</td>
-                <td>Lecturer</td>
-                <td>M.E. (Pursuing)</td>
-                <td>7.6</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Prof. S. B. Dhote</td>
-                <td>Lecturer</td>
-                <td>M. Tech (Pursuing)</td>
-                <td>6.5</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>Prof. P. S. Daware</td>
-                <td>Lecturer</td>
-                <td>M.E. (Pursuing)</td>
-                <td>4.3</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>Prof. P. V. Pandit</td>
-                <td>Lecturer</td>
-                <td>M.E. (Pursuing)</td>
-                <td>5.7</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>Prof. S. T. Pokharkar</td>
-                <td>Lecturer</td>
-                <td>M. Tech (Pursuing)</td>
-                <td>3.3</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>Prof. U. R. Patole</td>
-                <td>Lecturer</td>
-                <td>M. Tech. CSE</td>
-                <td>5.4</td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>Prof. A. V. Ugale</td>
-                <td>Lecturer</td>
-                <td>M.E. (Pursuing)</td>
-                <td>2.8</td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>Prof. P. B. Gaikwad</td>
-                <td>Lecturer</td>
-                <td>M.E. Computer Engg.</td>
-                <td>5.8</td>
-            </tr>
-            <tr>
-                <td>14</td>
-                <td>Prof. D. P. Umbarkar</td>
-                <td>Lecturer</td>
-                <td>M.Tech. CSE(Pursuing)</td>
-                <td>1.8</td>
-            </tr>
-            <tr>
-                <td>15</td>
-                <td>Prof. G. B. Gadekar</td>
-                <td>Lecturer</td>
-                <td>M.E. (Pursuing)</td>
-                <td>1.3</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>Mrs. S. V. Jagtap</td>
-                <td>Technical Assistance</td>
-                <td>Diploma in Computer Technology</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>17</td>
-                <td>Mrs. V. V. Deshmukh</td>
-                <td>Technical Assistance</td>
-                <td>Diploma in Electronics & Telecommunication  AMIE(Pursuing)</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>18</td>
-                <td>Mr. S. B. Shinde</td>
-                <td>Technical Assistance</td>
-                <td>Diploma in Computer Technology</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>19</td>
-                <td>Mr. V. S. Nawale</td>
-                <td>Peon</td>
-                <td></td>
-                <td>10</td>
-            </tr>
-        </table>
+    <div class="page-header-new text-center">
+        <h1>Department Faculty</h1>
     </div>
+     <asp:GridView ID="grdCompFaculty" runat="server" OnRowDataBound="grdCompFaculty_RowDataBound">
+
+    </asp:GridView>
+
     <%--<div class="row">
         <div class="col-md-6">
             <div class="row thumbnail">

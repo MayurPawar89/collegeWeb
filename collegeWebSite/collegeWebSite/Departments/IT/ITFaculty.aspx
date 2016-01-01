@@ -23,88 +23,13 @@
     <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="table-responsive">
-        <table class="table">
-            <tr>
-                <th>Sr.No</th>
-                <th>Staff Name</th>
-                <th>Designation</th>
-                <th>Qualification</th>
-                <th>Total Experience (Years)</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Prof. Waje Pratibha V.</td>
-                <td>Asst. Professor</td>
-                <td>ME(IT)</td>
-                <td>8.5</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Prof. Aher S. A.</td>
-                <td>Asst. Professor</td>
-                <td>BE(Comp) ME(Appearing)</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Prof. Jachak S. G.</td>
-                <td>Asst. Professor</td>
-                <td>BE(Comp) M.Tech(Appearing)</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Prof. Rathi A. O.</td>
-                <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Prof. Potdar A. R.</td>
-                <td>Asst. Professor</td>
-                <td>M.Tech(IT)</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Prof. Shejwal S. K.</td>
-                <td>Asst. Professor</td>
-                <td>ME(IT)</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Prof. Bhalerao R. S.</td>
-                <td>Asst. Professor</td>
-                <td>ME(IT)</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>Prof. Pardeshi S. D.</td>
-                <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>Prof. Cholke S.C.</td>
-                <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>Prof.Vikhe N.B.</td>
-                <td>Asst. Professor</td>
-                <td>BE(IT) ME(Appearing)</td>
-                <td>3</td>
-            </tr>
-        </table>
+    <div class="page-header-new text-center">
+        <h1>Department Faculty</h1>
     </div>
-    <div class="row">
+    <asp:GridView ID="grdITFaculty" runat="server" OnRowDataBound="grdITFaculty_RowDataBound">
+    </asp:GridView>
+
+    <%--<div class="row">
         <div class="col-md-6">
             <div class="row thumbnail">
                 <div class="col-md-3 img-rounded">
@@ -265,5 +190,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
 </asp:Content>

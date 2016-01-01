@@ -7,18 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.Departments.MBA {
+namespace collegeWebSite.Departments.First_Year {
     
     
-    public partial class MBAFaculty {
+    public partial class FEStudentCorner {
         
         /// <summary>
-        /// grdMBAFaculty control.
+        /// grdFEStudentCorner control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdMBAFaculty;
+        protected global::System.Web.UI.WebControls.GridView grdFEStudentCorner;
     }
 }

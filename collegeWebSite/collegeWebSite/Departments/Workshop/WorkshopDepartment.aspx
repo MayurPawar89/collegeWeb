@@ -9,8 +9,8 @@
     <div class="well">
         <ul class="nav">
             <li><a href="/Departments/Workshop/WorkshopDepartment.aspx">Department Profile</a></li>
-            <li><a href="/Departments/Workshop/WorkshopSection.aspx">Section</a></li>
             <li><a href="/Departments/Workshop/WorkshopFaculty.aspx">Faculty</a></li>
+            <li><a href="/Departments/Workshop/WorkshopSection.aspx">Section</a></li>
         </ul>
     </div>
 </asp:Content>

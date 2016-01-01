@@ -3,6 +3,55 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
+    <%--<script>
+        function CallGetData(sId) {
+            var nStaffID = sId;
+            //alert('in Funtuin :' + StudentID);
+
+            $.ajax({
+                type: "POST",
+                url: "ChemicalFaculty.aspx/GetPaperSeminarBYStaff",
+                data: JSON.stringify({ id: nStaffID }),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                cache: false,
+                success: function (response) {
+                    if (response.d = "true") {
+                        $('#modalAlumni').modal('show');
+                    }
+                    else { $('#modalAlumni').modal('hide'); }
+                    //var sStudentInfo = response.d;
+                    //var result = sStudentInfo.toString().split("^");
+
+                    //$("#AlumniName").html(result[0]);
+                    //$("#BranchName").html(result[4]);
+                    //$("#AdmissionYear").html(result[1]);
+                    //$("#PassingYear").html(result[2]);
+                    //$("#ContactNo").html(result[3]);
+                    //$("#AlternateContactNo").html(result[5]);
+                    //$("#PersonalEmail").html(result[6]);
+                    //$("#OfficeEmail").html(result[7]);
+                    //$("#CorrespondanceAddress").html(result[8]);
+                    //$("#PermanentAddress").html(result[9]);
+                    //$("#CompanyName").html(result[12]);
+                    //$("#CompanyAddress").html(result[13]);
+                    //$("#Occupation").html(result[10]);
+                    //$("#Desigantion").html(result[11]);
+                    //$("#WhatsUp").html(result[14]);
+                    //$("#Facebook").html(result[15]);
+                    //$("#LinkedIn").html(result[16]);
+                    //$('#modalAlumni').modal('show');
+                },
+                error: function (xhr, err) {
+                    alert("Failed to load data.\nReadyState: " + xhr.readyState + "\nStatus: " + xhr.status + "\nResponseText" + xhr.responseText);
+                }
+            });
+
+        };
+    </script>
+    <style>
+        #modalAlumni .modal-dialog  {width:75%;}
+    </style>--%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentCarousel" runat="server">
      <uc:carouselControl runat="server" />
@@ -24,148 +73,30 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="table-responsive">
-        <table class="table">
-            <tr>
-                <th>Sr.No</th>
-                <th>Staff Name</th>
-                <th>Designation</th>
-                <th>Qualification</th>
-                <th>Total Experience (Years)</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Prof.V.M.Rane</td>
-                <td>Associate Professor & HOD</td>
-                <td>M.E, MBA</td>
-                <td>32</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Prof.V.L.Kadlag</td>
-                <td>Assistant Professor</td>
-                <td>M.E, Phd (App)</td>
-                <td>17</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Prof.R.S.Shelke</td>
-                <td>Assistant Professor</td>
-                <td>M.E</td>
-                <td>15</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Prof.D.M.Deshmukh</td>
-                <td>Assistant Professor</td>
-                <td>M.E</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Prof.B.S.Vikhe</td>
-                <td>Assistant Professor</td>
-                <td>M. E.(App)</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Prof.A.P.Sonawane</td>
-                <td>Assistant Professor</td>
-                <td>M.E.</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Prof.Y.M.Patil</td>
-                <td>Assistant Professor</td>
-                <td>M.E.</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>Prof.R.T.Bhole</td>
-                <td>Lecturer</td>
-                <td>M.E. (App.)</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>Prof.A.S.Jejurkar</td>
-                <td>Lecturer</td>
-                <td>M.E. (App.)</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>Prof.V.S.Thete</td>
-                <td>Assistant Professor</td>
-                <td>M.E</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>Prof.S.B.Pulate</td>
-                <td>Lecturer</td>
-                <td>M.E (App.)</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>Prof.S.S.Gholap</td>
-                <td>Lecturer</td>
-                <td>M.E. (App.)</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>Prof.A.S.Aher</td>
-                <td>Lecturer</td>
-                <td>M.E.(App.)</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>14</td>
-                <td>Prof.T.G.Khule</td>
-                <td>Lecturer</td>
-                <td>M.E. (App.)</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>15</td>
-                <td>Prof.S.B.Varpe</td>
-                <td>Lecturer</td>
-                <td>M.E. (App.)</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>Prof.P.N.Wakchaure</td>
-                <td>Lecturer</td>
-                <td>M.E</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>17</td>
-                <td>Prof.S.S.Dange</td>
-                <td>Lecturer</td>
-                <td>M.E</td>
-                <td>1</td>
-            </tr>
-         <%--   <tr>
-                <td>18</td>
-                <td>Mr. S. B. Shinde</td>
-                <td>Technical Assistance</td>
-                <td>Diploma in Computer Technology</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>19</td>
-                <td>Mr. V. S. Nawale</td>
-                <td>Peon</td>
-                <td></td>
-                <td>10</td>
-            </tr>--%>
-        </table>
+    <div class="page-header-new text-center">
+        <h1>Department Faculty</h1>
     </div>
+    <asp:GridView ID="grdChemFaculty" runat="server" OnRowDataBound="grdChemFaculty_RowDataBound">
+
+    </asp:GridView>
+    <%--<div class="modal fade" id="modalAlumni" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="H1">Alumni Details</h4>
+                </div>
+                <div class="modal-body" id="divmodelBody" runat="server">
+                    <div class="page-model-header-new">
+                        <strong>Paper Presented by Staff</strong>
+                    </div>
+                    <asp:GridView ID="grdPaperByStaff" runat="server"></asp:GridView> 
+                    <div class="page-model-header-new">
+                        <strong>Seminar Attended by Staff</strong>
+                    </div>
+                   <asp:GridView ID="grdSeminarByStaff" runat="server"></asp:GridView> 
+                </div>
+            </div>
+        </div>
+    </div>--%>
 </asp:Content>

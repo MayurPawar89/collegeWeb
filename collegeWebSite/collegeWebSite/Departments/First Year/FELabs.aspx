@@ -13,7 +13,9 @@
             <li><a href="/Departments/First Year/FESyllbus.aspx">Syllabus</a></li>
             <li><a href="/Departments/First Year/FEEvent.aspx">Events</a></li>
             <li><a href="/Departments/First Year/FEResults.aspx">Results</a></li>
-            <li><%--<a href="/Departments/First Year/FEPhotoGallery.aspx">Photo Gallery</a>--%></li>
+            <%--<li><a href="/Departments/First Year/FEPhotoGallery.aspx">Photo Gallery</a></li>--%>
+            <li><a href="/Departments/First Year/FEStudentCorner.aspx">Student Corner</a></li>
+            <li><a href="/Departments/First Year/FEExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
         </ul>
     </div>
 </asp:Content>

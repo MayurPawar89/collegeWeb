@@ -24,109 +24,13 @@
     <uc:carouselControl runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="table-responsive">
-        <table class="table">
-            <tr>
-                <th>Sr.No</th>
-                <th>Staff Name</th>
-                <th>Designation</th>
-                <th>Qualification</th>
-                <th>Total Experience (Years)</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>PROF.SHAIKH N B</td>
-                <td>Associate Professor & HOD</td>
-                <td>ME (Power System)</td>
-                <td>7.5</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>PROF. BADGUJAR D S </td>
-                <td>Assistant Professor</td>
-                <td>MTech Appear.</td>
-                <td>7.5</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>PROF CHAUDHARI H S</td>
-                <td>Assistant Professor</td>
-                <td>ME (Control System)	</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>PROF VARHADE K P </td>
-                <td>Assistant Professor</td>
-                <td>ME Appear</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>PROF ZURALE P B</td>
-                <td>Assistant Professor</td>
-                <td>ME Appear</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>PROF WAGH J G</td>
-                <td>Assistant Professor</td>
-                <td>ME Appear</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>PROF GADEKAR R S</td>
-                <td>Assistant Professor</td>
-                <td>ME Appear</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>PROF DAWANGE M V</td>
-                <td>Assistant Professor</td>
-                <td>ME Appear</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>PROF SINGH A K </td>
-                <td>Assistant Professor</td>
-                <td>ME Appear</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td> PROF MESHRAM V S</td>
-                <td>Assistant Professor</td>
-                <td>MTech. Control System</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>Mr KANWADE N L </td>
-                <td>Lab Assistant</td>
-                <td>ITI</td>
-                <td>13</td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>MRS DEOKAR P B </td>
-                <td>Lab Assistant</td>
-                <td>DEEE,DECOMP</td>
-                <td>30</td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>MR BHUSE S.G.</td>
-                <td>Peon</td>
-                <td>-</td>
-                <td>7</td>
-            </tr>
-            
-        </table>
+    <div class="page-header-new text-center">
+        <h1>Department Faculty</h1>
     </div>
+    <asp:GridView ID="grdElectFaculty" runat="server" OnRowDataBound="grdElectFaculty_RowDataBound">
+
+    </asp:GridView>
+
     <%--<div class="row">
         <div class="col-md-6">
             <div class="row thumbnail">

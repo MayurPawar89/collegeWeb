@@ -11,5 +11,14 @@ namespace collegeWebSite.Departments.Electrical {
     
     
     public partial class ElectricalFaculty {
+        
+        /// <summary>
+        /// grdElectFaculty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdElectFaculty;
     }
 }
