@@ -48,7 +48,8 @@ namespace collegeWebSite.App_Data
         public void OpenConnection(bool WithTrn)
         {
             string _conStr = "";
-            _conStr = "Data Source=DESKTOP-AP967AQ;Initial Catalog=SVIT;User ID=sa;Password=samayur";
+            _conStr = System.Configuration.ConfigurationManager.ConnectionStrings["SVITConnStr"].ConnectionString;
+            //_conStr = "Data Source=DESKTOP-AP967AQ;Initial Catalog=SVIT;User ID=sa;Password=samayur";
             _con = new SqlConnection(_conStr);
             _con.Open();
 
