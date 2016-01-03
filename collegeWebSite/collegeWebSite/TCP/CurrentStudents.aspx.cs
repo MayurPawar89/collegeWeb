@@ -25,7 +25,7 @@ namespace collegeWebSite.TCP
         {
             DataTable _dt = null;
             _dt = GetCurrentStudent();
-            BindChart(_dt);
+            //BindChart(_dt);
             grdCurrentStud.DataSource = _dt;
             grdCurrentStud.DataBind();
         }
@@ -33,40 +33,40 @@ namespace collegeWebSite.TCP
         private void BindChart(DataTable ChartData)
         {
             //storing total rows count to loop on each Record  
-            string[] XPointMember = new string[ChartData.Rows.Count];
-            int[] YPointMember = new int[ChartData.Rows.Count];
+            //string[] XPointMember = new string[ChartData.Rows.Count];
+            //int[] YPointMember = new int[ChartData.Rows.Count];
 
-            for (int count = 0; count < ChartData.Rows.Count; count++)
-            {
-                //storing Values for X axis  
-                XPointMember[count] = ChartData.Rows[count]["Student Enrollment"].ToString();
-                //storing values for Y Axis  
-                YPointMember[count] = Convert.ToInt32(ChartData.Rows[count]["Class Strength Final Year (Graduate)"]);
+            //for (int count = 0; count < ChartData.Rows.Count; count++)
+            //{
+            //    //storing Values for X axis  
+            //    XPointMember[count] = ChartData.Rows[count]["Student Enrollment"].ToString();
+            //    //storing values for Y Axis  
+            //    YPointMember[count] = Convert.ToInt32(ChartData.Rows[count]["Class Strength Final Year (Graduate)"]);
 
-            }
-            //binding chart control  
-            Chart1.Series[0].Points.DataBindXY(XPointMember, YPointMember);
+            //}
+            ////binding chart control  
+            //Chart1.Series[0].Points.DataBindXY(XPointMember, YPointMember);
             
-            //Setting width of line  
-            Chart1.Series[0].BorderWidth = 10;
-            //setting Chart type   
-            Chart1.Series[0].ChartType = SeriesChartType.Pie;
-            Chart1.Series["Default"]["PieLabelStyle"] = "Disabled";
+            ////Setting width of line  
+            //Chart1.Series[0].BorderWidth = 10;
+            ////setting Chart type   
+            //Chart1.Series[0].ChartType = SeriesChartType.Pie;
+            //Chart1.Series["Default"]["PieLabelStyle"] = "Disabled";
 
-            foreach (Series charts in Chart1.Series)
-            {
-                foreach (DataPoint point in charts.Points)
-                {
-                    switch (point.AxisLabel)
-                    {
-                        case "Q1": point.Color = Color.RoyalBlue; break;
-                        case "Q2": point.Color = Color.SaddleBrown; break;
-                        case "Q3": point.Color = Color.SpringGreen; break;
-                    }
-                    point.Label = string.Format("{0:0} - {1}", point.YValues[0], point.AxisLabel);
+            //foreach (Series charts in Chart1.Series)
+            //{
+            //    foreach (DataPoint point in charts.Points)
+            //    {
+            //        switch (point.AxisLabel)
+            //        {
+            //            case "Q1": point.Color = Color.RoyalBlue; break;
+            //            case "Q2": point.Color = Color.SaddleBrown; break;
+            //            case "Q3": point.Color = Color.SpringGreen; break;
+            //        }
+            //        point.Label = string.Format("{0:0} - {1}", point.YValues[0], point.AxisLabel);
 
-                }
-            }
+            //    }
+            //}
         }
 
         private DataTable GetCurrentStudent()

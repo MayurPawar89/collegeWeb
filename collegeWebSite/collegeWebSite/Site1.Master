@@ -55,8 +55,7 @@
                                     <ul role="menu" class="dropdown-menu">
                                         <li><a href="/TCP/TPCSection.aspx">TPC Information</a></li>
                                         <li><a href="/TCP/RegistrationForm.aspx">Registration Form</a></li>
-                                        <li><a href="/TCP/CurrentStudents.aspx">Current Students</a></li>
-                                        <li><a href="/TCP/PlacementHighlights.aspx">Placement Highlights</a></li>
+                                        <li><a href="TCP/PlacementProcess.aspx">Placement Process</a></li>
                                         <li><a href="/TCP/ListOfCompanies.aspx">List Of Companies</a></li>
                                     </ul>
                                 </li>
@@ -189,18 +188,19 @@
                             <a href="https://www.facebook.com/SVITSinnar" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
                             <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
                         </div>
-                       <%-- <ul class="unstyled">
+                        <%-- <ul class="unstyled">
                             <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
                             <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
                         </ul>--%>
-
                     </div>
 
                 </div>
                 <!-- end row -->
                 <div class="row pull-right">
-                    <h5>&copy; All Rights Reserved Pravara Rural Education Society, Loni.</h5><a href="http://www.freecounterstat.com" title="hit counter" class="pull-right"><img src="http://counter2.fcs.ovh/private/freecounterstat.php?c=4b1abe1d9c4e954ee5b91e467fef7106" border="0" title="hit counter" alt="hit counter" /></a>
+                    <h5>&copy; 2016 All Rights Reserved Pravara Rural Education Society, Loni.</h5>
+                    <a class="pull-right" href="http://www.freecounterstat.com" title="web page visit counter">
+                        <img src="http://counter6.fcs.ovh/private/freecounterstat.php?c=9945efc7c85ec05bf4f5916991984c8e" border="0" title="web page visit counter" alt="web page visit counter"></a>
                 </div>
             </div>
             <!-- end container -->

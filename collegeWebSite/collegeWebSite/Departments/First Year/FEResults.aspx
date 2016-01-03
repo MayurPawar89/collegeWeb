@@ -23,6 +23,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="table-responsive">
+        <h3>Previous results</h3>
         <table class="table table-bordered">
             <tr>
                 <th>Year</th>
@@ -47,6 +48,7 @@
 
 
         </table>
+        <h3>Toppers List</h3> 
         <table class="table table-bordered">
             <tr>
                 <th>Year</th>

@@ -17,3 +17,5 @@ Default skin template. The following skins are provided as examples only.
 </asp:GridView>
 <asp:GridView runat="server" CssClass="table table-responsive GridHeader">
 </asp:GridView>
+<asp:GridView runat="server" SkinID="grdCompanyList" CssClass="table table-borderless table-responsive">
+</asp:GridView>

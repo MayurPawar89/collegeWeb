@@ -1,9 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ListOfCompanies.aspx.cs" Inherits="collegeWebSite.TCPSection.ListOfCompanies" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="CompanyRegistration.aspx.cs" Inherits="collegeWebSite.TCP.CompanyRegistration" %>
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/DefaultCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
-    <div class="well">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentCarousel" runat="server">
+    <uc:carouselControl runat="server" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentLeftNav" runat="server">
+     <div class="well">
         <ul class="nav">
             <li><a href="/TCP/TPCSection.aspx">TPC Brief Information</a></li>
             <li><a href="/TCP/RegistrationForm.aspx">Registration Form</a></li>
@@ -16,14 +19,6 @@
         </ul>
     </div>
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="page-header-new">
-        <h3>List of Companies Recruiting from SVIT</h3>
-    </div>
-    <asp:GridView ID="grdCompany" SkinID="grdCompanyList" runat="server" BorderStyle="None" BorderWidth="0" AllowPaging="True" PageSize="20" OnPageIndexChanging="grdCompany_PageIndexChanging">
-        <PagerStyle CssClass="pagination-new"/>
-    </asp:GridView>
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
-    <uc:carouselControl runat="server" />
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
+    <img class="img-responsive" src="../../Images/Icons/underConstruction.jpg" />
 </asp:Content>

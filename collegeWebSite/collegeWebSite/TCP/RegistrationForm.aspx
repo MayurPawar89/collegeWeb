@@ -27,10 +27,9 @@
             <li><a href="/TCP/TPCMemberLogin.aspx">TPC Member Login</a></li>
             <li><a href="/TCP/PlacementProcess.aspx">Placement Process</a></li>
             <li><a href="/TCP/ListOfCompanies.aspx">List of Companies</a></li>
-            <li><a href="/TCP/CurrentStudents.aspx">Current Students</a></li>
             <li><a href="../Documents/placement brochre 2016.pdf" target="_blank">Placement Broucher</a></li>
             <li><a href="/TCP/PlacementSummary.aspx">Placement Summary</a></li>
-            <li><a href="#">Registration for Companies for recruitments</a></li>
+            <li><a href="/TCP/CompanyRegistration.aspx">Registration for Companies for recruitments</a></li>
         </ul>
     </div>
 </asp:Content>
