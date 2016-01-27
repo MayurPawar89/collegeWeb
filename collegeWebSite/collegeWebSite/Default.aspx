@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="Welcome to SVIT, Nashik" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="collegeWebSite.Home" %>
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/DefaultCarouselUC.ascx" %>
+<%@ Register TagPrefix="uc" TagName="LeftMenu" Src="~/UserControls/Menu/LeftMenu.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
-    <div class="well">
+    <%--<div class="well">
         <ul class="nav">
             <li><a href="../AboutUs.aspx">About the Society</a></li>
             <li><a href="/MainNav/VisionMission.aspx">Mission & Vision</a></li>
@@ -20,6 +21,15 @@
             <li><a href="../Documents/placement brochre 2016.pdf" target="_blank">Placement Brochure</a></li>
             <li><a href="../Documents/brochure.pdf" target="_blank">E-Brochure</a></li>
             <li><a href="/MainNav/GroupLinkages.aspx">Group Linkages</a></li>
+        </ul>
+    </div>--%>
+    <uc:LeftMenu runat="server" />
+    <div>
+        <h5 class="page-model-header-new"><strong>Video link's</strong></h5>
+        <ul style="list-style-type:disc;">
+            <li><a role="button"  href="https://www.youtube.com/watch?v=XB7lS4nVsok" target="_blank">Live State Level Seminar on "Stress management" sponsored by SPPU, PUNE.</a></li>
+            <li><a role="button"  href="https://www.youtube.com/watch?v=Rq45A0MOfyI"" target="_blank">Watch live Annual Social Gathering "EUPHORIA-2K16" on YouTube at 23rd Jan 2016 at 11.00 am.</a></li>
+            <li><a role="button"  href="https://www.youtube.com/watch?v=rm14RxNrScY"" target="_blank">Watch live two days national level workshop on 29-30 Jan 2016</a></li>
         </ul>
     </div>
 </asp:Content>
@@ -65,7 +75,7 @@
     </div>--%>
     <div class="row panel-body">
         <div class="col-md-8">
-            <div class="page-header-new">
+            <div class="page-model-header-new">
                 <h3>Welcome to <strong>Sir Visvesvaraya Institute Of Technology, Nashik</strong></h3>
             </div>
             <p class="lead">
@@ -73,7 +83,7 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h5 class="page-header-new">News</h5>
+            <h5 class="page-model-header-new"><strong>Latest News</strong></h5>
             <%--<ul class="nav">
                 <li><a href="Link_Document/RESULT.zip">RESULTS 2015</a></li>
                 <li><a href="http://www.suhaslondhe.in/orgregistration.php">REGISTRATION OF COMPANIES FOR RECRUITMENTS</a></li>
@@ -82,12 +92,16 @@
                 <li><a href="Link_Document/Grievance Redressal Committee.pdf">Grievance Redressal Committee</a></li>
                 <li><a href="Link_Document/disciplinary.pdf">Disciplinary Committee</a></li>
             </ul>--%>
-
-            <div class="text-right news">
+            <div class="news">
                 <marquee behavior="scroll" direction="up" scrolldelay="200" onmouseover="this.stop()" onmouseout="this.start()">
                     <ul>
                         <%= NewsTicker%>
                     </ul></marquee>
+            </div>
+            <div>
+                <h5 class="page-model-header-new"><strong>Useful Links</strong></h5>
+                <div><a class="btn btn-primary btn-lg btn-block" role="button"  href="https://svit.truecopy.in/verify/submitverify.tc" target="_blank">Apply for Transcript</a></div><br />
+                <div><a class="btn btn-primary btn-lg btn-block" role="button"  href="https://svit.truecopy.inverify/submitwebsitetemplate.tc"" target="_blank">Apply for Verification</a></div>
             </div>
         </div>
     </div>
@@ -97,9 +111,9 @@
                 <img alt="300x200" src="/Images/Profile Images/Default/propGBShinde.JPG" />
                 <h3>Dr. G. B. Shinde, Principal </h3>
                 <p>
-                    M.E. (Chemical), M.B.A. (HR), Ph.D. (Chemical)<br />
-                    Member of ISTE, IE.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="/MainNav/PrincipleDesk.aspx" class="text-right">Principle's Desk</a>
+                    M.E. (Chemical Engg.), M.B.A. (HR), Ph.D. (Chemical Engg.)<br />
+                    Member of ISTE, IE.
+                    <a href="/MainNav/PrincipleDesk.aspx" class="pull-right">Principal's Desk</a>
                 </p>
             </div>
         </div>

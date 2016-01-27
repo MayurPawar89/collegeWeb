@@ -454,7 +454,9 @@
     <Content Include="Images\Header\HeaderName&amp;LogoBlue.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.jpg" />
     <Content Include="Images\Header\HeaderName&amp;LogoWhite.png" />
+    <Content Include="Images\Header\HeaderLogo.jpg" />
     <Content Include="Images\Icons\Female.jpg" />
+    <Content Include="Images\Icons\gif-new.gif" />
     <Content Include="Images\Icons\Male.jpg" />
     <Content Include="Images\Icons\thumbnail_default.jpg" />
     <Content Include="Images\Icons\underConstruction.jpg" />
@@ -488,6 +490,8 @@
     <Content Include="Images\Labs\Mechanical\Metallurgy Lab\Metallurgy.jpg" />
     <Content Include="Images\Labs\Mechanical\Metrology Lab\Metrology.jpg" />
     <Content Include="Images\Labs\Mechanical\Turbo Lab\Turbo.jpg" />
+    <Content Include="Images\LinkImages\ApplyForVarification.png" />
+    <Content Include="Images\LinkImages\AppyForTranscript.png" />
     <Content Include="Images\Profile Images\Department\Chemical\CHEM_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\Computer\Comp_HOD.jpg" />
     <Content Include="Images\Profile Images\Department\Electrical\Electrical_HOD.JPG" />
@@ -529,6 +533,7 @@
     <Content Include="obj\Debug\collegeWebSite.dll" />
     <Content Include="obj\Debug\collegeWebSite.pdb" />
     <Content Include="Pages\Home.aspx" />
+    <Content Include="Results.aspx" />
     <Content Include="TCP\CompanyRegistration.aspx" />
     <Content Include="TCP\CurrentStudents.aspx" />
     <Content Include="TCP\ForgotPassword.aspx" />
@@ -663,6 +668,7 @@
     <Content Include="UserControls\CarouselUC\MBADeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\ChemicalDeptCarouselUC.ascx" />
     <Content Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx" />
+    <Content Include="UserControls\Menu\LeftMenu.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.sitemap" />
   </ItemGroup>
@@ -1310,6 +1316,13 @@
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Results.aspx.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Results.aspx.designer.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TCP\CompanyRegistration.aspx.cs">
       <DependentUpon>CompanyRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1667,6 +1680,13 @@
     </Compile>
     <Compile Include="UserControls\CarouselUC\MechanicalDeptCarouselUC.ascx.designer.cs">
       <DependentUpon>MechanicalDeptCarouselUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Menu\LeftMenu.ascx.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Menu\LeftMenu.ascx.designer.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
