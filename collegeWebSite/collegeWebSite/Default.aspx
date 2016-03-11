@@ -93,9 +93,9 @@
                 <li><a href="Link_Document/Grievance Redressal Committee.pdf">Grievance Redressal Committee</a></li>
                 <li><a href="Link_Document/disciplinary.pdf">Disciplinary Committee</a></li>
             </ul>--%>
-            <div class="news">
+            <div class="news" >
                 <marquee behavior="scroll" direction="up" scrolldelay="400" onmouseover="this.stop()" onmouseout="this.start()">
-                    <ul>
+                    <ul style="height:210px;">
                         <%= NewsTicker%>
                     </ul></marquee>
             </div>
