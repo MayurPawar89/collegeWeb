@@ -37,15 +37,16 @@
     <%--<form runat="server">--%>
         <div class="page-header-new">
             <h3>Student Details</h3>
+            <asp:TextBox ID="txtStudentID" runat="server" TextMode="SingleLine" class="form-control" Visible="false" Text="0"></asp:TextBox>
         </div>
         <fieldset class="form-group">
-            <label for="txtRegistrationID">Registration ID</label>
-            <asp:TextBox ID="txtRegistrationID" runat="server" TextMode="SingleLine" class="form-control" placeholder="Registration ID" required="required"></asp:TextBox>
+            <label for="txtRegistrationID">PRN</label>
+            <asp:TextBox ID="txtRegistrationID" runat="server" TextMode="SingleLine" class="form-control" placeholder="PRN" required="required"></asp:TextBox>
             <%--<input type="text" runat="server" value="" class="form-control" id="RegistrationID" placeholder="Registration ID" required="required" />--%>
         </fieldset>
         <fieldset class="form-group">
-            <label for="txtEmailID">Email address</label>
-            <asp:TextBox ID="txtEmailID" runat="server" TextMode="Email" class="form-control" placeholder="Enter email" required="required"></asp:TextBox>
+            <label for="txtEmailID">Email Address</label>
+            <asp:TextBox ID="txtEmailID" runat="server" TextMode="Email" class="form-control" placeholder="Email Address" required="required"></asp:TextBox>
             <%--<input type="email" runat="server" value="" class="form-control" id="EmailID" placeholder="Enter email" required="required"/>--%>
         </fieldset>
         <fieldset class="form-group">
@@ -80,7 +81,7 @@
             <select class="form-control" id="BranchName" runat="server" required="required">
             </select>
         </fieldset>
-
+        <div id="dvLoginDetails" runat="server">
         <div class="page-header-new">
             <h3>Login Details</h3>
         </div>
@@ -101,7 +102,7 @@
             <div class="registrationFormAlert" id="divCheckPasswordMatch">
             </div>
         </fieldset>
-
+            </div>
         <div class="page-header-new">
             <h3>Eductional Details</h3>
         </div>

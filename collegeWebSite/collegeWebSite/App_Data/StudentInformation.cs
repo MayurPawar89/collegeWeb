@@ -164,23 +164,23 @@ namespace collegeWebSite.App_Data
 
                 _DBParameters.clear();
                 _DBParameters.Add("@nAlumniID", this.nAlumniID, ParameterDirection.InputOutput, SqlDbType.BigInt);
-                _DBParameters.Add("@sAlumniName", this.sAlumniName, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sAdmissionYear", this.sAdmissionYear, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sPassingYear", this.sPassingYear, ParameterDirection.Input, SqlDbType.VarChar);
+                _DBParameters.Add("@sAlumniName", this.sAlumniName, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sAdmissionYear", this.sAdmissionYear, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sPassingYear", this.sPassingYear, ParameterDirection.Input, SqlDbType.NVarChar);
                 _DBParameters.Add("@nBranchID", this.nBranchID, ParameterDirection.Input, SqlDbType.BigInt);
-                _DBParameters.Add("@sContactNo", this.sContactNo, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sAlternateContactNo", this.sAlternateContactNo, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sPersonalEmailID", this.sPersonalEmailID, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sOfficeEmailID", this.sOfficeEmailID, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sCorrespondanceAddress", this.sCorrespondanceAddress, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sPermanentAddress", this.sPermanentAddress, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sOccupation", this.sOccupation, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sDesigation", this.sDesigation, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sCompanyName", this.sCompanyName, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sCompanyAddress", this.sCompanyAddress, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sWhatsUpDetails", this.sWhatsUpDetails, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sFacebookDetails", this.sFacebookDetails, ParameterDirection.Input, SqlDbType.VarChar);
-                _DBParameters.Add("@sLinkedinDetails", this.sLinkedinDetails, ParameterDirection.Input, SqlDbType.VarChar);
+                _DBParameters.Add("@sContactNo", this.sContactNo, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sAlternateContactNo", this.sAlternateContactNo, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sPersonalEmailID", this.sPersonalEmailID, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sOfficeEmailID", this.sOfficeEmailID, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sCorrespondanceAddress", this.sCorrespondanceAddress, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sPermanentAddress", this.sPermanentAddress, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sOccupation", this.sOccupation, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sDesigation", this.sDesigation, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sCompanyName", this.sCompanyName, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sCompanyAddress", this.sCompanyAddress, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sWhatsUpDetails", this.sWhatsUpDetails, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sFacebookDetails", this.sFacebookDetails, ParameterDirection.Input, SqlDbType.NVarChar);
+                _DBParameters.Add("@sLinkedinDetails", this.sLinkedinDetails, ParameterDirection.Input, SqlDbType.NVarChar);
                 _DBParameters.Add("@FriendsDetails", dtFriendsDetails, ParameterDirection.Input, SqlDbType.Structured);
                 _DataAccess.Execute("SP_SVIT_InsertUpdateAlumniDetails", _DBParameters, out _val);
 
@@ -298,6 +298,32 @@ namespace collegeWebSite.App_Data
                 _DBParameters.clear();
                 _DBParameters.Add("@nStudentID", StudentID, ParameterDirection.Input, SqlDbType.BigInt);
                 _DataAccess.Retrive("SP_SVIT_GetStudentsDetails", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
+        }
+
+        public DataTable GetEditStudentDetailInfo(Int64 StudentID = 0)
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DBParameters.Add("@nStudentID", StudentID, ParameterDirection.Input, SqlDbType.BigInt);
+                _DataAccess.Retrive("SP_SVIT_GetEditStudentsDetails", _DBParameters, out _dt);
 
                 _DataAccess.CloseConnection(false);
             }
@@ -451,7 +477,7 @@ namespace collegeWebSite.App_Data
         #endregion
 
         #region"News Methods"
-        public DataTable GetLatestNEWS()
+        public DataTable GetLatestNEWS(int nNewsType,Boolean bIsShownOnNEWS=false)
         {
             DataTable _dt = null;
 
@@ -461,6 +487,8 @@ namespace collegeWebSite.App_Data
             {
                 _DataAccess.OpenConnection(false);
                 _DBParameters.clear();
+                _DBParameters.Add("@nNewsType", nNewsType, ParameterDirection.Input, SqlDbType.Int);
+                _DBParameters.Add("@bIsShowOnNEWS", bIsShownOnNEWS, ParameterDirection.Input, SqlDbType.Bit);
                 _DataAccess.Retrive("SP_SVIT_GetLatestNews", _DBParameters, out _dt);
 
                 _DataAccess.CloseConnection(false);
@@ -697,6 +725,33 @@ namespace collegeWebSite.App_Data
                 if (_DBParameters != null) { _DBParameters.Dispose(); }
             }
             return _ds;
+        }
+        #endregion
+
+        #region"Important Links"
+        public DataTable GetImportantLinks()
+        {
+            DataTable _dt = null;
+
+            DBParameters _DBParameters = new DBParameters();
+            DataAccess _DataAccess = new DataAccess();
+            try
+            {
+                _DataAccess.OpenConnection(false);
+                _DBParameters.clear();
+                _DataAccess.Retrive("SP_SVIT_GetImportantLinks", _DBParameters, out _dt);
+
+                _DataAccess.CloseConnection(false);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+                if (_DBParameters != null) { _DBParameters.Dispose(); }
+            }
+            return _dt;
         }
         #endregion
     }

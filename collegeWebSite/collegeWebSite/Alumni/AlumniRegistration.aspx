@@ -2,6 +2,7 @@
 
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/DefaultCarouselUC.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
+   
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentLeftNav" runat="server">
     <div class="well">
@@ -148,7 +149,7 @@
     </div>
 
     <%--<button type="submit" class="btn btn-primary">Submit</button>--%>
-    <asp:Button ID="btnSubmit" runat="server" class="btn btn-primary" Text="Submit" OnClick="btnSubmit_Click" />
+    <asp:Button ID="btnSubmit" runat="server" class="btn btn-primary" Text="Submit" OnClick="btnSubmit_Click"  />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentCarousel" runat="server">
     <uc:carouselControl runat="server" />

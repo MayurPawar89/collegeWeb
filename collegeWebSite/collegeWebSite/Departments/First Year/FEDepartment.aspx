@@ -56,8 +56,8 @@
     <div class="text-center">
         <h1>First Year Engineering Department</h1>
         <img alt="300x200" src="../../Images/Profile Images/Department/FE/FE_HOD.JPG" style="height: 250px; width: 400px" />
-        <h4>Prof K.P. Tambe Dean Academic & Vice Principal </h4>
-        Membership -ISTE ,Qualification-M.sc.  (Chemistry),  Total Experience-20 yrs
+        <h4>Prof K.P. Tambe, Dean Academic & Vice Principal </h4>
+            M.sc. (Chemistry)
     </div>
     <div class="page-header-new">
         <h3>HOD Desk's</h3>
@@ -65,17 +65,15 @@
     </div>
     <div>
         <p>
-            Academic work of First year Engineering is to be planned and monitored by Dean Academic. As per the syllabus prescribed by Savitribai Phule pune University, First year Engineering students have common curriculum irrespective of specific branches chosen by them.
-            <br /><br />
-            Dean Academic is the Head of First Year Engineering. He monitors the attendance of students, conduct periodical test, identifies needs and arranges some special lectures if required.
-            <br /><br />
-            Also keeps parent informed about progress of their wards at regular interval .We have started Teacher Guardian Scheme (Mentoring Scheme)  from academic year 2002 .
-            <br /><br />
-            Under the scheme, a teacher is nominated as Guardian for small group of students and students can seek help from respective teacher in solving their day today problem .
-            <br /><br />
-            For the students to enhance their knowledge project is implemented in the curriculum. Projects of national and global importance in science and engineering seek Information Technology as an essential means of advancement and service. Our faculty and staff members work tirelessly to provide flexible, attractive and relevant education to generate the workforce capable of meeting these varied challenges. 
-            <br /><br />
-            The scheme also maintains healthy relation between students and teachers. We also believes that overall personality development of students can achieved by giving him opportunities in all possible field , hence we have started separate Students Association of First Year engineering students (SAFE) . Under this association, we conduct expert lecture ,seminar, workshop  and various competitions .    
+            Academic work of First year Engineering is to be planned and monitored by Dean Academic. As per the syllabus prescribed by Savitribai Phule Pune University, First year Engineering students have common curriculum irrespective of specific branches chosen by them. 
+            <br />
+            <br />
+            Dean Academic is the Head of First Year Engineering. He monitors the attendance of students, conduct periodical test, identifies needs and arranges some special lectures if required. Also keeps parent informed about progress of their wards at regular interval .We have started Teacher Guardian Scheme (Mentoring Scheme) from academic year 2002. Under the scheme, a teacher is nominated as Guardian for small group of students and students can seek help from respective teacher in solving their day today problem. The scheme also maintains healthy relation between students and teachers. 
+            <br />
+            <br />
+            We also believes that overall personality development of students can achieved by giving him opportunities in all possible field , hence we have started separate Students Association of First Year engineering students (SAFE) . Under this association, we conduct expert lecture, seminar, workshop and various competitions.
+            <br />
+            <br />
         </p>
     </div>
 </asp:Content>

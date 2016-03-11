@@ -25,11 +25,12 @@
     </div>--%>
     <uc:LeftMenu runat="server" />
     <div>
-        <h5 class="page-model-header-new"><strong>Video link's</strong></h5>
-        <ul style="list-style-type:disc;">
-            <li><a role="button"  href="https://www.youtube.com/watch?v=XB7lS4nVsok" target="_blank">Live State Level Seminar on "Stress management" sponsored by SPPU, PUNE.</a></li>
-            <li><a role="button"  href="https://www.youtube.com/watch?v=Rq45A0MOfyI"" target="_blank">Watch live Annual Social Gathering "EUPHORIA-2K16" on YouTube at 23rd Jan 2016 at 11.00 am.</a></li>
-            <li><a role="button"  href="https://www.youtube.com/watch?v=rm14RxNrScY"" target="_blank">Watch live two days national level workshop on 29-30 Jan 2016</a></li>
+        <h5 class="page-model-header-new"><strong>Important Link's</strong></h5>
+        <ul style="list-style-type:disc;" class="fa-ul">
+            <%= ImportantLinks%>
+            <%--<li><a role="button"  href="https://www.youtube.com/watch?v=XB7lS4nVsok" target="_blank">Live State Level Seminar on "Stress management" sponsored by SPPU, PUNE.</a></li>
+            <li><a role="button"  href="https://www.youtube.com/watch?v=Rq45A0MOfyI" target="_blank">Watch live Annual Social Gathering "EUPHORIA-2K16" on YouTube at 23rd Jan 2016 at 11.00 am.</a></li>
+            <li><a role="button"  href="https://www.youtube.com/watch?v=rm14RxNrScY" target="_blank">Watch live two days national level workshop on 29-30 Jan 2016</a></li>--%>
         </ul>
     </div>
 </asp:Content>
@@ -83,7 +84,7 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h5 class="page-model-header-new"><strong>Latest News</strong></h5>
+            <h5 class="page-model-header-new"><strong>News & Announcements</strong></h5>
             <%--<ul class="nav">
                 <li><a href="Link_Document/RESULT.zip">RESULTS 2015</a></li>
                 <li><a href="http://www.suhaslondhe.in/orgregistration.php">REGISTRATION OF COMPANIES FOR RECRUITMENTS</a></li>
@@ -93,15 +94,15 @@
                 <li><a href="Link_Document/disciplinary.pdf">Disciplinary Committee</a></li>
             </ul>--%>
             <div class="news">
-                <marquee behavior="scroll" direction="up" scrolldelay="200" onmouseover="this.stop()" onmouseout="this.start()">
+                <marquee behavior="scroll" direction="up" scrolldelay="400" onmouseover="this.stop()" onmouseout="this.start()">
                     <ul>
                         <%= NewsTicker%>
                     </ul></marquee>
             </div>
             <div>
                 <h5 class="page-model-header-new"><strong>Useful Links</strong></h5>
-                <div><a class="btn btn-primary btn-lg btn-block" role="button"  href="https://svit.truecopy.in/verify/submitverify.tc" target="_blank">Apply for Transcript</a></div><br />
-                <div><a class="btn btn-primary btn-lg btn-block" role="button"  href="https://svit.truecopy.inverify/submitwebsitetemplate.tc"" target="_blank">Apply for Verification</a></div>
+                <div><a href="https://svit.truecopy.in/verify/submitverify.tc" target="_blank">Apply for Transcript</a></div><br />
+                <div><a href="https://svit.truecopy.in/verify/submitwebsitetemplate.tc"" target="_blank">Apply for Verification</a></div>
             </div>
         </div>
     </div>

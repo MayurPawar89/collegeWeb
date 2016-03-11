@@ -98,16 +98,37 @@ namespace collegeWebSite.Alumni
                             TextBox box2 = (TextBox)grdFriends.Rows[rowIndex].Cells[2].FindControl("txtFriendContactNo");
                             TextBox box3 = (TextBox)grdFriends.Rows[rowIndex].Cells[3].FindControl("txtFriendEmail");
 
-                            if (box1.Text == "" && box2.Text == "" && box3.Text == "")
+                            if (box1.Text != "")
+                            {
+                                if (box2.Text != "")
+                                {
+                                    if (box3.Text != "")
+                                    {
+                                        dvError.Style.Add("display", "None");
+
+                                    }
+                                    else
+                                    {
+                                        dvError.Style.Add("display", "Block");
+                                        dvError.Style.Add("color", "#FF0000");
+                                        lbError.InnerHtml = "Please enter friends email.";
+                                        return;
+                                    }
+                                }
+                                else
+                                {
+                                    dvError.Style.Add("display", "Block");
+                                    dvError.Style.Add("color", "#FF0000");
+                                    lbError.InnerHtml = "Please enter friends contact no.";
+                                    return;
+                                }
+                            }
+                            else
                             {
                                 dvError.Style.Add("display", "Block");
                                 dvError.Style.Add("color", "#FF0000");
                                 lbError.InnerHtml = "Please enter friends information.";
                                 return;
-                            }
-                            else
-                            {
-                                dvError.Style.Add("display", "None");
                             }
 
                             drCurrentRow = dtCurrentTable.NewRow();
@@ -175,28 +196,29 @@ namespace collegeWebSite.Alumni
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             DataTable dt = GetGridviewData();
-
-            StudentInformation _AlumniInfo = new StudentInformation();
-            _AlumniInfo.nAlumniID = 0;
-            _AlumniInfo.sAlumniName = txtAlumniName.Text.Trim();
-            _AlumniInfo.sAdmissionYear = txtAdmissionYear.Text.Trim();
-            _AlumniInfo.sPassingYear = txtPassingYear.Text.Trim();
-            _AlumniInfo.nBranchID = Convert.ToInt64(BranchName.Value);
-            _AlumniInfo.sContactNo = txtContactNo.Text.Trim();
-            _AlumniInfo.sAlternateContactNo = txtAltContactNo.Text.Trim();
-            _AlumniInfo.sPersonalEmailID = txtPersonalEmail.Text.Trim();
-            _AlumniInfo.sOfficeEmailID = txtOfficeEmail.Text.Trim();
-            _AlumniInfo.sCorrespondanceAddress = txtCorresAddr.Text.Trim();
-            _AlumniInfo.sPermanentAddress = txtPermanentAddr.Text.Trim();
-            _AlumniInfo.sOccupation = txtOccupation.Text.Trim();
-            _AlumniInfo.sDesigation = txtDesignation.Text.Trim();
-            _AlumniInfo.sCompanyName = txtCompanyName.Text.Trim();
-            _AlumniInfo.sCompanyAddress = txtCompanyAddr.Text.Trim();
-            _AlumniInfo.sWhatsUpDetails = txtWhatsup.Text.Trim();
-            _AlumniInfo.sFacebookDetails = txtFacebook.Text.Trim();
-            _AlumniInfo.sLinkedinDetails = txtLinkedin.Text.Trim();
-            _AlumniInfo.InsertUpdateAlumniStudentInfo(dt);
-
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                StudentInformation _AlumniInfo = new StudentInformation();
+                _AlumniInfo.nAlumniID = 0;
+                _AlumniInfo.sAlumniName = txtAlumniName.Text.Trim();
+                _AlumniInfo.sAdmissionYear = txtAdmissionYear.Text.Trim();
+                _AlumniInfo.sPassingYear = txtPassingYear.Text.Trim();
+                _AlumniInfo.nBranchID = Convert.ToInt64(BranchName.Value);
+                _AlumniInfo.sContactNo = txtContactNo.Text.Trim();
+                _AlumniInfo.sAlternateContactNo = txtAltContactNo.Text.Trim();
+                _AlumniInfo.sPersonalEmailID = txtPersonalEmail.Text.Trim();
+                _AlumniInfo.sOfficeEmailID = txtOfficeEmail.Text.Trim();
+                _AlumniInfo.sCorrespondanceAddress = txtCorresAddr.Text.Trim();
+                _AlumniInfo.sPermanentAddress = txtPermanentAddr.Text.Trim();
+                _AlumniInfo.sOccupation = txtOccupation.Text.Trim();
+                _AlumniInfo.sDesigation = txtDesignation.Text.Trim();
+                _AlumniInfo.sCompanyName = txtCompanyName.Text.Trim();
+                _AlumniInfo.sCompanyAddress = txtCompanyAddr.Text.Trim();
+                _AlumniInfo.sWhatsUpDetails = txtWhatsup.Text.Trim();
+                _AlumniInfo.sFacebookDetails = txtFacebook.Text.Trim();
+                _AlumniInfo.sLinkedinDetails = txtLinkedin.Text.Trim();
+                _AlumniInfo.InsertUpdateAlumniStudentInfo(dt);
+            }
         }
 
         private DataTable GetGridviewData()
@@ -204,11 +226,12 @@ namespace collegeWebSite.Alumni
             int rowIndex = 0;
             DataTable dt = new DataTable();
             DataRow dr = null;
-            dt.Columns.Add(new DataColumn("FriendNumber", typeof(string)));
-            dt.Columns.Add(new DataColumn("FriendName", typeof(string)));
-            dt.Columns.Add(new DataColumn("FriendContactNo", typeof(string)));
-            dt.Columns.Add(new DataColumn("FriendEmail", typeof(string)));
-            dt.Columns.Add(new DataColumn("StudentID", typeof(string)));
+            dt.Columns.Add("nFriendID", typeof(int));
+            dt.Columns.Add("nStudentID", typeof(int));
+            dt.Columns.Add("sFriendName", typeof(string));
+            dt.Columns.Add("sFriendContactNo", typeof(string));
+            dt.Columns.Add("sFriendEmailID", typeof(string));
+
 
             for (int i = 1; i <= grdFriends.Rows.Count; i++)
             {
@@ -218,16 +241,46 @@ namespace collegeWebSite.Alumni
                 TextBox box2 = (TextBox)grdFriends.Rows[rowIndex].Cells[2].FindControl("txtFriendContactNo");
                 TextBox box3 = (TextBox)grdFriends.Rows[rowIndex].Cells[3].FindControl("txtFriendEmail");
 
+                if (!string.IsNullOrEmpty(box1.Text))
+                {
+                    if (!string.IsNullOrEmpty(box2.Text))
+                    {
+                        if (!string.IsNullOrEmpty(box3.Text))
+                        {
+                            dr = dt.NewRow();
+                            dr["nFriendID"] = 0;
+                            dr["nStudentID"] = 0;
+                            dr["sFriendName"] = box1.Text;
+                            dr["sFriendContactNo"] = box2.Text;
+                            dr["sFriendEmailID"] = box3.Text;
 
-                dr = dt.NewRow();
-                dr["FriendNumber"] = 0;
-                
-                dr["FriendName"] = box1.Text;
-                dr["FriendContactNo"] = box2.Text;
-                dr["FriendEmail"] = box3.Text;
-                dr["StudentID"] = 0;
 
-                dt.Rows.Add(dr);
+                            dt.Rows.Add(dr);
+                        }
+                        else
+                        {
+                            dvError.Style.Add("display", "Block");
+                            dvError.Style.Add("color", "#FF0000");
+                            lbError.InnerHtml = "Please enter friends email id.";
+                            return dt;
+                        }
+                    }
+                    else
+                    {
+                        dvError.Style.Add("display", "Block");
+                        dvError.Style.Add("color", "#FF0000");
+                        lbError.InnerHtml = "Please enter friends contact no.";
+                        return dt;
+                    }
+                }
+                else
+                {
+                    dvError.Style.Add("display", "Block");
+                    dvError.Style.Add("color", "#FF0000");
+                    lbError.InnerHtml = "Please enter friends information.";
+                    return dt;
+                }
+
                 rowIndex++;
             }
             return dt;

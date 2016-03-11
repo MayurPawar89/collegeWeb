@@ -30,8 +30,8 @@
         Following are the download link for syllabus
     </div>
     <ul>
-        <li><a href="#">SE Syllabus(2008 Course)</a></li>
-        <li><a href="#">TE Syllabus(2008 Course)</a></li>
-        <li><a href="#">BE Syllabus(2008 Course)</a></li>
+        <li><a href="#">SE Syllabus(2012 Course)</a></li>
+        <li><a href="#">TE Syllabus(2012 Course)</a></li>
+        <li><a href="#">BE Syllabus(2012 Course)</a></li>
     </ul>
 </asp:Content>

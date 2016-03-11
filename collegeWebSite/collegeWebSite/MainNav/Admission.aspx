@@ -47,7 +47,7 @@
             </tr>
             <tr>
                 <td>6</td>
-                <td>successrmation Technology</td>
+                <td>Information Technology</td>
                 <td>60</td>
             </tr>
             <tr>

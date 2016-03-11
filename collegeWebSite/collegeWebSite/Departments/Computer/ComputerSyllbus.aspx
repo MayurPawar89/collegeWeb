@@ -31,8 +31,8 @@
         Following are the download link for syllabus
     </div>
     <ul>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/SESyllabus_Computer_EngineeringCourse3-6-13.pdf">SE Syllabus(2008 Course)</a></li>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2014/engg/Syllabus%20TE%20Computer%20Engineering%202012Course.pdf">TE Syllabus(2008 Course)</a></li>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised-2015/engineering/BE-Computer-2012-course-27-8-15.pdf">BE Syllabus(2008 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/SESyllabus_Computer_EngineeringCourse3-6-13.pdf">SE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2014/engg/Syllabus%20TE%20Computer%20Engineering%202012Course.pdf">TE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised-2015/engineering/BE-Computer-2012-course-27-8-15.pdf">BE Syllabus(2012 Course)</a></li>
     </ul>
 </asp:Content>

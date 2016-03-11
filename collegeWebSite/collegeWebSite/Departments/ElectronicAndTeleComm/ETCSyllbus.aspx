@@ -32,9 +32,9 @@
         Following are the download link for syllabus
     </div>
     <ul>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/Electronics_E_Tc27-5-13.pdf">SE Syllabus(2008 Course)</a></li>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2014/engg/TE-ENTC-Syllabus-wef-14-15_27-4-15.pdf">TE Syllabus(2008 Course)</a></li>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised-2015/engineering/BE-ETC-Syllabus-2012-course-revised-syllabus.pdf">BE Syllabus(2008 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/Electronics_E_Tc27-5-13.pdf">SE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2014/engg/TE-ENTC-Syllabus-wef-14-15_27-4-15.pdf">TE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised-2015/engineering/BE-ETC-Syllabus-2012-course-revised-syllabus.pdf">BE Syllabus(2012 Course)</a></li>
         <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/ME%20VLSI%20&%20Emd.pdf">ME Syllabus</a></li>
         
     </ul>

@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="Chemical Department" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ChemicalDepartment.aspx.cs" Inherits="collegeWebSite.Deprtments.Chemical.ChemicalDepartment" %>
+
 <%@ Register TagPrefix="uc" TagName="carouselControl" Src="~/UserControls/CarouselUC/ChemicalDeptCarouselUC.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenthead" runat="server">
@@ -16,7 +17,7 @@
             <li><a href="/Departments/Chemical/ChemicalPlacement.aspx">Placement</a></li>
             <li><a href="/Departments/Chemical/ChemicalStudentCorner.aspx">Student Corner</a></li>
             <li><a href="/Departments/Chemical/ChemicalExtraActivity.aspx">Extra-curricular & Co-curricular Activities</a></li>
-            
+
 
         </ul>
     </div>
@@ -26,27 +27,24 @@
         <h1>Department of Chemical</h1>
         <img alt="300x200" src="../../Images/Profile Images/Department/Chemical/CHEM_HOD.jpg" style="height: 250px; width: 400px" />
         <h4>Prof. R. M. Abhang, HOD </h4>
-        M. Tech. Chemical Engg.  Ph. D (Pursing)
+        M. Tech. Chemical Engg.  Ph. D (Pursuing)
     </div>
     <div class="page-header-new">
         <h3>HOD Desk's</h3>
 
     </div>
-      <div>
+    <div>
         <p>
-           As mechanical engineering have great employability as well as challenges in current Scenario.
+            Chemical engineering is the study and practice of transforming substances at large scales for the tangible improvement of the human condition. Such transformations are executed to produce other useful substances or energy, and lie at the heart of vast segments of the chemical, petroleum, pharmaceutical and electronic industries. Chemical engineers apply the principles of chemistry, biology, physics, and mathematics to solve problems that involve the production or use of chemicals, fuel, drugs, food, and many other products. Chemical engineering is also concerned with pioneering valuable new materials and techniques, an important form of research and development. 
             <br />
             <br />
-           Department of Mechanical Engineering , SVIT  provides  excellent  education  platform  to make  our Mechanical  engineer students  ready to accept the challenges  of the new era.
+            The department of Chemical engineering in SVIT is one of the oldest departments and established in the year 1998 with an intake of 60.The achievements of the students have been prolific in academic, co-curricular and extra-curricular activities. The department headed by <strong>Prof. R. M. Abhang</strong> along with highly qualified and experienced staff have engaged actively in Department for enhancing industrially beneficial activities.
             <br />
             <br />
-           We have  well  qualified  and experience  teaching faculity ,well equipped modern laboratory ,computers  with  high configuration  and newly developed  software  required  by Mechanical  Engineering. 
+            This curriculum is good enough for employment in academia, government, research, industry, engineering and management positions in India and abroad. The department is committed to continuously improve the quality of education by enhancing the knowledge of students and staff members. Department having student Association named CHESA for the extracurricular activities to enhance the students growth.
             <br />
             <br />
-           We have  excellent  track  of result with university toppers and excellent  employability  of very attractive  packages.To develop the personality in  all dimensions  we have  different organization like MESA.
-            <br />
-            <br />
-           We  organized different  Workshops, Seminars  to  enable  them in Academics ,Technical and other fields.
+            The department organizes, national and international conferences, guest lectures, faculty development programs, workshops and seminars in various specialized field. The faculty received the grants from the various government organizations and published their research work in reputed national and international journals and conferences.
             <br />
             <br />
         </p>

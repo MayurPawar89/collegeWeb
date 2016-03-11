@@ -67,7 +67,7 @@
                                         <li><a href="/Departments/MBA/MBADepartment.aspx">M.B.A.</a></li>
                                     </ul>
                                 </li>
-                                
+
                                 <li class="dropdown">
                                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Alumni<b class="caret"></b></a>
                                     <ul role="menu" class="dropdown-menu">
@@ -87,7 +87,7 @@
                                     </ul>
                                 </li>
                                 <li><a href="/Glimpses.aspx">Glimpses</a></li>
-                                <li><a href="/Results.aspx">Results</a></li>
+                                <li><a href="/Examination.aspx">Examination</a></li>
                                 <li><a href="/ContactUs.aspx">Contact us</a></li>
                                 <li><a href="/AboutUs.aspx">About us</a></li>
                                 <li><a href="/SiteMap.aspx">Site Map</a></li>
@@ -96,9 +96,10 @@
                         </div>
                     </div>
                 </nav>
-                <div class="text-uppercase news bg-info text-danger">
+                <div class="text-uppercase bg-success text-danger">
                     <marquee>
-                    <img src="/Images/Icons/gif-new.gif" /><strong> Welcome to Pravara Rural Education Society's SVIT college, Nashik</strong>
+                    <%--<img src="/Images/Icons/gif-new.gif" />--%>
+                        <strong> Welcome to Pravara Rural Education Society's SVIT college, Nashik</strong>
                 </marquee>
                 </div>
                 <asp:ContentPlaceHolder ID="ContentCarousel" runat="server">
@@ -200,8 +201,29 @@
                 <!-- end row -->
                 <div class="row pull-right">
                     <h5>&copy; 2016 All Rights Reserved Pravara Rural Education Society, Loni.</h5>
-                    <a class="pull-right" href="http://www.freecounterstat.com" title="web page visit counter">
-                        <img src="http://counter6.fcs.ovh/private/freecounterstat.php?c=9945efc7c85ec05bf4f5916991984c8e" border="0" title="web page visit counter" alt="web page visit counter"></a>
+                    <%--<a class="pull-right" href="http://www.freecounterstat.com" title="web page visit counter">
+                        <img src="http://counter6.fcs.ovh/private/freecounterstat.php?c=9945efc7c85ec05bf4f5916991984c8e" border="0" title="web page visit counter" alt="web page visit counter"></a>--%>
+
+                    <div class="row pull-right">
+                        <!-- Start of StatCounter Code for Default Guide -->
+                        <script type="text/javascript">
+                            var sc_project = 10836127;
+                            var sc_invisible = 0;
+                            var sc_security = "64fcb7e3";
+                            var scJsHost = (("https:" == document.location.protocol) ?
+                            "https://secure." : "http://www.");
+                            document.write("<sc" + "ript type='text/javascript' src='" +
+                            scJsHost +
+                            "statcounter.com/counter/counter.js'></" + "script>");
+</script>
+                        <noscript><div class="statcounter"><a title="shopify
+analytics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10836127/0/64fcb7e3/0/"
+alt="shopify analytics"></a></div></noscript>
+                        <!-- End of StatCounter Code for Default Guide -->
+                    </div>
+
                 </div>
             </div>
             <!-- end container -->

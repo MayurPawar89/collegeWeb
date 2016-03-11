@@ -10,5 +10,18 @@
     <uc:LeftMenu runat="server" />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentMain" runat="server">
-    <img class="img-responsive" src="../../Images/Icons/underConstruction.jpg" />
+    <div class="row">
+        <div class="page-header-new">
+                <h3>NEWS & Events</h3>
+            </div>
+            <div>
+                <asp:GridView ID="grdNEWSSection" runat="server">
+                </asp:GridView>
+                <div>
+                    <ul>
+                        <%= NEWSSection%>
+                    </ul>
+                </div>
+            </div>
+    </div>
 </asp:Content>

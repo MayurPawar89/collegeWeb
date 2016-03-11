@@ -31,6 +31,8 @@ namespace collegeWebSite
                     Session["StudentName"] = Convert.ToString(_dt.Rows[0]["Student Name"]);
                     Session["StudentEmail"] = Convert.ToString(_dt.Rows[0]["sStudEmailID"]);
                     Session["StudentID"] = Convert.ToString(_dt.Rows[0]["nStudentID"]);
+
+                    Response.Redirect("RegistrationForm.aspx");
                 }
                 else
                 {

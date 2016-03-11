@@ -11,28 +11,35 @@ namespace collegeWebSite
 {
     public partial class Home : System.Web.UI.Page
     {
-        public string NewsTicker = null;
+        public string NewsTicker = string.Empty;
+        public string ImportantLinks = string.Empty;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 String sNews = string.Empty;
+                String sLinks = string.Empty;
 
                 using (DataTable dt = GetAllatestNews())
                 {
                     foreach (DataRow dr in dt.Rows)
                     {
-                        sNews = sNews + string.Format("<li><a href='{0}' target='_blank'>{1}</a></li>", dr["sNewsDescription"].ToString(), dr["sNewsTitle"].ToString());
-                        //if (sNews == "")
-                        //    sNews = sNews + string.Format("<b>{0}</b><br><small>{1}</small><br><b><i><small>{2}</small></i></b><br>", dr["sNewsTitle"].ToString(), dr["sNewsDescription"].ToString(), dr["dtCreatedDate"].ToString());
-                        //else
-                        //    sNews = sNews + string.Format("<br><b>{0}</b><br><small>{1}</small><br><b><i><small>{2}</small></i></b><br>", dr["sNewsTitle"].ToString(), dr["sNewsDescription"].ToString(), dr["dtCreatedDate"].ToString());
+                        if (dr["nNewsPriority"].ToString() == "4")
+                            sNews = sNews + string.Format("<li><a href='{0}' target='_blank' style='font-size: 16px; color: #0ba9f5;'><strong><em>{1}</em></strong></a></li>", dr["sNewsDescription"].ToString(), dr["sNewsTitle"].ToString());
+                        else
+                            sNews = sNews + string.Format("<li><a href='{0}' target='_blank'>{1}</a></li>", dr["sNewsDescription"].ToString(), dr["sNewsTitle"].ToString());
                     }
-
                 }
-
+                using (DataTable dt = GetImportantLinks())
+                {
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        sLinks = sLinks + string.Format("<li><i class='fa-li fa fa-check-square'></i><a href='{0}' target='_blank'>{1}</a></li>", dr["sLinkURL"].ToString(), dr["sLinkDescripation"].ToString());
+                    }
+                }
                 //Assign fetched result to global variable 'NewsTicker'
                 NewsTicker = sNews.ToString();
+                ImportantLinks = sLinks.ToString();
             }
         }
 
@@ -44,7 +51,27 @@ namespace collegeWebSite
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetLatestNEWS();
+                _dt = _Student.GetLatestNEWS(0);
+            }
+            catch (Exception)
+            {
+                if (_DataAccess != null) { _DataAccess.RollBack(); _DataAccess.CloseConnection(false); }
+            }
+            finally
+            {
+            }
+            return _dt;
+        }
+
+        private DataTable GetImportantLinks()
+        {
+            DataTable _dt = null;
+
+            DataAccess _DataAccess = new DataAccess();
+            StudentInformation _Student = new StudentInformation();
+            try
+            {
+                _dt = _Student.GetImportantLinks();
             }
             catch (Exception)
             {

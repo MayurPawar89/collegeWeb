@@ -18,8 +18,8 @@
     <div class="text-center">
         <h1>Workshop</h1>
         <img alt="300x200" src="../../Images/Profile Images/Department/Workshop/Workshop_HOD.jpg" style="height: 250px; width: 400px" />
-        <h4>Prof. Kadlag Vijay L. (HOD) </h4>
-        M.E Mechanical-Production, PhD appearing
+        <h4>Prof. Kadlag Vijay L. HOD </h4>
+        M.E (Mechanical-Production), Ph.D (Pursuing)
     </div>
     <div class="page-header-new">
         <h3>HOD Desk's</h3>

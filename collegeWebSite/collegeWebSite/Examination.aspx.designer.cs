@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace collegeWebSite.MainNav {
+namespace collegeWebSite {
     
     
-    public partial class NewsAndEvents {
+    public partial class Examination {
         
         /// <summary>
         /// CarouselControl1 control.
@@ -22,12 +22,30 @@ namespace collegeWebSite.MainNav {
         protected global::collegeWebSite.UserControls.CarouselUC.DefaultCarouselUC CarouselControl1;
         
         /// <summary>
-        /// grdNEWSSection control.
+        /// grdExamCommittee control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdNEWSSection;
+        protected global::System.Web.UI.WebControls.GridView grdExamCommittee;
+        
+        /// <summary>
+        /// grdResultSection control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdResultSection;
+        
+        /// <summary>
+        /// grdCircularsSection control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdCircularsSection;
     }
 }

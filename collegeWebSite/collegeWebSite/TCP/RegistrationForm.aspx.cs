@@ -12,12 +12,47 @@ namespace collegeWebSite.TCPSection
 {
     public partial class RegistrationForm : System.Web.UI.Page
     {
+        Boolean bIsModify = false;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 PopulateYearDatalist(0);
                 PopulateBranchDatalist();
+                Int64 nStudentID = Convert.ToInt64(Session["StudentID"]);
+                if (nStudentID != 0)
+                {
+                    dvLoginDetails.Style.Add("Display","none");
+                    bIsModify = true;
+                    StudentInformation _studInfo = new StudentInformation();
+                    DataTable _dtStudentInfo = _studInfo.GetEditStudentDetailInfo(nStudentID);
+                    if (_dtStudentInfo != null && _dtStudentInfo.Rows.Count > 0)
+                    {
+                        foreach (DataRow dr in _dtStudentInfo.Rows)
+                        {
+
+                            txtRegistrationID.Text = Convert.ToString(dr["sStudRegistrationID"]);
+                            txtEmailID.Text = Convert.ToString(dr["sStudEmailID"]);
+                            txtFirstName.Text = Convert.ToString(dr["sStudFirstName"]);
+                            txtMiddleName.Text = Convert.ToString(dr["sStudMiddleName"]);
+                            txtLastName.Text = Convert.ToString(dr["sStudLastName"]);
+                            txtDOB.Text = Convert.ToDateTime(dr["dtStudDOB"]).ToString("yyyy-MM-dd");
+                            CurrentYear.SelectedIndex = Convert.ToInt16(dr["sCurrentYear"]);
+                            BranchName.SelectedIndex = Convert.ToInt16(dr["nBranchID"]);
+                            txtUserName.Text = Convert.ToString(dr["sUserName"]);
+                            //txtpassword.Text = Convert.ToString(dr[""]);
+                            txtSscMarks.Text = Convert.ToString(dr["sSSCMarks"]);
+                            txtHscMarks.Text = Convert.ToString(dr["sHSCMarks"]);
+                            txtDiplomaMarks.Text = Convert.ToString(dr["sDiplomaMarks"]);
+                            txtFirstYearMarks.Text = Convert.ToString(dr["sFirstYearMarks"]);
+                            txtSecondYearMarks.Text = Convert.ToString(dr["sSecondYearMarks"]);
+                            txtThirdYearMarks.Text = Convert.ToString(dr["sThirdYearMarks"]);
+                            txtBEMarks.Text = Convert.ToString(dr["sBEMarks"]);
+                            
+                        }
+
+                    }
+                }
             }
         }
 
@@ -140,8 +175,11 @@ namespace collegeWebSite.TCPSection
             _studInfo.sStudFirstName = txtFirstName.Text;
             _studInfo.sStudMiddleName = txtMiddleName.Text;
             _studInfo.sStudLastName = txtLastName.Text;
-            _studInfo.sStudUserName = txtUserName.Text;
-            _studInfo.sStudPassword = Encryption.EncryptToBase64String(txtConfirmPassword.Text);
+            if (!bIsModify)
+            {
+                _studInfo.sStudUserName = txtUserName.Text;
+                _studInfo.sStudPassword = Encryption.EncryptToBase64String(txtConfirmPassword.Text);    
+            }
             _studInfo.sStudEmailID = txtEmailID.Text;
             _studInfo.sStudRegistrationID = txtRegistrationID.Text;
             _studInfo.sStudCurrentYear = CurrentYear.Value;

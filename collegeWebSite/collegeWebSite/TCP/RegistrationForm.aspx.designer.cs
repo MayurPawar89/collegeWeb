@@ -13,6 +13,15 @@ namespace collegeWebSite.TCPSection {
     public partial class RegistrationForm {
         
         /// <summary>
+        /// txtStudentID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtStudentID;
+        
+        /// <summary>
         /// txtRegistrationID control.
         /// </summary>
         /// <remarks>
@@ -83,6 +92,15 @@ namespace collegeWebSite.TCPSection {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlSelect BranchName;
+        
+        /// <summary>
+        /// dvLoginDetails control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvLoginDetails;
         
         /// <summary>
         /// txtUserName control.

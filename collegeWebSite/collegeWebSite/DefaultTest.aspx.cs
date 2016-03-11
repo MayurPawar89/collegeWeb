@@ -42,7 +42,7 @@ namespace collegeWebSite
             StudentInformation _Student = new StudentInformation();
             try
             {
-                _dt = _Student.GetLatestNEWS();
+                _dt = _Student.GetLatestNEWS(0);
             }
             catch (Exception)
             {

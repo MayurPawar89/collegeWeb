@@ -32,9 +32,9 @@
         Following are the download link for syllabus
     </div>
     <ul>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/Electrical_Engineering_27-5-13.pdf">SE Syllabus(2008 Course)</a></li>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2014/engg/T.E.%20Electrical%20Engineering.pdf">TE Syllabus(2008 Course)</a></li>
-        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised-2015/engineering/BE-Electrical-Engineering-Syllabus-2012-course-draft.pdf">BE Syllabus(2008 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2013/engg/Electrical_Engineering_27-5-13.pdf">SE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised_2014/engg/T.E.%20Electrical%20Engineering.pdf">TE Syllabus(2012 Course)</a></li>
+        <li><a href="http://www.unipune.ac.in/Syllabi_PDF/revised-2015/engineering/BE-Electrical-Engineering-Syllabus-2012-course-draft.pdf">BE Syllabus(2012 Course)</a></li>
         
         
     </ul>
