@@ -29,7 +29,7 @@
         <h1>Department of Electrical</h1>
         <img alt="300x200" src="../../Images/Profile%20Images/Department/Electrical/Electrical_HOD.jpg" style="height: 250px; width: 400px" />
         <h4>Prof. Shaikh Nadeem Bhaimiya (Asst. Professor), HOD </h4>
-        BE Electrical, ME Power System Exp. 8 Year                                                           
+        BE Electrical, ME                                                           
     </div>
     <div class="page-header-new">
         <h3>HOD Desk's</h3>
