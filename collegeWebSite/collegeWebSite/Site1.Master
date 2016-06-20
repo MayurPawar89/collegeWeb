@@ -86,6 +86,7 @@
                                         <li><a href="/TCP/ListOfCompanies.aspx">List Of Companies</a></li>
                                     </ul>
                                 </li>
+                                <li><a href="http://117.240.212.250/">ERP</a></li>
                                 <li><a href="/Glimpses.aspx">Glimpses</a></li>
                                 <li><a href="/Examination.aspx">Examination</a></li>
                                 <li><a href="/ContactUs.aspx">Contact us</a></li>
@@ -98,7 +99,6 @@
                 </nav>
                 <div class="text-uppercase bg-success text-danger">
                     <marquee>
-                    <%--<img src="/Images/Icons/gif-new.gif" />--%>
                         <strong> Welcome to Pravara Rural Education Society's SVIT college, Nashik</strong>
                 </marquee>
                 </div>
@@ -120,16 +120,6 @@
                 </div>
             </div>
         </div>
-
-        <%--<footer>
-            <div class="container">
-                <div class="row">
-                    <span class="text-center text-primary"><h5>&copy; All Rights Reserved Pravara Rural Education Society, Loni.</h5></span><a href="http://www.freecounterstat.com" title="hit counter" class="pull-right"><img src="http://counter2.fcs.ovh/private/freecounterstat.php?c=4b1abe1d9c4e954ee5b91e467fef7106" border="0" title="hit counter" alt="hit counter" /></a>
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </footer>--%>
         <footer>
             <div class="container">
                 <div class="row">
@@ -180,30 +170,19 @@
                             <li><a href="/CoursesOffered/MBA/MBACourse.aspx">M.B.A.</a></li>
                         </ul>
                     </div>
-
                     <!-- end col-sm-2 -->
-
                     <div class="col-sm-2">
                         <h6>Follow Us</h6>
                         <div>
-                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                            <a href="https://twitter.com/SVIT_sinnar" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
                             <a href="https://www.facebook.com/SVITSinnar" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                            <a href="https://plus.google.com/110571980129784584868" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
                         </div>
-                        <%-- <ul class="unstyled">
-                            <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-                        </ul>--%>
                     </div>
-
                 </div>
                 <!-- end row -->
                 <div class="row pull-right">
                     <h5>&copy; 2016 All Rights Reserved Pravara Rural Education Society, Loni.</h5>
-                    <%--<a class="pull-right" href="http://www.freecounterstat.com" title="web page visit counter">
-                        <img src="http://counter6.fcs.ovh/private/freecounterstat.php?c=9945efc7c85ec05bf4f5916991984c8e" border="0" title="web page visit counter" alt="web page visit counter"></a>--%>
-
                     <div class="row pull-right">
                         <!-- Start of StatCounter Code for Default Guide -->
                         <script type="text/javascript">
